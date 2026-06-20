@@ -1,0 +1,99 @@
+{
+  "language": "Italian",
+  "units": [
+    {
+      "id": "saluti",
+      "title": "Saluti",
+      "subtitle": "Greetings & basics",
+      "accent": "verde",
+      "lessons": [
+        {
+          "id": "saluti-1",
+          "title": "Ciao!",
+          "icon": "hand.wave.fill",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "How do you say \"Hello\"?", "italian": "Ciao", "options": ["Ciao", "Grazie", "Scusa", "Prego"], "answerIndex": 0 },
+            { "type": "multipleChoice", "prompt": "Which means \"Good morning\"?", "italian": "Buongiorno", "options": ["Buongiorno", "Buonanotte", "Buonasera", "Arrivederci"], "answerIndex": 0 },
+            { "type": "wordBank", "prompt": "Hello, how are you?", "answer": ["Ciao,", "come", "stai?"], "distractors": ["sono", "bene", "grazie"] },
+            { "type": "multipleChoice", "prompt": "Which means \"Thank you\"?", "italian": "Grazie", "options": ["Grazie", "Prego", "Scusa", "Ciao"], "answerIndex": 0 }
+          ]
+        },
+        {
+          "id": "saluti-2",
+          "title": "Come stai?",
+          "icon": "face.smiling.fill",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "Which means \"How are you?\"", "italian": "Come stai?", "options": ["Come stai?", "Chi sei?", "Dove sei?", "Cosa fai?"], "answerIndex": 0 },
+            { "type": "wordBank", "prompt": "I am fine, thank you", "answer": ["Sto", "bene,", "grazie"], "distractors": ["male", "sono", "prego"] },
+            { "type": "matchPairs", "prompt": "Match the words", "pairs": [
+              { "it": "Ciao", "en": "Hello" },
+              { "it": "Grazie", "en": "Thank you" },
+              { "it": "Prego", "en": "You're welcome" },
+              { "it": "Scusa", "en": "Sorry" }
+            ] }
+          ]
+        },
+        {
+          "id": "saluti-3",
+          "title": "Arrivederci",
+          "icon": "hand.raised.fingers.spread.fill",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "Which is a formal \"Goodbye\"?", "italian": "Arrivederci", "options": ["Arrivederci", "Ciao", "Buongiorno", "Grazie"], "answerIndex": 0 },
+            { "type": "multipleChoice", "prompt": "Which means \"Good night\"?", "italian": "Buonanotte", "options": ["Buonanotte", "Buonasera", "Buongiorno", "Salve"], "answerIndex": 0 },
+            { "type": "wordBank", "prompt": "See you tomorrow", "answer": ["A", "domani"], "distractors": ["presto", "ciao", "sera"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeri",
+      "title": "Numeri",
+      "subtitle": "Numbers 1–10",
+      "accent": "rosso",
+      "lessons": [
+        {
+          "id": "numeri-1",
+          "title": "Uno, due, tre",
+          "icon": "number.circle.fill",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "Which means \"Two\"?", "italian": "Due", "options": ["Due", "Tre", "Uno", "Quattro"], "answerIndex": 0 },
+            { "type": "multipleChoice", "prompt": "Which means \"Five\"?", "italian": "Cinque", "options": ["Cinque", "Sei", "Quattro", "Dieci"], "answerIndex": 0 },
+            { "type": "matchPairs", "prompt": "Match the numbers", "pairs": [
+              { "it": "Uno", "en": "One" },
+              { "it": "Due", "en": "Two" },
+              { "it": "Tre", "en": "Three" },
+              { "it": "Quattro", "en": "Four" }
+            ] }
+          ]
+        },
+        {
+          "id": "numeri-2",
+          "title": "Quanti?",
+          "icon": "dice.fill",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "Which means \"Ten\"?", "italian": "Dieci", "options": ["Dieci", "Nove", "Otto", "Sette"], "answerIndex": 0 },
+            { "type": "wordBank", "prompt": "I have three cats", "answer": ["Ho", "tre", "gatti"], "distractors": ["due", "cani", "sono"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cibo",
+      "title": "Cibo",
+      "subtitle": "At the restaurant",
+      "accent": "bianco",
+      "lessons": [
+        {
+          "id": "cibo-1",
+          "title": "Al ristorante",
+          "icon": "fork.knife",
+          "exercises": [
+            { "type": "multipleChoice", "prompt": "Which means \"Water\"?", "italian": "Acqua", "options": ["Acqua", "Vino", "Pane", "Latte"], "answerIndex": 0 },
+            { "type": "multipleChoice", "prompt": "Which means \"Bread\"?", "italian": "Pane", "options": ["Pane", "Formaggio", "Pasta", "Pesce"], "answerIndex": 0 },
+            { "type": "wordBank", "prompt": "I would like a coffee", "answer": ["Vorrei", "un", "caffè"], "distractors": ["acqua", "il", "due"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
