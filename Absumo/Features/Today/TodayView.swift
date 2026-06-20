@@ -11,6 +11,7 @@ struct TodayView: View {
 
     @State private var reviewing = false
     @State private var readingItem: GradedItem?
+    @State private var listening = false
 
     private var metrics: Deck.Metrics { Deck.metrics(for: cards) }
     private var session: [Card] { Deck.session(from: cards) }
@@ -28,7 +29,7 @@ struct TodayView: View {
                 header
                 reviewCard
                 readCard
-                comingSoon(icon: "headphones", title: "Listen", subtitle: "Hands-free audio — Phase 1")
+                listenCard
             }
             .padding(20)
             .padding(.bottom, 40)
@@ -38,6 +39,32 @@ struct TodayView: View {
             ReviewSessionView(cards: session) {}
         }
         .fullScreenCover(item: $readingItem) { ReaderView(item: $0) }
+        .fullScreenCover(isPresented: $listening) {
+            ListenView(items: GradedLibrary.all)
+        }
+    }
+
+    private var listenCard: some View {
+        GlassCard(cornerRadius: 24) {
+            VStack(alignment: .leading, spacing: 16) {
+                HStack {
+                    Image(systemName: "headphones").foregroundStyle(Palette.adriatic)
+                    Text("Listen").font(.headline).foregroundStyle(Palette.ink)
+                    Spacer()
+                }
+                Text("\(GradedLibrary.all.count) stories, hands-free")
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(Palette.ink)
+                Text("Play them back-to-back — on a walk, in the car.")
+                    .font(.subheadline)
+                    .foregroundStyle(Palette.inkSoft)
+                PrimaryButton(title: "Listen", systemImage: "play.fill", tint: Palette.adriatic) {
+                    listening = true
+                }
+            }
+            .padding(22)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
     }
 
     private var readCard: some View {
@@ -117,25 +144,6 @@ struct TodayView: View {
             .padding(22)
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-    }
-
-    private func comingSoon(icon: String, title: String, subtitle: String) -> some View {
-        GlassCard(cornerRadius: 24) {
-            HStack(spacing: 14) {
-                Image(systemName: icon)
-                    .font(.title2)
-                    .foregroundStyle(Palette.inkFaint)
-                    .frame(width: 44, height: 44)
-                    .background(Palette.cardSoft, in: Circle())
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(title).font(.headline).foregroundStyle(Palette.ink)
-                    Text(subtitle).font(.subheadline).foregroundStyle(Palette.inkFaint)
-                }
-                Spacer()
-            }
-            .padding(18)
-        }
-        .opacity(0.7)
     }
 
     private var greeting: String {
