@@ -9,9 +9,8 @@ struct AbsumoApp: App {
         WindowGroup {
             RootView()
                 .environment(content)
-                .fontDesign(.rounded)
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.light)
         }
-        .modelContainer(for: [UserState.self, LessonProgress.self])
+        .modelContainer(for: [UserState.self, LessonProgress.self, Card.self, ReviewLog.self])
     }
 }
