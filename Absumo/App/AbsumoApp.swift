@@ -11,6 +11,6 @@ struct AbsumoApp: App {
                 .environment(content)
                 .preferredColorScheme(.light)
         }
-        .modelContainer(for: [UserState.self, LessonProgress.self, Card.self, ReviewLog.self])
+        .modelContainer(for: [UserState.self, LessonProgress.self, Card.self, ReviewLog.self, ReadingProgress.self])
     }
 }

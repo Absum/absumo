@@ -13,10 +13,7 @@ struct RootView: View {
             TodayView()
                 .tabItem { Label("Today", systemImage: "sun.max.fill") }
 
-            ComingSoonView(icon: "books.vertical.fill",
-                           title: "Library",
-                           phase: "PHASE 1",
-                           blurb: "Graded Italian stories and dialogues to read and listen to — with a guided “Start here” track and free browsing.")
+            LibraryView()
                 .tabItem { Label("Library", systemImage: "books.vertical.fill") }
 
             ComingSoonView(icon: "chart.line.uptrend.xyaxis",

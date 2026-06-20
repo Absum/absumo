@@ -7,19 +7,27 @@ struct TodayView: View {
     @Environment(\.modelContext) private var context
     @Query private var cards: [Card]
     @Query private var states: [UserState]
+    @Query private var reading: [ReadingProgress]
 
     @State private var reviewing = false
+    @State private var readingItem: GradedItem?
 
     private var metrics: Deck.Metrics { Deck.metrics(for: cards) }
     private var session: [Card] { Deck.session(from: cards) }
     private var user: UserState? { states.first }
+
+    /// The next graded item the learner hasn't finished, for the Read card.
+    private var nextRead: GradedItem? {
+        let done = Set(reading.filter(\.completed).map(\.itemID))
+        return GradedLibrary.all.first { !done.contains($0.id) }
+    }
 
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
                 header
                 reviewCard
-                comingSoon(icon: "book.fill", title: "Read", subtitle: "Graded stories — Phase 1")
+                readCard
                 comingSoon(icon: "headphones", title: "Listen", subtitle: "Hands-free audio — Phase 1")
             }
             .padding(20)
@@ -28,6 +36,36 @@ struct TodayView: View {
         .scrollIndicators(.hidden)
         .fullScreenCover(isPresented: $reviewing) {
             ReviewSessionView(cards: session) {}
+        }
+        .fullScreenCover(item: $readingItem) { ReaderView(item: $0) }
+    }
+
+    private var readCard: some View {
+        GlassCard(cornerRadius: 24) {
+            VStack(alignment: .leading, spacing: 16) {
+                HStack {
+                    Image(systemName: "book.fill").foregroundStyle(Palette.olive)
+                    Text("Read").font(.headline).foregroundStyle(Palette.ink)
+                    Spacer()
+                }
+                if let next = nextRead {
+                    Text(next.title)
+                        .font(.title3.weight(.semibold))
+                        .foregroundStyle(Palette.ink)
+                    Text("\(next.level) · graded story — tap a word to learn it")
+                        .font(.subheadline)
+                        .foregroundStyle(Palette.inkSoft)
+                    PrimaryButton(title: "Read", systemImage: "book", tint: Palette.olive) {
+                        readingItem = next
+                    }
+                } else {
+                    Text("You've read everything for now")
+                        .font(.title3.weight(.semibold))
+                        .foregroundStyle(Palette.inkSoft)
+                }
+            }
+            .padding(22)
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
 

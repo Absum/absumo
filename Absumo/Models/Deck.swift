@@ -34,6 +34,28 @@ enum Deck {
         try? context.save()
     }
 
+    // MARK: - Adding words from reading
+
+    /// Add a word encountered while reading into the SRS deck, keyed by its
+    /// dictionary form so it dedupes with the frequency deck. Returns false if
+    /// the lemma is already in the deck (e.g. "vado" → "andare" already there).
+    @discardableResult
+    static func addCard(lemma: String, english: String, example: String,
+                        into context: ModelContext) -> Bool {
+        let id = lemma
+        let existing = try? context.fetch(
+            FetchDescriptor<Card>(predicate: #Predicate { $0.id == id })
+        )
+        guard (existing?.isEmpty ?? true) else { return false }
+        context.insert(Card(id: id, italian: lemma, english: english, example: example))
+        try? context.save()
+        return true
+    }
+
+    static func contains(lemma: String, in cards: [Card]) -> Bool {
+        cards.contains { $0.id == lemma }
+    }
+
     // MARK: - Daily queue
 
     /// How many never-seen cards to introduce per day. Caps new-word intake so
