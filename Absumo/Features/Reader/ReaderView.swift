@@ -15,6 +15,7 @@ struct ReaderView: View {
     @State private var selected: Gloss?
     @State private var showTranslation = false
     @State private var justAdded: String?
+    @State private var audio = AudioPlayer()
 
     var body: some View {
         ZStack {
@@ -35,6 +36,7 @@ struct ReaderView: View {
         .preferredColorScheme(.light)
         .overlay(alignment: .bottom) { glossSheet }
         .onAppear { markOpened() }
+        .onDisappear { audio.stop() }
     }
 
     // MARK: - Pieces
@@ -55,9 +57,19 @@ struct ReaderView: View {
 
     private var passage: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text(item.title)
-                .font(.serifDisplay(34, weight: .bold))
-                .foregroundStyle(Palette.ink)
+            HStack(alignment: .firstTextBaseline) {
+                Text(item.title)
+                    .font(.serifDisplay(34, weight: .bold))
+                    .foregroundStyle(Palette.ink)
+                Spacer()
+                if item.audio != nil {
+                    Button { audio.toggle(item.audio) } label: {
+                        Image(systemName: audio.isPlaying ? "stop.circle.fill" : "play.circle.fill")
+                            .font(.system(size: 38))
+                            .foregroundStyle(Palette.terracotta)
+                    }
+                }
+            }
 
             FlowLayout(spacing: 6) {
                 ForEach(Array(tokens.enumerated()), id: \.offset) { _, token in

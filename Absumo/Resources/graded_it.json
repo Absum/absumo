@@ -8,7 +8,7 @@
       "order": 1,
       "text": "Buongiorno! Mi chiamo Marco. Sono italiano. Parlo italiano e un po' di inglese. E tu, come ti chiami?",
       "translation": "Good morning! My name is Marco. I am Italian. I speak Italian and a little English. And you, what is your name?",
-      "audio": null,
+      "audio": "buongiorno.wav",
       "glossary": [
         { "word": "buongiorno", "lemma": "buongiorno", "en": "good morning" },
         { "word": "mi", "lemma": "mi", "en": "myself / to me" },
@@ -33,7 +33,7 @@
       "order": 2,
       "text": "Ciao! Come stai? Sto bene, grazie. Vuoi un caffè? Sì, grazie.",
       "translation": "Hi! How are you? I'm well, thanks. Do you want a coffee? Yes, thanks.",
-      "audio": null,
+      "audio": "al-bar.wav",
       "glossary": [
         { "word": "ciao", "lemma": "ciao", "en": "hi / bye" },
         { "word": "come", "lemma": "come", "en": "how" },
@@ -54,7 +54,7 @@
       "order": 3,
       "text": "Oggi voglio stare a casa. Devo studiare. Più tardi vado al bar con un amico.",
       "translation": "Today I want to stay home. I have to study. Later I'm going to the cafe with a friend.",
-      "audio": null,
+      "audio": "a-casa.wav",
       "glossary": [
         { "word": "oggi", "lemma": "oggi", "en": "today" },
         { "word": "voglio", "lemma": "volere", "en": "I want" },

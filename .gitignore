@@ -14,3 +14,7 @@ screenshot-*.png
 
 # Contains a live Meshly agent token — never commit
 .mcp.json
+
+# Piper TTS tooling/model used by scripts/build_audio.sh (large, re-downloadable).
+# The generated audio under Absumo/Resources/audio/ IS committed.
+scripts/.piper/
