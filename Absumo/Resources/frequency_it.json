@@ -38,7 +38,7 @@
     { "it": "bello",      "en": "beautiful",      "ex": "Che bella giornata!" },
     { "it": "primo",      "en": "first",          "ex": "È la prima volta." },
     { "it": "ultimo",     "en": "last",           "ex": "L'ultimo treno è partito." },
-    { "it": "molto",      "en": "very / a lot",   "ex": "Grazie molto." },
+    { "it": "molto",      "en": "very / a lot",   "ex": "Mi piace molto." },
     { "it": "poco",       "en": "little / few",   "ex": "Ho poco tempo." },
     { "it": "sempre",     "en": "always",         "ex": "Arrivo sempre tardi." },
     { "it": "mai",        "en": "never",          "ex": "Non lo faccio mai." },
