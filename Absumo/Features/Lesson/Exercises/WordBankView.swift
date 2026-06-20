@@ -22,7 +22,7 @@ struct WordBankView: View {
                 // Answer line
                 FlowLayout {
                     ForEach(Array(chosen.enumerated()), id: \.offset) { index, word in
-                        Chip(text: word, tint: Palette.verde, filled: true) {
+                        Chip(text: word, tint: Palette.terracotta, filled: true) {
                             chosen.remove(at: index)
                             bank.append(word)
                         }
@@ -31,7 +31,7 @@ struct WordBankView: View {
                 .frame(maxWidth: .infinity, minHeight: 56, alignment: .topLeading)
                 .padding(.bottom, 8)
                 .overlay(alignment: .bottom) {
-                    Rectangle().fill(.white.opacity(0.15)).frame(height: 1)
+                    Rectangle().fill(Palette.hairline).frame(height: 1)
                 }
 
                 // Word bank

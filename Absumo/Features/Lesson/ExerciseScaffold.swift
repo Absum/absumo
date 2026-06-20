@@ -19,13 +19,13 @@ struct ExerciseScaffold<Content: View>: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 22) {
             Text(hint)
-                .font(.caption.weight(.heavy))
+                .font(.caption.weight(.bold))
                 .tracking(2)
-                .foregroundStyle(Palette.verde)
+                .foregroundStyle(Palette.terracotta)
 
             Text(prompt)
-                .font(.system(size: 27, weight: .bold, design: .rounded))
-                .foregroundStyle(.white)
+                .font(.serifDisplay(28, weight: .semibold))
+                .foregroundStyle(Palette.ink)
                 .fixedSize(horizontal: false, vertical: true)
 
             content()
@@ -41,7 +41,7 @@ struct ExerciseScaffold<Content: View>: View {
     private var footer: some View {
         switch phase {
         case .answering:
-            PrimaryButton(title: "Check", tint: Palette.verde) {
+            PrimaryButton(title: "Check", tint: Palette.terracotta) {
                 let correct = evaluate()
                 Haptics.notify(correct)
                 withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {

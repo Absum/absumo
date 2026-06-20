@@ -6,21 +6,28 @@ struct StatsHeader: View {
 
     var body: some View {
         GlassCard {
-            VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading, spacing: 14) {
                 Text("Absumo")
-                    .font(.system(size: 44, weight: .black, design: .rounded))
-                    .foregroundStyle(
-                        LinearGradient(colors: Palette.tricolore,
-                                       startPoint: .leading, endPoint: .trailing)
-                    )
+                    .font(.serifDisplay(46, weight: .bold))
+                    .foregroundStyle(Palette.ink)
+
+                // A quiet tricolore hairline — Italian identity, no fanfare.
+                HStack(spacing: 0) {
+                    ForEach(Array(Palette.tricolore.enumerated()), id: \.offset) { _, c in
+                        c.frame(height: 3)
+                    }
+                }
+                .frame(width: 96)
+                .clipShape(Capsule())
 
                 Text("io absumo l'italiano")
-                    .font(.headline)
-                    .foregroundStyle(.white.opacity(0.65))
+                    .font(.headline.weight(.regular))
+                    .italic()
+                    .foregroundStyle(Palette.inkSoft)
 
                 HStack(spacing: 10) {
-                    StatPill(icon: "flame.fill", value: "\(user?.streak ?? 0)", tint: Palette.rosso)
-                    StatPill(icon: "bolt.fill", value: "\(user?.xp ?? 0)", tint: Palette.verde)
+                    StatPill(icon: "flame.fill", value: "\(user?.streak ?? 0)", tint: Palette.terracotta)
+                    StatPill(icon: "leaf.fill", value: "\(user?.xp ?? 0)", tint: Palette.olive)
                     StatPill(icon: "heart.fill", value: "\(user?.hearts ?? 5)", tint: Palette.rosso)
                 }
             }

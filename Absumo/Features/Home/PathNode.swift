@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// A single lesson "bubble" on the winding path.
+/// A single lesson "stone" on the winding path.
 struct PathNode: View {
     enum NodeState { case completed, current, locked }
 
@@ -11,7 +11,7 @@ struct PathNode: View {
     let state: NodeState
     let action: () -> Void
 
-    /// Horizontal sway gives the trail its playful winding shape.
+    /// Horizontal sway gives the trail its gentle winding shape.
     private var sway: CGFloat { CGFloat(sin(Double(index) * 0.9)) * 64 }
 
     private var symbol: String {
@@ -26,26 +26,28 @@ struct PathNode: View {
         Button(action: action) {
             VStack(spacing: 10) {
                 ZStack {
-                    Circle()
-                        .fill(fillStyle)
-                        .frame(width: 88, height: 88)
-                        .overlay(Circle().strokeBorder(.white.opacity(0.18), lineWidth: 1))
-                        .shadow(color: glowColor, radius: state == .current ? 22 : 0)
-
+                    // Current lesson sits in a soft halo ring.
                     if state == .current {
                         Circle()
-                            .strokeBorder(accent.opacity(0.5), lineWidth: 3)
+                            .strokeBorder(accent.opacity(0.35), lineWidth: 3)
                             .frame(width: 104, height: 104)
                     }
 
+                    Circle()
+                        .fill(fillStyle)
+                        .frame(width: 88, height: 88)
+                        .overlay(Circle().strokeBorder(strokeColor, lineWidth: 1))
+                        .shadow(color: shadowColor, radius: state == .locked ? 6 : 14,
+                                y: state == .locked ? 3 : 8)
+
                     Image(systemName: symbol)
-                        .font(.system(size: 32, weight: .bold))
-                        .foregroundStyle(state == .locked ? .white.opacity(0.5) : Palette.ink)
+                        .font(.system(size: 32, weight: .semibold))
+                        .foregroundStyle(iconColor)
                 }
 
                 Text(title)
-                    .font(.subheadline.weight(.bold))
-                    .foregroundStyle(.white.opacity(state == .locked ? 0.4 : 0.95))
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(state == .locked ? Palette.inkFaint : Palette.ink)
             }
         }
         .buttonStyle(BouncyButtonStyle())
@@ -56,16 +58,24 @@ struct PathNode: View {
     private var fillStyle: AnyShapeStyle {
         switch state {
         case .locked:
-            return AnyShapeStyle(.ultraThinMaterial)
+            return AnyShapeStyle(Palette.cardSoft)
         case .completed, .current:
-            return AnyShapeStyle(
-                LinearGradient(colors: [accent, accent.opacity(0.7)],
-                               startPoint: .topLeading, endPoint: .bottomTrailing)
-            )
+            return AnyShapeStyle(Palette.gradient(accent))
         }
     }
 
-    private var glowColor: Color {
-        state == .current ? accent.opacity(0.6) : .clear
+    private var strokeColor: Color {
+        state == .locked ? Palette.hairline : .white.opacity(0.35)
+    }
+
+    private var iconColor: Color {
+        state == .locked ? Palette.inkFaint : .white
+    }
+
+    private var shadowColor: Color {
+        switch state {
+        case .locked:              return Palette.ink.opacity(0.08)
+        case .completed, .current: return accent.opacity(0.30)
+        }
     }
 }

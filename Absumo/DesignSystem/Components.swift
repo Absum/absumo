@@ -1,19 +1,20 @@
 import SwiftUI
 
-// MARK: - Glass card
+// MARK: - Paper card
 
+/// A warm "paper" surface that floats gently above the sand background.
 struct GlassCard<Content: View>: View {
     var cornerRadius: CGFloat = 28
     @ViewBuilder var content: () -> Content
 
     var body: some View {
         content()
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            .background(Palette.card, in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .strokeBorder(.white.opacity(0.12), lineWidth: 1)
+                    .strokeBorder(Palette.hairline, lineWidth: 1)
             )
-            .shadow(color: .black.opacity(0.35), radius: 20, y: 12)
+            .shadow(color: Palette.ink.opacity(0.10), radius: 18, y: 10)
     }
 }
 
@@ -30,7 +31,7 @@ struct BouncyButtonStyle: ButtonStyle {
 struct PrimaryButton: View {
     let title: String
     var systemImage: String? = nil
-    var tint: Color = Palette.verde
+    var tint: Color = Palette.terracotta
     let action: () -> Void
 
     var body: some View {
@@ -42,16 +43,12 @@ struct PrimaryButton: View {
                 if let systemImage { Image(systemName: systemImage) }
                 Text(title)
             }
-            .font(.headline.weight(.heavy))
-            .foregroundStyle(Palette.ink)
+            .font(.headline.weight(.bold))
+            .foregroundStyle(.white)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 18)
-            .background(
-                LinearGradient(colors: [tint, tint.opacity(0.65)],
-                               startPoint: .topLeading, endPoint: .bottomTrailing),
-                in: Capsule()
-            )
-            .shadow(color: tint.opacity(0.5), radius: 18, y: 8)
+            .background(Palette.gradient(tint), in: Capsule())
+            .shadow(color: tint.opacity(0.30), radius: 12, y: 6)
         }
         .buttonStyle(BouncyButtonStyle())
     }
@@ -62,18 +59,18 @@ struct PrimaryButton: View {
 struct StatPill: View {
     let icon: String
     let value: String
-    var tint: Color = Palette.verde
+    var tint: Color = Palette.olive
 
     var body: some View {
         HStack(spacing: 6) {
             Image(systemName: icon).foregroundStyle(tint)
-            Text(value).fontWeight(.heavy).foregroundStyle(.white)
+            Text(value).fontWeight(.bold).foregroundStyle(Palette.ink)
         }
         .font(.subheadline)
         .padding(.horizontal, 14)
         .padding(.vertical, 9)
-        .background(.ultraThinMaterial, in: Capsule())
-        .overlay(Capsule().strokeBorder(tint.opacity(0.4), lineWidth: 1))
+        .background(Palette.cardSoft, in: Capsule())
+        .overlay(Capsule().strokeBorder(tint.opacity(0.30), lineWidth: 1))
     }
 }
 
@@ -81,7 +78,7 @@ struct StatPill: View {
 
 struct Chip: View {
     let text: String
-    var tint: Color = .white
+    var tint: Color = Palette.terracotta
     var filled: Bool = false
     let action: () -> Void
 
@@ -92,16 +89,15 @@ struct Chip: View {
         } label: {
             Text(text)
                 .font(.body.weight(.semibold))
-                .foregroundStyle(filled ? Palette.ink : .white)
+                .foregroundStyle(filled ? .white : Palette.ink)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
                 .background(
-                    filled
-                        ? AnyShapeStyle(tint)
-                        : AnyShapeStyle(.ultraThinMaterial),
+                    filled ? AnyShapeStyle(tint) : AnyShapeStyle(Palette.card),
                     in: Capsule()
                 )
-                .overlay(Capsule().strokeBorder(.white.opacity(0.15), lineWidth: 1))
+                .overlay(Capsule().strokeBorder(filled ? .clear : Palette.hairline, lineWidth: 1))
+                .shadow(color: Palette.ink.opacity(filled ? 0 : 0.06), radius: 5, y: 3)
         }
         .buttonStyle(BouncyButtonStyle())
     }
@@ -120,17 +116,20 @@ struct ChoiceRow: View {
             action()
         } label: {
             HStack {
-                Text(text).font(.title3.weight(.bold)).foregroundStyle(.white)
+                Text(text).font(.title3.weight(.semibold)).foregroundStyle(Palette.ink)
                 Spacer()
                 Image(systemName: selected ? "largecircle.fill.circle" : "circle")
-                    .foregroundStyle(selected ? Palette.verde : .white.opacity(0.3))
+                    .foregroundStyle(selected ? Palette.terracotta : Palette.inkFaint)
             }
             .padding(.horizontal, 20)
             .padding(.vertical, 18)
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .background(
+                selected ? Palette.terracotta.opacity(0.08) : Palette.card,
+                in: RoundedRectangle(cornerRadius: 20, style: .continuous)
+            )
             .overlay(
                 RoundedRectangle(cornerRadius: 20, style: .continuous)
-                    .strokeBorder(selected ? Palette.verde : .white.opacity(0.1),
+                    .strokeBorder(selected ? Palette.terracotta : Palette.hairline,
                                   lineWidth: selected ? 2 : 1)
             )
         }
@@ -145,7 +144,7 @@ struct FeedbackBar: View {
     let solution: String
     let onContinue: () -> Void
 
-    private var tint: Color { correct ? Palette.verde : Palette.rosso }
+    private var tint: Color { correct ? Palette.olive : Palette.rosso }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -153,24 +152,24 @@ struct FeedbackBar: View {
                 Image(systemName: correct ? "checkmark.circle.fill" : "xmark.circle.fill")
                     .font(.title2)
                 Text(correct ? "Perfetto!" : "Not quite")
-                    .font(.title3.weight(.heavy))
+                    .font(.title3.weight(.bold))
             }
             .foregroundStyle(tint)
 
             if !correct && !solution.isEmpty {
                 Text("Answer: \(solution)")
                     .font(.subheadline)
-                    .foregroundStyle(.white.opacity(0.8))
+                    .foregroundStyle(Palette.inkSoft)
             }
 
             PrimaryButton(title: "Continue", tint: tint, action: onContinue)
         }
         .padding(20)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 24, style: .continuous))
+        .background(tint.opacity(0.10), in: RoundedRectangle(cornerRadius: 24, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .strokeBorder(tint.opacity(0.4), lineWidth: 1)
+                .strokeBorder(tint.opacity(0.35), lineWidth: 1)
         )
         .transition(.move(edge: .bottom).combined(with: .opacity))
     }

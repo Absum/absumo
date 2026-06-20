@@ -35,7 +35,7 @@ struct LessonView: View {
             }
             .padding(20)
         }
-        .preferredColorScheme(.dark)
+        .preferredColorScheme(.light)
     }
 
     private var topBar: some View {
@@ -43,19 +43,19 @@ struct LessonView: View {
             Button { dismiss() } label: {
                 Image(systemName: "xmark")
                     .font(.headline.bold())
-                    .foregroundStyle(.white.opacity(0.7))
+                    .foregroundStyle(Palette.inkSoft)
             }
 
             ProgressView(value: Double(finished ? lesson.exercises.count : index),
                          total: Double(lesson.exercises.count))
-                .tint(Palette.verde)
+                .tint(Palette.terracotta)
 
             HStack(spacing: 4) {
                 Image(systemName: "heart.fill").foregroundStyle(Palette.rosso)
-                Text("5").fontWeight(.heavy)
+                Text("5").fontWeight(.bold)
             }
             .font(.subheadline)
-            .foregroundStyle(.white)
+            .foregroundStyle(Palette.ink)
         }
     }
 

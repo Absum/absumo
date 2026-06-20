@@ -96,29 +96,30 @@ private struct MatchTile: View {
 
     private var border: Color {
         if flash { return Palette.rosso }
-        if selected { return Palette.verde }
-        return .white.opacity(0.12)
+        if selected { return Palette.terracotta }
+        return Palette.hairline
     }
 
     var body: some View {
         Button(action: action) {
             Text(text)
-                .font(.body.weight(.bold))
-                .foregroundStyle(matched ? Palette.ink : .white)
+                .font(.body.weight(.semibold))
+                .foregroundStyle(matched ? .white : Palette.ink)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 16)
                 .background(
                     matched
-                        ? AnyShapeStyle(Palette.verde)
-                        : AnyShapeStyle(.ultraThinMaterial),
+                        ? AnyShapeStyle(Palette.olive)
+                        : AnyShapeStyle(Palette.card),
                     in: RoundedRectangle(cornerRadius: 18, style: .continuous)
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 18, style: .continuous)
                         .strokeBorder(border, lineWidth: selected || flash ? 2 : 1)
                 )
+                .shadow(color: Palette.ink.opacity(matched ? 0 : 0.06), radius: 5, y: 3)
         }
         .buttonStyle(BouncyButtonStyle())
-        .opacity(matched ? 0.85 : 1)
+        .opacity(matched ? 0.9 : 1)
     }
 }
