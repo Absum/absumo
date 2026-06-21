@@ -16,6 +16,9 @@ struct ReaderView: View {
     @State private var showTranslation = false
     @State private var justAdded: String?
     @State private var audio = AudioPlayer()
+    @State private var showGrammar = false
+
+    private var grammarNotes: [GrammarNote] { GrammarNotes.relevant(for: item) }
 
     var body: some View {
         ZStack {
@@ -35,6 +38,9 @@ struct ReaderView: View {
         }
         .preferredColorScheme(.light)
         .overlay(alignment: .bottom) { glossSheet }
+        .sheet(isPresented: $showGrammar) {
+            GrammarNotesView(notes: grammarNotes)
+        }
         .onAppear { markOpened() }
         .onDisappear { audio.stop() }
     }
@@ -77,13 +83,22 @@ struct ReaderView: View {
                 }
             }
 
-            Button {
-                withAnimation { showTranslation.toggle() }
-            } label: {
-                Label(showTranslation ? "Hide translation" : "Show translation",
-                      systemImage: "text.bubble")
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(Palette.adriatic)
+            HStack(spacing: 18) {
+                Button {
+                    withAnimation { showTranslation.toggle() }
+                } label: {
+                    Label(showTranslation ? "Hide translation" : "Show translation",
+                          systemImage: "text.bubble")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Palette.adriatic)
+                }
+                if !grammarNotes.isEmpty {
+                    Button { showGrammar = true } label: {
+                        Label("Grammar (\(grammarNotes.count))", systemImage: "text.book.closed")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(Palette.olive)
+                    }
+                }
             }
             .padding(.top, 6)
         }

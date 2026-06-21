@@ -1,0 +1,82 @@
+{
+  "note": "Just-in-time grammar notes. Each note surfaces in the reader when one of its `triggers` (glossary lemmas) appears in the passage, or the item id is in `items`. Comprehension aids — not drills. Body uses simple **markdown** bold.",
+  "notes": [
+    {
+      "id": "articoli-determinativi",
+      "title": "The words for “the”",
+      "body": "Italian has several words for **the**. Masculine: **il** (il libro), **lo** before s+consonant/z/gn (lo studente), **l'** before a vowel (l'amico); plural **i** / **gli**. Feminine: **la** (la casa), **l'** (l'amica); plural **le**.",
+      "triggers": ["il", "lo"],
+      "items": []
+    },
+    {
+      "id": "articoli-indeterminativi",
+      "title": "a / an",
+      "body": "“A/an” is **un / uno** (masculine) or **una / un'** (feminine): un libro, uno studente, una casa, un'amica. Use **uno** before s+consonant, z, gn, ps.",
+      "triggers": ["uno"],
+      "items": []
+    },
+    {
+      "id": "genere",
+      "title": "Nouns have a gender",
+      "body": "Every noun is masculine or feminine. Most ending in **-o** are masculine (il libr**o**), most in **-a** are feminine (la cas**a**). Nouns in **-e** can be either (il fiore, la notte) — learn each with its article.",
+      "triggers": ["uno"],
+      "items": []
+    },
+    {
+      "id": "presente-are",
+      "title": "Present tense: -are verbs",
+      "body": "Regular **-are** verbs (parlare): io parl**o**, tu parl**i**, lui/lei parl**a**, noi parl**iamo**, voi parl**ate**, loro parl**ano**.",
+      "triggers": ["parlare", "studiare", "mangiare", "comprare", "lavorare", "guardare", "giocare", "portare", "costare", "arrivare", "aspettare", "chiamare", "girare", "preparare", "contare", "pagare", "tornare", "pensare", "trovare"],
+      "items": []
+    },
+    {
+      "id": "presente-ere-ire",
+      "title": "Present tense: -ere / -ire verbs",
+      "body": "**-ere** (prendere): prend-**o**, -**i**, -**e**, -**iamo**, -**ete**, -**ono**. **-ire** (dormire): dorm-**o**, -**i**, -**e**, -**iamo**, -**ite**, -**ono**. Some -ire verbs insert **-isc-** (capire → cap**isc**o).",
+      "triggers": ["prendere", "leggere", "scrivere", "vedere", "mettere", "chiedere", "dormire", "partire", "aprire", "sentire", "capire", "vivere", "bere"],
+      "items": []
+    },
+    {
+      "id": "essere-stare",
+      "title": "essere vs stare",
+      "body": "**essere** = to be (who/what you are): sono italiano. **stare** = to stay, or how you feel: come **stai**? — sto bene. Use **stare** for health and feelings.",
+      "triggers": ["essere", "stare"],
+      "items": []
+    },
+    {
+      "id": "avere",
+      "title": "avere — to have",
+      "body": "**avere**: io **ho**, tu **hai**, lui/lei **ha**, noi **abbiamo**, voi **avete**, loro **hanno**. The **h** is always silent. Italian also uses avere for age: **ho** trent'anni (I'm 30).",
+      "triggers": ["avere"],
+      "items": []
+    },
+    {
+      "id": "preposizioni",
+      "title": "Little words: a, in, di, da",
+      "body": "**a** = to/at (a Roma), **in** = in/to (in Italia), **di** = of/from (di Maria), **da** = from/by (da Roma). They fuse with the article: a+il = **al**, di+il = **del**, in+la = **nella**.",
+      "triggers": ["a", "in", "di", "da"],
+      "items": []
+    },
+    {
+      "id": "domande",
+      "title": "Asking questions",
+      "body": "Question words: **chi** (who), **cosa / che** (what), **dove** (where), **quando** (when), **perché** (why), **come** (how), **quanto** (how much). Word order stays like a statement — the voice just rises: Vuoi un caffè?",
+      "triggers": ["chi", "cosa", "che", "dove", "quando", "perché", "come", "quanto"],
+      "items": []
+    },
+    {
+      "id": "accordo-aggettivi",
+      "title": "Adjectives agree",
+      "body": "An adjective matches its noun in gender and number: il gatto ner**o**, la casa ner**a**, i gatti ner**i**, le case ner**e**. Adjectives usually come **after** the noun.",
+      "triggers": ["bello", "buono", "nero", "bianco", "rosso", "alto", "grande", "piccolo", "nuovo", "vecchio", "caldo", "freddo", "lungo", "simpatico"],
+      "items": []
+    },
+    {
+      "id": "passato-prossimo",
+      "title": "Talking about the past",
+      "body": "The **passato prossimo** = **avere/essere** (present) + past participle: **ho** mangiat**o** (I ate), **sono** andat**o** (I went). Most verbs take **avere**; verbs of movement/change take **essere**, and then the participle agrees: sono andat**a** (a woman speaking).",
+      "triggers": ["visitare"],
+      "items": ["le-vacanze"]
+    }
+  ]
+}
