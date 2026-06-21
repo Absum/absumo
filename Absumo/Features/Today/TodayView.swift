@@ -18,10 +18,12 @@ struct TodayView: View {
     private var session: [Card] { Deck.session(from: cards) }
     private var user: UserState? { states.first }
 
-    /// The next graded item the learner hasn't finished, for the Read card.
+    /// The estimated working level, from words actually known.
+    private var level: String { LevelEstimator.level(wordsKnown: metrics.wordsKnown) }
+
+    /// The next graded item to read — recommended at/just-above the learner's level.
     private var nextRead: GradedItem? {
-        let done = Set(reading.filter(\.completed).map(\.itemID))
-        return GradedLibrary.all.first { !done.contains($0.id) }
+        LevelEstimator.recommended(reading: reading, wordsKnown: metrics.wordsKnown)
     }
 
     var body: some View {
@@ -127,9 +129,17 @@ struct TodayView: View {
     private var header: some View {
         GlassCard {
             VStack(alignment: .leading, spacing: 14) {
-                Text(greeting)
-                    .font(.serifDisplay(34, weight: .bold))
-                    .foregroundStyle(Palette.ink)
+                HStack(alignment: .firstTextBaseline) {
+                    Text(greeting)
+                        .font(.serifDisplay(34, weight: .bold))
+                        .foregroundStyle(Palette.ink)
+                    Spacer()
+                    Text("Level \(level)")
+                        .font(.caption.weight(.bold)).tracking(1)
+                        .foregroundStyle(Palette.olive)
+                        .padding(.horizontal, 10).padding(.vertical, 5)
+                        .background(Palette.olive.opacity(0.12), in: Capsule())
+                }
 
                 HStack(spacing: 10) {
                     Metric(value: "\(metrics.wordsKnown)", label: "words known", tint: Palette.olive)
