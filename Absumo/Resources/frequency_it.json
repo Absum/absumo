@@ -3030,6 +3030,1676 @@
       "it": "mezzo",
       "en": "half",
       "ex": "Voglio mezzo litro di latte."
+    },
+    {
+      "it": "accadere",
+      "en": "to happen",
+      "ex": "Cosa è accaduto ieri?"
+    },
+    {
+      "it": "riferire",
+      "en": "to report / refer",
+      "ex": "Devo riferire tutto al capo."
+    },
+    {
+      "it": "riguardare",
+      "en": "to concern / regard",
+      "ex": "Questo non ti riguarda."
+    },
+    {
+      "it": "valere",
+      "en": "to be worth",
+      "ex": "Non vale la pena."
+    },
+    {
+      "it": "mancare",
+      "en": "to miss / lack",
+      "ex": "Mi manchi molto."
+    },
+    {
+      "it": "bastare",
+      "en": "to be enough",
+      "ex": "Basta così, grazie."
+    },
+    {
+      "it": "dipendere",
+      "en": "to depend",
+      "ex": "Dipende da te."
+    },
+    {
+      "it": "occorrere",
+      "en": "to be necessary",
+      "ex": "Occorre più tempo."
+    },
+    {
+      "it": "raggiungere",
+      "en": "to reach",
+      "ex": "Voglio raggiungere la cima."
+    },
+    {
+      "it": "riconoscere",
+      "en": "to recognise",
+      "ex": "Non ti ho riconosciuto."
+    },
+    {
+      "it": "ripetere",
+      "en": "to repeat",
+      "ex": "Puoi ripetere, per favore?"
+    },
+    {
+      "it": "dividere",
+      "en": "to divide / share",
+      "ex": "Dividiamo il conto."
+    },
+    {
+      "it": "unire",
+      "en": "to unite / join",
+      "ex": "Unisco i due pezzi."
+    },
+    {
+      "it": "riparare",
+      "en": "to repair",
+      "ex": "Devo riparare la bici."
+    },
+    {
+      "it": "prestare",
+      "en": "to lend",
+      "ex": "Mi presti la penna?"
+    },
+    {
+      "it": "restituire",
+      "en": "to give back",
+      "ex": "Ti restituisco il libro domani."
+    },
+    {
+      "it": "affittare",
+      "en": "to rent",
+      "ex": "Voglio affittare una casa."
+    },
+    {
+      "it": "suggerire",
+      "en": "to suggest",
+      "ex": "Cosa mi suggerisci?"
+    },
+    {
+      "it": "evitare",
+      "en": "to avoid",
+      "ex": "Cerco di evitare il traffico."
+    },
+    {
+      "it": "sopportare",
+      "en": "to bear / stand",
+      "ex": "Non sopporto il rumore."
+    },
+    {
+      "it": "svuotare",
+      "en": "to empty",
+      "ex": "Devo svuotare la borsa."
+    },
+    {
+      "it": "indossare",
+      "en": "to wear",
+      "ex": "Indosso un cappotto pesante."
+    },
+    {
+      "it": "togliere",
+      "en": "to remove / take off",
+      "ex": "Togli le scarpe, per favore."
+    },
+    {
+      "it": "nascondere",
+      "en": "to hide",
+      "ex": "Dove hai nascosto le chiavi?"
+    },
+    {
+      "it": "mostrare",
+      "en": "to show",
+      "ex": "Ti mostro le foto."
+    },
+    {
+      "it": "spingere",
+      "en": "to push",
+      "ex": "Spingi la porta."
+    },
+    {
+      "it": "tirare",
+      "en": "to pull",
+      "ex": "Tira la corda forte."
+    },
+    {
+      "it": "alzare",
+      "en": "to raise / lift",
+      "ex": "Alza la mano, per favore."
+    },
+    {
+      "it": "abbassare",
+      "en": "to lower",
+      "ex": "Abbassa la voce."
+    },
+    {
+      "it": "raccogliere",
+      "en": "to pick up / gather",
+      "ex": "Raccolgo i fiori nel prato."
+    },
+    {
+      "it": "premere",
+      "en": "to press",
+      "ex": "Premi il pulsante verde."
+    },
+    {
+      "it": "toccare",
+      "en": "to touch",
+      "ex": "Non toccare il quadro."
+    },
+    {
+      "it": "saltare",
+      "en": "to jump",
+      "ex": "Il bambino salta sul letto."
+    },
+    {
+      "it": "muoversi",
+      "en": "to move (oneself)",
+      "ex": "Muoviti, è tardi!"
+    },
+    {
+      "it": "avvicinarsi",
+      "en": "to approach",
+      "ex": "Mi avvicino al fuoco."
+    },
+    {
+      "it": "fermarsi",
+      "en": "to stop (oneself)",
+      "ex": "Mi fermo un attimo."
+    },
+    {
+      "it": "fidarsi",
+      "en": "to trust",
+      "ex": "Mi fido di te."
+    },
+    {
+      "it": "lamentarsi",
+      "en": "to complain",
+      "ex": "Si lamenta sempre."
+    },
+    {
+      "it": "arrabbiarsi",
+      "en": "to get angry",
+      "ex": "Non ti arrabbiare!"
+    },
+    {
+      "it": "preoccuparsi",
+      "en": "to worry",
+      "ex": "Non ti preoccupare."
+    },
+    {
+      "it": "stancarsi",
+      "en": "to get tired",
+      "ex": "Mi stanco presto."
+    },
+    {
+      "it": "rilassarsi",
+      "en": "to relax",
+      "ex": "Voglio rilassarmi un po'."
+    },
+    {
+      "it": "prepararsi",
+      "en": "to get ready",
+      "ex": "Mi preparo per uscire."
+    },
+    {
+      "it": "lavarsi",
+      "en": "to wash oneself",
+      "ex": "Mi lavo le mani."
+    },
+    {
+      "it": "sposarsi",
+      "en": "to get married",
+      "ex": "Si sposano a giugno."
+    },
+    {
+      "it": "trattare",
+      "en": "to treat / deal with",
+      "ex": "Di cosa si tratta?"
+    },
+    {
+      "it": "mescolare",
+      "en": "to mix / stir",
+      "ex": "Mescolo bene gli ingredienti."
+    },
+    {
+      "it": "aggiungere",
+      "en": "to add",
+      "ex": "Aggiungo un po' di sale."
+    },
+    {
+      "it": "assaggiare",
+      "en": "to taste",
+      "ex": "Vuoi assaggiare la torta?"
+    },
+    {
+      "it": "friggere",
+      "en": "to fry",
+      "ex": "Friggo le patate."
+    },
+    {
+      "it": "bollire",
+      "en": "to boil",
+      "ex": "L'acqua bolle già."
+    },
+    {
+      "it": "cuocere",
+      "en": "to cook (food)",
+      "ex": "Cuocio la pasta dieci minuti."
+    },
+    {
+      "it": "scaldare",
+      "en": "to heat / warm",
+      "ex": "Scaldo il latte."
+    },
+    {
+      "it": "versare",
+      "en": "to pour",
+      "ex": "Verso l'acqua nel bicchiere."
+    },
+    {
+      "it": "preparare",
+      "en": "to prepare",
+      "ex": "Preparo la cena."
+    },
+    {
+      "it": "stirare",
+      "en": "to iron",
+      "ex": "Devo stirare le camicie."
+    },
+    {
+      "it": "asciugare",
+      "en": "to dry",
+      "ex": "Asciugo i piatti."
+    },
+    {
+      "it": "appendere",
+      "en": "to hang",
+      "ex": "Appendo il quadro alla parete."
+    },
+    {
+      "it": "bruciare",
+      "en": "to burn",
+      "ex": "Attento, la pentola brucia."
+    },
+    {
+      "it": "funzionare",
+      "en": "to work / function",
+      "ex": "Il telefono non funziona."
+    },
+    {
+      "it": "durare",
+      "en": "to last",
+      "ex": "Il film dura due ore."
+    },
+    {
+      "it": "iniziare",
+      "en": "to begin / start",
+      "ex": "La lezione inizia adesso."
+    },
+    {
+      "it": "continuare",
+      "en": "to continue",
+      "ex": "Continuo a studiare."
+    },
+    {
+      "it": "smettere",
+      "en": "to stop / quit",
+      "ex": "Ho smesso di fumare."
+    },
+    {
+      "it": "concludere",
+      "en": "to conclude",
+      "ex": "Concludo il discorso qui."
+    },
+    {
+      "it": "completare",
+      "en": "to complete",
+      "ex": "Completo il modulo."
+    },
+    {
+      "it": "riprendere",
+      "en": "to resume / take back",
+      "ex": "Riprendo il lavoro lunedì."
+    },
+    {
+      "it": "ottenere",
+      "en": "to obtain / get",
+      "ex": "Ho ottenuto il lavoro."
+    },
+    {
+      "it": "raccontare",
+      "en": "to tell / narrate",
+      "ex": "Raccontami una storia."
+    },
+    {
+      "it": "descrivere",
+      "en": "to describe",
+      "ex": "Descrivi la tua casa."
+    },
+    {
+      "it": "discutere",
+      "en": "to discuss / argue",
+      "ex": "Discutiamo del progetto."
+    },
+    {
+      "it": "gridare",
+      "en": "to shout",
+      "ex": "Non gridare, ti sento."
+    },
+    {
+      "it": "mentire",
+      "en": "to lie",
+      "ex": "Non mi piace mentire."
+    },
+    {
+      "it": "esprimere",
+      "en": "to express",
+      "ex": "Esprimo la mia opinione."
+    },
+    {
+      "it": "indicare",
+      "en": "to indicate / point",
+      "ex": "Indica la strada giusta."
+    },
+    {
+      "it": "informare",
+      "en": "to inform",
+      "ex": "Vi informo della riunione."
+    },
+    {
+      "it": "comunicare",
+      "en": "to communicate",
+      "ex": "Comunichiamo via email."
+    },
+    {
+      "it": "telefonare",
+      "en": "to phone",
+      "ex": "Ti telefono stasera."
+    },
+    {
+      "it": "scaricare",
+      "en": "to download",
+      "ex": "Scarico l'applicazione."
+    },
+    {
+      "it": "caricare",
+      "en": "to load / charge",
+      "ex": "Carico il telefono."
+    },
+    {
+      "it": "salvare",
+      "en": "to save",
+      "ex": "Salva il file adesso."
+    },
+    {
+      "it": "cancellare",
+      "en": "to delete / erase",
+      "ex": "Cancello il messaggio."
+    },
+    {
+      "it": "contare",
+      "en": "to count",
+      "ex": "Conto fino a dieci."
+    },
+    {
+      "it": "aumentare",
+      "en": "to increase",
+      "ex": "I prezzi aumentano sempre."
+    },
+    {
+      "it": "diminuire",
+      "en": "to decrease",
+      "ex": "Le ore diminuiscono d'inverno."
+    },
+    {
+      "it": "crescere",
+      "en": "to grow",
+      "ex": "I bambini crescono in fretta."
+    },
+    {
+      "it": "parcheggiare",
+      "en": "to park",
+      "ex": "Parcheggio davanti a casa."
+    },
+    {
+      "it": "attraversare",
+      "en": "to cross",
+      "ex": "Attraverso la strada."
+    },
+    {
+      "it": "seguire",
+      "en": "to follow",
+      "ex": "Segui questa via."
+    },
+    {
+      "it": "visitare",
+      "en": "to visit",
+      "ex": "Visito i nonni la domenica."
+    },
+    {
+      "it": "scoprire",
+      "en": "to discover",
+      "ex": "Ho scoperto un bel posto."
+    },
+    {
+      "it": "sbagliare",
+      "en": "to make a mistake",
+      "ex": "Tutti possono sbagliare."
+    },
+    {
+      "it": "migliorare",
+      "en": "to improve",
+      "ex": "Voglio migliorare l'italiano."
+    },
+    {
+      "it": "peggiorare",
+      "en": "to get worse",
+      "ex": "Il tempo peggiora."
+    },
+    {
+      "it": "risolvere",
+      "en": "to solve",
+      "ex": "Risolvo il problema."
+    },
+    {
+      "it": "organizzare",
+      "en": "to organise",
+      "ex": "Organizzo una festa."
+    },
+    {
+      "it": "partecipare",
+      "en": "to participate",
+      "ex": "Partecipo alla riunione."
+    },
+    {
+      "it": "invitare",
+      "en": "to invite",
+      "ex": "Ti invito a cena."
+    },
+    {
+      "it": "accettare",
+      "en": "to accept",
+      "ex": "Accetto l'invito."
+    },
+    {
+      "it": "rifiutare",
+      "en": "to refuse",
+      "ex": "Rifiuto l'offerta."
+    },
+    {
+      "it": "esistere",
+      "en": "to exist",
+      "ex": "Esistono molte soluzioni."
+    },
+    {
+      "it": "appartenere",
+      "en": "to belong",
+      "ex": "Questo libro appartiene a me."
+    },
+    {
+      "it": "proteggere",
+      "en": "to protect",
+      "ex": "Il cappello protegge dal sole."
+    },
+    {
+      "it": "difendere",
+      "en": "to defend",
+      "ex": "Difendo le mie idee."
+    },
+    {
+      "it": "il collega",
+      "en": "colleague",
+      "ex": "Un collega mi aiuta."
+    },
+    {
+      "it": "il capo",
+      "en": "boss / head",
+      "ex": "Il mio capo è severo."
+    },
+    {
+      "it": "il cliente",
+      "en": "customer",
+      "ex": "Il cliente ha sempre ragione."
+    },
+    {
+      "it": "il direttore",
+      "en": "director / manager",
+      "ex": "Il direttore arriva alle nove."
+    },
+    {
+      "it": "la riunione",
+      "en": "meeting",
+      "ex": "La riunione è alle tre."
+    },
+    {
+      "it": "l'azienda",
+      "en": "company / firm",
+      "ex": "Lavoro in una grande azienda."
+    },
+    {
+      "it": "lo stipendio",
+      "en": "salary",
+      "ex": "Ricevo lo stipendio il primo del mese."
+    },
+    {
+      "it": "il contratto",
+      "en": "contract",
+      "ex": "Firmo il contratto domani."
+    },
+    {
+      "it": "la firma",
+      "en": "signature",
+      "ex": "Manca solo la tua firma."
+    },
+    {
+      "it": "il documento",
+      "en": "document",
+      "ex": "Porta un documento valido."
+    },
+    {
+      "it": "il modulo",
+      "en": "form",
+      "ex": "Compila questo modulo."
+    },
+    {
+      "it": "la carta",
+      "en": "card / paper",
+      "ex": "Pago con la carta."
+    },
+    {
+      "it": "il portafoglio",
+      "en": "wallet",
+      "ex": "Ho perso il portafoglio."
+    },
+    {
+      "it": "la moneta",
+      "en": "coin / currency",
+      "ex": "Mi serve una moneta."
+    },
+    {
+      "it": "il resto",
+      "en": "change / rest",
+      "ex": "Tenga pure il resto."
+    },
+    {
+      "it": "la spesa",
+      "en": "shopping / expense",
+      "ex": "Faccio la spesa il sabato."
+    },
+    {
+      "it": "la cassa",
+      "en": "checkout / cash desk",
+      "ex": "Pago alla cassa."
+    },
+    {
+      "it": "lo scontrino",
+      "en": "receipt (till)",
+      "ex": "Conservo lo scontrino."
+    },
+    {
+      "it": "la tassa",
+      "en": "tax",
+      "ex": "Pago le tasse ogni anno."
+    },
+    {
+      "it": "il prestito",
+      "en": "loan",
+      "ex": "Chiedo un prestito alla banca."
+    },
+    {
+      "it": "il mestiere",
+      "en": "trade / craft",
+      "ex": "Fa un mestiere difficile."
+    },
+    {
+      "it": "la carriera",
+      "en": "career",
+      "ex": "Vuole fare carriera."
+    },
+    {
+      "it": "l'operaio",
+      "en": "worker / labourer",
+      "ex": "L'operaio inizia presto."
+    },
+    {
+      "it": "l'impiegato",
+      "en": "office worker / clerk",
+      "ex": "L'impiegato è gentile."
+    },
+    {
+      "it": "il giornalista",
+      "en": "journalist",
+      "ex": "Il giornalista scrive l'articolo."
+    },
+    {
+      "it": "lo scrittore",
+      "en": "writer",
+      "ex": "Lo scrittore presenta il libro."
+    },
+    {
+      "it": "l'attore",
+      "en": "actor",
+      "ex": "L'attore è molto bravo."
+    },
+    {
+      "it": "il dentista",
+      "en": "dentist",
+      "ex": "Vado dal dentista domani."
+    },
+    {
+      "it": "il presidente",
+      "en": "president",
+      "ex": "Il presidente parla in TV."
+    },
+    {
+      "it": "il governo",
+      "en": "government",
+      "ex": "Il governo cambia le regole."
+    },
+    {
+      "it": "la legge",
+      "en": "law",
+      "ex": "La legge è uguale per tutti."
+    },
+    {
+      "it": "il diritto",
+      "en": "right / law",
+      "ex": "Hai il diritto di parlare."
+    },
+    {
+      "it": "la regola",
+      "en": "rule",
+      "ex": "Rispetta le regole."
+    },
+    {
+      "it": "la libertà",
+      "en": "freedom",
+      "ex": "La libertà è preziosa."
+    },
+    {
+      "it": "la pace",
+      "en": "peace",
+      "ex": "Vogliamo la pace."
+    },
+    {
+      "it": "la guerra",
+      "en": "war",
+      "ex": "La guerra è terribile."
+    },
+    {
+      "it": "la società",
+      "en": "society",
+      "ex": "Viviamo in una società complessa."
+    },
+    {
+      "it": "il cittadino",
+      "en": "citizen",
+      "ex": "Ogni cittadino ha doveri."
+    },
+    {
+      "it": "lo straniero",
+      "en": "foreigner",
+      "ex": "Lo straniero parla italiano."
+    },
+    {
+      "it": "il confine",
+      "en": "border / boundary",
+      "ex": "Il confine è vicino."
+    },
+    {
+      "it": "la regione",
+      "en": "region",
+      "ex": "La Toscana è una regione."
+    },
+    {
+      "it": "il quartiere",
+      "en": "neighbourhood / district",
+      "ex": "Il mio quartiere è tranquillo."
+    },
+    {
+      "it": "il centro",
+      "en": "centre / downtown",
+      "ex": "Vado in centro a piedi."
+    },
+    {
+      "it": "la periferia",
+      "en": "outskirts / suburbs",
+      "ex": "Abito in periferia."
+    },
+    {
+      "it": "il marciapiede",
+      "en": "pavement / sidewalk",
+      "ex": "Cammino sul marciapiede."
+    },
+    {
+      "it": "il semaforo",
+      "en": "traffic light",
+      "ex": "Il semaforo è rosso."
+    },
+    {
+      "it": "l'angolo",
+      "en": "corner",
+      "ex": "Il bar è all'angolo."
+    },
+    {
+      "it": "il palazzo",
+      "en": "building / palace",
+      "ex": "Il palazzo è molto alto."
+    },
+    {
+      "it": "l'edificio",
+      "en": "building",
+      "ex": "L'edificio è nuovo."
+    },
+    {
+      "it": "il piano",
+      "en": "floor / plan",
+      "ex": "Abito al terzo piano."
+    },
+    {
+      "it": "la scala",
+      "en": "stairs / ladder",
+      "ex": "Salgo le scale a piedi."
+    },
+    {
+      "it": "l'ascensore",
+      "en": "lift / elevator",
+      "ex": "Prendo l'ascensore."
+    },
+    {
+      "it": "il tetto",
+      "en": "roof",
+      "ex": "Il tetto è rosso."
+    },
+    {
+      "it": "il muro",
+      "en": "wall (outer)",
+      "ex": "Il muro è alto."
+    },
+    {
+      "it": "il cancello",
+      "en": "gate",
+      "ex": "Chiudi il cancello."
+    },
+    {
+      "it": "il balcone",
+      "en": "balcony",
+      "ex": "Bevo il caffè sul balcone."
+    },
+    {
+      "it": "il soffitto",
+      "en": "ceiling",
+      "ex": "Il soffitto è bianco."
+    },
+    {
+      "it": "il corridoio",
+      "en": "corridor / hallway",
+      "ex": "L'ufficio è in fondo al corridoio."
+    },
+    {
+      "it": "il rubinetto",
+      "en": "tap / faucet",
+      "ex": "Chiudi il rubinetto."
+    },
+    {
+      "it": "la doccia",
+      "en": "shower",
+      "ex": "Faccio la doccia la mattina."
+    },
+    {
+      "it": "l'asciugamano",
+      "en": "towel",
+      "ex": "Mi serve un asciugamano."
+    },
+    {
+      "it": "il sapone",
+      "en": "soap",
+      "ex": "Mi lavo con il sapone."
+    },
+    {
+      "it": "la coperta",
+      "en": "blanket",
+      "ex": "Fa freddo, prendi la coperta."
+    },
+    {
+      "it": "il cuscino",
+      "en": "pillow / cushion",
+      "ex": "Il cuscino è morbido."
+    },
+    {
+      "it": "il fazzoletto",
+      "en": "tissue / handkerchief",
+      "ex": "Mi serve un fazzoletto."
+    },
+    {
+      "it": "la pentola",
+      "en": "pot / pan",
+      "ex": "L'acqua bolle nella pentola."
+    },
+    {
+      "it": "la padella",
+      "en": "frying pan",
+      "ex": "Friggo l'uovo nella padella."
+    },
+    {
+      "it": "la scatola",
+      "en": "box",
+      "ex": "Apro la scatola."
+    },
+    {
+      "it": "il sacchetto",
+      "en": "small bag",
+      "ex": "Metto la frutta nel sacchetto."
+    },
+    {
+      "it": "il cassetto",
+      "en": "drawer",
+      "ex": "Le penne sono nel cassetto."
+    },
+    {
+      "it": "lo scaffale",
+      "en": "shelf",
+      "ex": "Il libro è sullo scaffale."
+    },
+    {
+      "it": "la lampada",
+      "en": "lamp",
+      "ex": "Accendo la lampada per leggere."
+    },
+    {
+      "it": "la candela",
+      "en": "candle",
+      "ex": "Accendo una candela."
+    },
+    {
+      "it": "il fuoco",
+      "en": "fire",
+      "ex": "Il fuoco scalda la stanza."
+    },
+    {
+      "it": "il fumo",
+      "en": "smoke",
+      "ex": "C'è troppo fumo qui."
+    },
+    {
+      "it": "la corda",
+      "en": "rope / string",
+      "ex": "Lego il pacco con la corda."
+    },
+    {
+      "it": "il filo",
+      "en": "thread / wire",
+      "ex": "Cucio con ago e filo."
+    },
+    {
+      "it": "la spazzatura",
+      "en": "rubbish / trash",
+      "ex": "Porto fuori la spazzatura."
+    },
+    {
+      "it": "la pelle",
+      "en": "skin / leather",
+      "ex": "Ho la pelle secca."
+    },
+    {
+      "it": "l'unghia",
+      "en": "nail (finger)",
+      "ex": "Mi taglio le unghie."
+    },
+    {
+      "it": "la gola",
+      "en": "throat",
+      "ex": "Mi fa male la gola."
+    },
+    {
+      "it": "il collo",
+      "en": "neck",
+      "ex": "Ho il collo rigido."
+    },
+    {
+      "it": "la spalla",
+      "en": "shoulder",
+      "ex": "Mi fa male la spalla."
+    },
+    {
+      "it": "il gomito",
+      "en": "elbow",
+      "ex": "Ho battuto il gomito."
+    },
+    {
+      "it": "il ginocchio",
+      "en": "knee",
+      "ex": "Mi fa male il ginocchio."
+    },
+    {
+      "it": "l'osso",
+      "en": "bone",
+      "ex": "Mi sono rotto un osso."
+    },
+    {
+      "it": "la tosse",
+      "en": "cough",
+      "ex": "Ho una brutta tosse."
+    },
+    {
+      "it": "il raffreddore",
+      "en": "cold (illness)",
+      "ex": "Ho preso il raffreddore."
+    },
+    {
+      "it": "la malattia",
+      "en": "illness / disease",
+      "ex": "È una malattia comune."
+    },
+    {
+      "it": "la ferita",
+      "en": "wound / injury",
+      "ex": "La ferita è leggera."
+    },
+    {
+      "it": "la cura",
+      "en": "cure / care",
+      "ex": "Seguo una cura nuova."
+    },
+    {
+      "it": "la ricetta",
+      "en": "prescription / recipe",
+      "ex": "Il medico mi dà la ricetta."
+    },
+    {
+      "it": "la pillola",
+      "en": "pill",
+      "ex": "Prendo una pillola al giorno."
+    },
+    {
+      "it": "il riposo",
+      "en": "rest",
+      "ex": "Ho bisogno di riposo."
+    },
+    {
+      "it": "il sorriso",
+      "en": "smile",
+      "ex": "Ha un bel sorriso."
+    },
+    {
+      "it": "la gioia",
+      "en": "joy",
+      "ex": "Provo una grande gioia."
+    },
+    {
+      "it": "la rabbia",
+      "en": "anger",
+      "ex": "Sento molta rabbia."
+    },
+    {
+      "it": "la tristezza",
+      "en": "sadness",
+      "ex": "C'è tristezza nei suoi occhi."
+    },
+    {
+      "it": "la sorpresa",
+      "en": "surprise",
+      "ex": "Che bella sorpresa!"
+    },
+    {
+      "it": "il coraggio",
+      "en": "courage",
+      "ex": "Ci vuole coraggio."
+    },
+    {
+      "it": "la pazienza",
+      "en": "patience",
+      "ex": "Ci vuole pazienza."
+    },
+    {
+      "it": "la fiducia",
+      "en": "trust / confidence",
+      "ex": "Ho fiducia in te."
+    },
+    {
+      "it": "il ricordo",
+      "en": "memory / souvenir",
+      "ex": "È un bel ricordo."
+    },
+    {
+      "it": "la memoria",
+      "en": "memory (faculty)",
+      "ex": "Ho una buona memoria."
+    },
+    {
+      "it": "l'attenzione",
+      "en": "attention",
+      "ex": "Fai attenzione!"
+    },
+    {
+      "it": "il senso",
+      "en": "sense / meaning",
+      "ex": "Non ha senso."
+    },
+    {
+      "it": "il significato",
+      "en": "meaning",
+      "ex": "Qual è il significato?"
+    },
+    {
+      "it": "lo scopo",
+      "en": "purpose / aim",
+      "ex": "Qual è lo scopo?"
+    },
+    {
+      "it": "il risultato",
+      "en": "result",
+      "ex": "Il risultato è positivo."
+    },
+    {
+      "it": "l'effetto",
+      "en": "effect",
+      "ex": "L'effetto è immediato."
+    },
+    {
+      "it": "il valore",
+      "en": "value",
+      "ex": "Ha un grande valore."
+    },
+    {
+      "it": "la qualità",
+      "en": "quality",
+      "ex": "La qualità è ottima."
+    },
+    {
+      "it": "la quantità",
+      "en": "quantity / amount",
+      "ex": "Una piccola quantità basta."
+    },
+    {
+      "it": "il livello",
+      "en": "level",
+      "ex": "Il livello è alto."
+    },
+    {
+      "it": "la fine",
+      "en": "end",
+      "ex": "Alla fine tutto va bene."
+    },
+    {
+      "it": "l'inizio",
+      "en": "beginning",
+      "ex": "All'inizio è difficile."
+    },
+    {
+      "it": "il futuro",
+      "en": "future",
+      "ex": "Penso al futuro."
+    },
+    {
+      "it": "il passato",
+      "en": "past",
+      "ex": "Non vivere nel passato."
+    },
+    {
+      "it": "l'età",
+      "en": "age",
+      "ex": "Qual è la tua età?"
+    },
+    {
+      "it": "la data",
+      "en": "date",
+      "ex": "Qual è la data di oggi?"
+    },
+    {
+      "it": "l'orologio",
+      "en": "clock / watch",
+      "ex": "Guardo sempre l'orologio."
+    },
+    {
+      "it": "l'appuntamento",
+      "en": "appointment",
+      "ex": "Ho un appuntamento alle dieci."
+    },
+    {
+      "it": "l'orario",
+      "en": "timetable / schedule",
+      "ex": "Controllo l'orario dei treni."
+    },
+    {
+      "it": "il ritardo",
+      "en": "delay",
+      "ex": "Il treno è in ritardo."
+    },
+    {
+      "it": "il turno",
+      "en": "turn / shift",
+      "ex": "È il mio turno."
+    },
+    {
+      "it": "la fila",
+      "en": "queue / row",
+      "ex": "C'è una lunga fila."
+    },
+    {
+      "it": "la primavera",
+      "en": "spring",
+      "ex": "In primavera fioriscono gli alberi."
+    },
+    {
+      "it": "l'estate",
+      "en": "summer",
+      "ex": "In estate vado al mare."
+    },
+    {
+      "it": "l'autunno",
+      "en": "autumn",
+      "ex": "In autunno cadono le foglie."
+    },
+    {
+      "it": "l'inverno",
+      "en": "winter",
+      "ex": "In inverno nevica."
+    },
+    {
+      "it": "la stagione",
+      "en": "season",
+      "ex": "La mia stagione preferita è l'estate."
+    },
+    {
+      "it": "la temperatura",
+      "en": "temperature",
+      "ex": "La temperatura scende."
+    },
+    {
+      "it": "l'ombra",
+      "en": "shade / shadow",
+      "ex": "Mi siedo all'ombra."
+    },
+    {
+      "it": "la terra",
+      "en": "earth / ground / land",
+      "ex": "La terra è bagnata."
+    },
+    {
+      "it": "la spiaggia",
+      "en": "beach",
+      "ex": "La spiaggia è affollata."
+    },
+    {
+      "it": "l'isola",
+      "en": "island",
+      "ex": "L'isola è bellissima."
+    },
+    {
+      "it": "l'onda",
+      "en": "wave",
+      "ex": "Le onde sono alte oggi."
+    },
+    {
+      "it": "la pianta",
+      "en": "plant",
+      "ex": "Bagno le piante ogni giorno."
+    },
+    {
+      "it": "l'ape",
+      "en": "bee",
+      "ex": "L'ape vola sul fiore."
+    },
+    {
+      "it": "l'orso",
+      "en": "bear",
+      "ex": "L'orso dorme d'inverno."
+    },
+    {
+      "it": "l'aria",
+      "en": "air",
+      "ex": "Ho bisogno di aria fresca."
+    },
+    {
+      "it": "la fame",
+      "en": "hunger",
+      "ex": "Ho molta fame."
+    },
+    {
+      "it": "la sete",
+      "en": "thirst",
+      "ex": "Ho sete, voglio dell'acqua."
+    },
+    {
+      "it": "l'odore",
+      "en": "smell",
+      "ex": "Che buon odore!"
+    },
+    {
+      "it": "il rumore",
+      "en": "noise",
+      "ex": "C'è troppo rumore."
+    },
+    {
+      "it": "la voce",
+      "en": "voice",
+      "ex": "Ha una bella voce."
+    },
+    {
+      "it": "il pasto",
+      "en": "meal",
+      "ex": "Il pranzo è il pasto principale."
+    },
+    {
+      "it": "la torta",
+      "en": "cake",
+      "ex": "La torta è in forno."
+    },
+    {
+      "it": "il riso",
+      "en": "rice",
+      "ex": "Cucino il riso stasera."
+    },
+    {
+      "it": "l'olio",
+      "en": "oil",
+      "ex": "Aggiungo un po' d'olio."
+    },
+    {
+      "it": "la birra",
+      "en": "beer",
+      "ex": "Vorrei una birra fredda."
+    },
+    {
+      "it": "l'uva",
+      "en": "grapes",
+      "ex": "L'uva è matura."
+    },
+    {
+      "it": "l'aglio",
+      "en": "garlic",
+      "ex": "Metto uno spicchio d'aglio."
+    },
+    {
+      "it": "il pollo",
+      "en": "chicken (meat)",
+      "ex": "Cucino il pollo al forno."
+    },
+    {
+      "it": "il panino",
+      "en": "sandwich / bread roll",
+      "ex": "Mangio un panino al volo."
+    },
+    {
+      "it": "il progetto",
+      "en": "project",
+      "ex": "Lavoro a un nuovo progetto."
+    },
+    {
+      "it": "la prova",
+      "en": "test / proof",
+      "ex": "Questa è la prova."
+    },
+    {
+      "it": "la materia",
+      "en": "subject / matter",
+      "ex": "La mia materia preferita è storia."
+    },
+    {
+      "it": "la classe",
+      "en": "class / classroom",
+      "ex": "La classe è piena."
+    },
+    {
+      "it": "l'articolo",
+      "en": "article",
+      "ex": "Leggo un articolo interessante."
+    },
+    {
+      "it": "la radio",
+      "en": "radio",
+      "ex": "Ascolto la radio in macchina."
+    },
+    {
+      "it": "il programma",
+      "en": "programme",
+      "ex": "Guardo il mio programma preferito."
+    },
+    {
+      "it": "la batteria",
+      "en": "battery",
+      "ex": "La batteria è scarica."
+    },
+    {
+      "it": "l'applicazione",
+      "en": "app",
+      "ex": "Scarico una nuova applicazione."
+    },
+    {
+      "it": "la password",
+      "en": "password",
+      "ex": "Ho dimenticato la password."
+    },
+    {
+      "it": "la velocità",
+      "en": "speed",
+      "ex": "Riduci la velocità."
+    },
+    {
+      "it": "la bicicletta",
+      "en": "bicycle",
+      "ex": "Vado al lavoro in bicicletta."
+    },
+    {
+      "it": "la moto",
+      "en": "motorbike",
+      "ex": "Gira in città con la moto."
+    },
+    {
+      "it": "la nave",
+      "en": "ship",
+      "ex": "La nave parte alle otto."
+    },
+    {
+      "it": "l'aereo",
+      "en": "aeroplane",
+      "ex": "L'aereo decolla adesso."
+    },
+    {
+      "it": "il volo",
+      "en": "flight",
+      "ex": "Il volo è in ritardo."
+    },
+    {
+      "it": "il motore",
+      "en": "engine / motor",
+      "ex": "Il motore non parte."
+    },
+    {
+      "it": "la benzina",
+      "en": "petrol / gas",
+      "ex": "Devo fare benzina."
+    },
+    {
+      "it": "il passaporto",
+      "en": "passport",
+      "ex": "Porta il passaporto in viaggio."
+    },
+    {
+      "it": "la mappa",
+      "en": "map",
+      "ex": "Guardo la mappa della città."
+    },
+    {
+      "it": "allegro",
+      "en": "cheerful / merry",
+      "ex": "È sempre allegro."
+    },
+    {
+      "it": "nervoso",
+      "en": "nervous / edgy",
+      "ex": "Sono un po' nervoso oggi."
+    },
+    {
+      "it": "calmo",
+      "en": "calm",
+      "ex": "Il mare è calmo."
+    },
+    {
+      "it": "sorpreso",
+      "en": "surprised",
+      "ex": "Sono sorpreso di vederti."
+    },
+    {
+      "it": "orgoglioso",
+      "en": "proud",
+      "ex": "Sono orgoglioso di te."
+    },
+    {
+      "it": "coraggioso",
+      "en": "brave",
+      "ex": "Sei stato coraggioso."
+    },
+    {
+      "it": "intelligente",
+      "en": "intelligent",
+      "ex": "È una ragazza intelligente."
+    },
+    {
+      "it": "bravo",
+      "en": "good / skilled",
+      "ex": "Sei molto bravo."
+    },
+    {
+      "it": "cattivo",
+      "en": "bad / naughty",
+      "ex": "È un cattivo esempio."
+    },
+    {
+      "it": "educato",
+      "en": "polite",
+      "ex": "È un ragazzo educato."
+    },
+    {
+      "it": "onesto",
+      "en": "honest",
+      "ex": "È una persona onesta."
+    },
+    {
+      "it": "generoso",
+      "en": "generous",
+      "ex": "Sei molto generoso."
+    },
+    {
+      "it": "serio",
+      "en": "serious",
+      "ex": "È una cosa seria."
+    },
+    {
+      "it": "divertente",
+      "en": "funny / amusing",
+      "ex": "Il film è divertente."
+    },
+    {
+      "it": "utile",
+      "en": "useful",
+      "ex": "È un consiglio utile."
+    },
+    {
+      "it": "inutile",
+      "en": "useless",
+      "ex": "È inutile aspettare."
+    },
+    {
+      "it": "necessario",
+      "en": "necessary",
+      "ex": "Non è necessario."
+    },
+    {
+      "it": "diverso",
+      "en": "different",
+      "ex": "È un caso diverso."
+    },
+    {
+      "it": "simile",
+      "en": "similar",
+      "ex": "Sono molto simili."
+    },
+    {
+      "it": "uguale",
+      "en": "equal / same",
+      "ex": "Per me è uguale."
+    },
+    {
+      "it": "perfetto",
+      "en": "perfect",
+      "ex": "Tutto è perfetto."
+    },
+    {
+      "it": "speciale",
+      "en": "special",
+      "ex": "È un giorno speciale."
+    },
+    {
+      "it": "comune",
+      "en": "common",
+      "ex": "È un problema comune."
+    },
+    {
+      "it": "pubblico",
+      "en": "public",
+      "ex": "È un parco pubblico."
+    },
+    {
+      "it": "privato",
+      "en": "private",
+      "ex": "È una proprietà privata."
+    },
+    {
+      "it": "principale",
+      "en": "main",
+      "ex": "Questa è la strada principale."
+    },
+    {
+      "it": "profondo",
+      "en": "deep",
+      "ex": "Il lago è profondo."
+    },
+    {
+      "it": "completo",
+      "en": "complete / full",
+      "ex": "L'albergo è al completo."
+    },
+    {
+      "it": "esatto",
+      "en": "exact",
+      "ex": "È l'ora esatta."
+    },
+    {
+      "it": "chiaro",
+      "en": "clear / light",
+      "ex": "È tutto chiaro adesso."
+    },
+    {
+      "it": "scuro",
+      "en": "dark",
+      "ex": "La stanza è troppo scura."
+    },
+    {
+      "it": "morbido",
+      "en": "soft",
+      "ex": "Il cuscino è morbido."
+    },
+    {
+      "it": "duro",
+      "en": "hard / tough",
+      "ex": "Il pane è duro."
+    },
+    {
+      "it": "maturo",
+      "en": "ripe / mature",
+      "ex": "La frutta è matura."
+    },
+    {
+      "it": "piccante",
+      "en": "spicy",
+      "ex": "Il piatto è piccante."
+    },
+    {
+      "it": "delizioso",
+      "en": "delicious",
+      "ex": "Il dolce è delizioso."
+    },
+    {
+      "it": "economico",
+      "en": "cheap / economical",
+      "ex": "È un ristorante economico."
+    },
+    {
+      "it": "moderno",
+      "en": "modern",
+      "ex": "È un palazzo moderno."
+    },
+    {
+      "it": "prossimo",
+      "en": "next",
+      "ex": "Scendo alla prossima fermata."
+    },
+    {
+      "it": "scorso",
+      "en": "last / past",
+      "ex": "L'anno scorso ero a Roma."
+    },
+    {
+      "it": "raramente",
+      "en": "rarely",
+      "ex": "Esco raramente la sera."
+    },
+    {
+      "it": "lentamente",
+      "en": "slowly",
+      "ex": "Cammina lentamente."
+    },
+    {
+      "it": "velocemente",
+      "en": "quickly",
+      "ex": "Mangia velocemente."
+    },
+    {
+      "it": "completamente",
+      "en": "completely",
+      "ex": "Sono completamente d'accordo."
+    },
+    {
+      "it": "probabilmente",
+      "en": "probably",
+      "ex": "Probabilmente arrivo tardi."
+    },
+    {
+      "it": "insomma",
+      "en": "in short / well",
+      "ex": "Insomma, è andata bene."
+    },
+    {
+      "it": "cioè",
+      "en": "that is / I mean",
+      "ex": "Arrivo presto, cioè verso le sette."
+    },
+    {
+      "it": "infatti",
+      "en": "in fact / indeed",
+      "ex": "Infatti, avevi ragione."
+    },
+    {
+      "it": "inoltre",
+      "en": "moreover / besides",
+      "ex": "Inoltre, è molto utile."
+    },
+    {
+      "it": "tuttavia",
+      "en": "however",
+      "ex": "È caro, tuttavia lo compro."
+    },
+    {
+      "it": "però",
+      "en": "but / however",
+      "ex": "Mi piace, però costa troppo."
+    },
+    {
+      "it": "proprio",
+      "en": "just / really",
+      "ex": "È proprio quello che volevo."
+    },
+    {
+      "it": "nemmeno",
+      "en": "not even",
+      "ex": "Non l'ho nemmeno visto."
+    },
+    {
+      "it": "fino a",
+      "en": "until / up to",
+      "ex": "Lavoro fino a tardi."
+    },
+    {
+      "it": "dunque",
+      "en": "so / therefore",
+      "ex": "Dunque, cominciamo."
     }
   ]
 }
