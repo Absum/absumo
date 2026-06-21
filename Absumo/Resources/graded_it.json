@@ -579,10 +579,187 @@
       ]
     },
     {
+      "id": "i-colori",
+      "title": "I colori",
+      "level": "A1",
+      "order": 8,
+      "text": "Il cielo è azzurro e l'erba è verde. Mi piace il rosso. Di che colore è la tua macchina? È bianca.",
+      "translation": "The sky is blue and the grass is green. I like red. What colour is your car? It's white.",
+      "audio": "i-colori.m4a",
+      "glossary": [
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "cielo",
+          "lemma": "cielo",
+          "en": "sky"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "azzurro",
+          "lemma": "azzurro",
+          "en": "light blue"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "l'erba",
+          "lemma": "erba",
+          "en": "the grass"
+        },
+        {
+          "word": "verde",
+          "lemma": "verde",
+          "en": "green"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "to me"
+        },
+        {
+          "word": "piace",
+          "lemma": "piacere",
+          "en": "is pleasing (mi piace = I like)"
+        },
+        {
+          "word": "rosso",
+          "lemma": "rosso",
+          "en": "red"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "of"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "what / which"
+        },
+        {
+          "word": "colore",
+          "lemma": "colore",
+          "en": "colour"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "tua",
+          "lemma": "tuo",
+          "en": "your"
+        },
+        {
+          "word": "macchina",
+          "lemma": "macchina",
+          "en": "car"
+        },
+        {
+          "word": "bianca",
+          "lemma": "bianco",
+          "en": "white"
+        }
+      ]
+    },
+    {
+      "id": "le-stagioni",
+      "title": "Le stagioni",
+      "level": "A1",
+      "order": 9,
+      "text": "L'anno ha quattro stagioni: primavera, estate, autunno e inverno. La primavera è la mia stagione preferita.",
+      "translation": "The year has four seasons: spring, summer, autumn and winter. Spring is my favourite season.",
+      "audio": "le-stagioni.m4a",
+      "glossary": [
+        {
+          "word": "l'anno",
+          "lemma": "anno",
+          "en": "the year"
+        },
+        {
+          "word": "ha",
+          "lemma": "avere",
+          "en": "has"
+        },
+        {
+          "word": "quattro",
+          "lemma": "quattro",
+          "en": "four"
+        },
+        {
+          "word": "stagioni",
+          "lemma": "stagione",
+          "en": "seasons"
+        },
+        {
+          "word": "primavera",
+          "lemma": "primavera",
+          "en": "spring"
+        },
+        {
+          "word": "estate",
+          "lemma": "estate",
+          "en": "summer"
+        },
+        {
+          "word": "autunno",
+          "lemma": "autunno",
+          "en": "autumn"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "inverno",
+          "lemma": "inverno",
+          "en": "winter"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "mia",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "stagione",
+          "lemma": "stagione",
+          "en": "season"
+        },
+        {
+          "word": "preferita",
+          "lemma": "preferito",
+          "en": "favourite"
+        }
+      ]
+    },
+    {
       "id": "il-tempo",
       "title": "Il tempo",
       "level": "A2",
-      "order": 8,
+      "order": 10,
       "text": "Oggi fa bello e c'è il sole. Domani forse piove. In inverno fa freddo, in estate fa caldo.",
       "translation": "Today the weather is nice and it's sunny. Tomorrow maybe it rains. In winter it's cold, in summer it's hot.",
       "audio": "il-tempo.m4a",
@@ -668,7 +845,7 @@
       "id": "fare-la-spesa",
       "title": "Fare la spesa",
       "level": "A2",
-      "order": 9,
+      "order": 11,
       "text": "Vado al supermercato a fare la spesa. Compro il pane, il latte e la frutta. Quanto costa? Costa tre euro.",
       "translation": "I'm going to the supermarket to do the shopping. I buy bread, milk and fruit. How much does it cost? It costs three euros.",
       "audio": "fare-la-spesa.m4a",
@@ -764,7 +941,7 @@
       "id": "la-mia-giornata",
       "title": "La mia giornata",
       "level": "A2",
-      "order": 10,
+      "order": 12,
       "text": "La mattina mi sveglio alle sette. Lavoro fino alle cinque. La sera leggo un libro o guardo la televisione.",
       "translation": "In the morning I wake up at seven. I work until five. In the evening I read a book or watch television.",
       "audio": "la-mia-giornata.m4a",
@@ -855,7 +1032,7 @@
       "id": "alla-stazione",
       "title": "Alla stazione",
       "level": "A2",
-      "order": 11,
+      "order": 13,
       "text": "Scusi, dov'è la stazione? È vicino, a destra. A che ora parte il treno per Roma? Alle dieci e mezza.",
       "translation": "Excuse me, where is the station? It's nearby, on the right. What time does the train to Rome leave? At half past ten.",
       "audio": "alla-stazione.m4a",
@@ -956,7 +1133,7 @@
       "id": "le-indicazioni",
       "title": "Le indicazioni",
       "level": "A2",
-      "order": 12,
+      "order": 14,
       "text": "Come arrivo al museo? Vai sempre dritto, poi gira a sinistra. Il museo è davanti alla chiesa.",
       "translation": "How do I get to the museum? Go straight ahead, then turn left. The museum is in front of the church.",
       "audio": "le-indicazioni.m4a",
@@ -1047,7 +1224,7 @@
       "id": "il-fine-settimana",
       "title": "Il fine settimana",
       "level": "A2",
-      "order": 13,
+      "order": 15,
       "text": "Cosa fai questo fine settimana? Sabato gioco a calcio con gli amici. Domenica vado al mare se fa bel tempo.",
       "translation": "What are you doing this weekend? On Saturday I play football with friends. On Sunday I go to the sea if the weather is nice.",
       "audio": "il-fine-settimana.m4a",
@@ -1151,183 +1328,6 @@
           "word": "tempo",
           "lemma": "tempo",
           "en": "weather"
-        }
-      ]
-    },
-    {
-      "id": "i-colori",
-      "title": "I colori",
-      "level": "A1",
-      "order": 14,
-      "text": "Il cielo è azzurro e l'erba è verde. Mi piace il rosso. Di che colore è la tua macchina? È bianca.",
-      "translation": "The sky is blue and the grass is green. I like red. What colour is your car? It's white.",
-      "audio": "i-colori.m4a",
-      "glossary": [
-        {
-          "word": "il",
-          "lemma": "il",
-          "en": "the"
-        },
-        {
-          "word": "cielo",
-          "lemma": "cielo",
-          "en": "sky"
-        },
-        {
-          "word": "è",
-          "lemma": "essere",
-          "en": "is"
-        },
-        {
-          "word": "azzurro",
-          "lemma": "azzurro",
-          "en": "light blue"
-        },
-        {
-          "word": "e",
-          "lemma": "e",
-          "en": "and"
-        },
-        {
-          "word": "l'erba",
-          "lemma": "erba",
-          "en": "the grass"
-        },
-        {
-          "word": "verde",
-          "lemma": "verde",
-          "en": "green"
-        },
-        {
-          "word": "mi",
-          "lemma": "mi",
-          "en": "to me"
-        },
-        {
-          "word": "piace",
-          "lemma": "piacere",
-          "en": "is pleasing (mi piace = I like)"
-        },
-        {
-          "word": "rosso",
-          "lemma": "rosso",
-          "en": "red"
-        },
-        {
-          "word": "di",
-          "lemma": "di",
-          "en": "of"
-        },
-        {
-          "word": "che",
-          "lemma": "che",
-          "en": "what / which"
-        },
-        {
-          "word": "colore",
-          "lemma": "colore",
-          "en": "colour"
-        },
-        {
-          "word": "la",
-          "lemma": "la",
-          "en": "the"
-        },
-        {
-          "word": "tua",
-          "lemma": "tuo",
-          "en": "your"
-        },
-        {
-          "word": "macchina",
-          "lemma": "macchina",
-          "en": "car"
-        },
-        {
-          "word": "bianca",
-          "lemma": "bianco",
-          "en": "white"
-        }
-      ]
-    },
-    {
-      "id": "le-stagioni",
-      "title": "Le stagioni",
-      "level": "A1",
-      "order": 15,
-      "text": "L'anno ha quattro stagioni: primavera, estate, autunno e inverno. La primavera è la mia stagione preferita.",
-      "translation": "The year has four seasons: spring, summer, autumn and winter. Spring is my favourite season.",
-      "audio": "le-stagioni.m4a",
-      "glossary": [
-        {
-          "word": "l'anno",
-          "lemma": "anno",
-          "en": "the year"
-        },
-        {
-          "word": "ha",
-          "lemma": "avere",
-          "en": "has"
-        },
-        {
-          "word": "quattro",
-          "lemma": "quattro",
-          "en": "four"
-        },
-        {
-          "word": "stagioni",
-          "lemma": "stagione",
-          "en": "seasons"
-        },
-        {
-          "word": "primavera",
-          "lemma": "primavera",
-          "en": "spring"
-        },
-        {
-          "word": "estate",
-          "lemma": "estate",
-          "en": "summer"
-        },
-        {
-          "word": "autunno",
-          "lemma": "autunno",
-          "en": "autumn"
-        },
-        {
-          "word": "e",
-          "lemma": "e",
-          "en": "and"
-        },
-        {
-          "word": "inverno",
-          "lemma": "inverno",
-          "en": "winter"
-        },
-        {
-          "word": "la",
-          "lemma": "la",
-          "en": "the"
-        },
-        {
-          "word": "è",
-          "lemma": "essere",
-          "en": "is"
-        },
-        {
-          "word": "mia",
-          "lemma": "mio",
-          "en": "my"
-        },
-        {
-          "word": "stagione",
-          "lemma": "stagione",
-          "en": "season"
-        },
-        {
-          "word": "preferita",
-          "lemma": "preferito",
-          "en": "favourite"
         }
       ]
     },
@@ -2065,202 +2065,10 @@
       ]
     },
     {
-      "id": "una-ricetta",
-      "title": "Una ricetta",
-      "level": "B1",
-      "order": 24,
-      "text": "Per fare la pasta al pomodoro, metti l'acqua a bollire. Aggiungi il sale e la pasta. Dopo dieci minuti è pronta.",
-      "translation": "To make pasta with tomato, put the water on to boil. Add the salt and the pasta. After ten minutes it's ready.",
-      "audio": "una-ricetta.m4a",
-      "glossary": [
-        {
-          "word": "per",
-          "lemma": "per",
-          "en": "to / in order to"
-        },
-        {
-          "word": "fare",
-          "lemma": "fare",
-          "en": "to make"
-        },
-        {
-          "word": "la",
-          "lemma": "la",
-          "en": "the"
-        },
-        {
-          "word": "pasta",
-          "lemma": "pasta",
-          "en": "pasta"
-        },
-        {
-          "word": "al",
-          "lemma": "a",
-          "en": "with the (a + il)"
-        },
-        {
-          "word": "pomodoro",
-          "lemma": "pomodoro",
-          "en": "tomato"
-        },
-        {
-          "word": "metti",
-          "lemma": "mettere",
-          "en": "put (you)"
-        },
-        {
-          "word": "l'acqua",
-          "lemma": "acqua",
-          "en": "the water"
-        },
-        {
-          "word": "a",
-          "lemma": "a",
-          "en": "to"
-        },
-        {
-          "word": "bollire",
-          "lemma": "bollire",
-          "en": "to boil"
-        },
-        {
-          "word": "aggiungi",
-          "lemma": "aggiungere",
-          "en": "add (you)"
-        },
-        {
-          "word": "il",
-          "lemma": "il",
-          "en": "the"
-        },
-        {
-          "word": "sale",
-          "lemma": "sale",
-          "en": "salt"
-        },
-        {
-          "word": "e",
-          "lemma": "e",
-          "en": "and"
-        },
-        {
-          "word": "dopo",
-          "lemma": "dopo",
-          "en": "after"
-        },
-        {
-          "word": "dieci",
-          "lemma": "dieci",
-          "en": "ten"
-        },
-        {
-          "word": "minuti",
-          "lemma": "minuto",
-          "en": "minutes"
-        },
-        {
-          "word": "è",
-          "lemma": "essere",
-          "en": "is"
-        },
-        {
-          "word": "pronta",
-          "lemma": "pronto",
-          "en": "ready"
-        }
-      ]
-    },
-    {
-      "id": "le-vacanze",
-      "title": "Le vacanze",
-      "level": "B1",
-      "order": 25,
-      "text": "L'estate scorsa sono andato in Sicilia. Ho visitato molte città e ho mangiato benissimo. Voglio tornarci presto.",
-      "translation": "Last summer I went to Sicily. I visited many cities and ate very well. I want to go back there soon.",
-      "audio": "le-vacanze.m4a",
-      "glossary": [
-        {
-          "word": "l'estate",
-          "lemma": "estate",
-          "en": "the summer"
-        },
-        {
-          "word": "scorsa",
-          "lemma": "scorso",
-          "en": "last / past"
-        },
-        {
-          "word": "sono",
-          "lemma": "essere",
-          "en": "I am (here: I have, for the past tense)"
-        },
-        {
-          "word": "andato",
-          "lemma": "andare",
-          "en": "gone (sono andato = I went)"
-        },
-        {
-          "word": "in",
-          "lemma": "in",
-          "en": "to / in"
-        },
-        {
-          "word": "ho",
-          "lemma": "avere",
-          "en": "I have (here: forms the past tense)"
-        },
-        {
-          "word": "visitato",
-          "lemma": "visitare",
-          "en": "visited"
-        },
-        {
-          "word": "molte",
-          "lemma": "molto",
-          "en": "many"
-        },
-        {
-          "word": "città",
-          "lemma": "città",
-          "en": "cities"
-        },
-        {
-          "word": "e",
-          "lemma": "e",
-          "en": "and"
-        },
-        {
-          "word": "mangiato",
-          "lemma": "mangiare",
-          "en": "eaten"
-        },
-        {
-          "word": "benissimo",
-          "lemma": "benissimo",
-          "en": "very well"
-        },
-        {
-          "word": "voglio",
-          "lemma": "volere",
-          "en": "I want"
-        },
-        {
-          "word": "tornarci",
-          "lemma": "tornare",
-          "en": "to go back there (tornare + ci)"
-        },
-        {
-          "word": "presto",
-          "lemma": "presto",
-          "en": "soon"
-        }
-      ]
-    },
-    {
       "id": "al-mercato",
       "title": "Al mercato",
       "level": "A2",
-      "order": 26,
+      "order": 24,
       "text": "Stamattina vado al mercato. Compro la frutta e la verdura fresca. Quanto costa un chilo di mele? Due euro e cinquanta. Prendo anche un po' di pomodori.",
       "translation": "This morning I'm going to the market. I buy fresh fruit and vegetables. How much does a kilo of apples cost? Two euros fifty. I also take a few tomatoes.",
       "audio": "al-mercato.m4a",
@@ -2386,7 +2194,7 @@
       "id": "in-farmacia",
       "title": "In farmacia",
       "level": "A2",
-      "order": 27,
+      "order": 25,
       "text": "Buongiorno, ho mal di gola e un po' di tosse. Avete qualcosa? Sì, prenda questo sciroppo due volte al giorno. Grazie, quanto le devo?",
       "translation": "Good morning, I have a sore throat and a bit of a cough. Do you have something? Yes, take this syrup twice a day. Thanks, how much do I owe you?",
       "audio": "in-farmacia.m4a",
@@ -2512,7 +2320,7 @@
       "id": "prendere-lautobus",
       "title": "Prendere l'autobus",
       "level": "A2",
-      "order": 28,
+      "order": 26,
       "text": "Scusi, quale autobus va in centro? Il numero dodici. La fermata è laggiù, vicino al semaforo. Dove compro il biglietto? Dal giornalaio.",
       "translation": "Excuse me, which bus goes to the centre? Number twelve. The stop is over there, near the traffic light. Where do I buy the ticket? At the newsstand.",
       "audio": "prendere-lautobus.m4a",
@@ -2625,10 +2433,2902 @@
       ]
     },
     {
+      "id": "in-banca",
+      "title": "In banca",
+      "level": "A2",
+      "order": 27,
+      "text": "Buongiorno, vorrei aprire un conto corrente. Ha un documento di identità e il codice fiscale? Sì, ho la carta d'identità e la tessera sanitaria. Perfetto, compili questo modulo e firmi qui in basso.",
+      "translation": "Good morning, I would like to open a checking account. Do you have an ID document and the tax code? Yes, I have my identity card and health card. Perfect, fill out this form and sign here at the bottom.",
+      "audio": "in-banca.m4a",
+      "glossary": [
+        {
+          "word": "banca",
+          "lemma": "banca",
+          "en": "bank"
+        },
+        {
+          "word": "vorrei",
+          "lemma": "volere",
+          "en": "I would like"
+        },
+        {
+          "word": "aprire",
+          "lemma": "aprire",
+          "en": "to open"
+        },
+        {
+          "word": "conto",
+          "lemma": "conto",
+          "en": "account"
+        },
+        {
+          "word": "corrente",
+          "lemma": "corrente",
+          "en": "current (checking)"
+        },
+        {
+          "word": "ha",
+          "lemma": "avere",
+          "en": "you have / he has"
+        },
+        {
+          "word": "documento",
+          "lemma": "documento",
+          "en": "document"
+        },
+        {
+          "word": "identità",
+          "lemma": "identità",
+          "en": "identity"
+        },
+        {
+          "word": "codice",
+          "lemma": "codice",
+          "en": "code"
+        },
+        {
+          "word": "fiscale",
+          "lemma": "fiscale",
+          "en": "fiscal / tax"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have"
+        },
+        {
+          "word": "carta",
+          "lemma": "carta",
+          "en": "card"
+        },
+        {
+          "word": "tessera",
+          "lemma": "tessera",
+          "en": "card / pass"
+        },
+        {
+          "word": "sanitaria",
+          "lemma": "sanitario",
+          "en": "health (adj.)"
+        },
+        {
+          "word": "compili",
+          "lemma": "compilare",
+          "en": "fill out (you, formal)"
+        },
+        {
+          "word": "modulo",
+          "lemma": "modulo",
+          "en": "form"
+        },
+        {
+          "word": "firmi",
+          "lemma": "firmare",
+          "en": "sign (you, formal)"
+        },
+        {
+          "word": "qui",
+          "lemma": "qui",
+          "en": "here"
+        },
+        {
+          "word": "basso",
+          "lemma": "basso",
+          "en": "bottom / low"
+        }
+      ]
+    },
+    {
+      "id": "all-ufficio-postale",
+      "title": "All'ufficio postale",
+      "level": "A2",
+      "order": 28,
+      "text": "Devo spedire questo pacco a Milano. Quanto costa la spedizione raccomandata? Sono otto euro e cinquanta. Vorrei anche comprare cinque francobolli per le cartoline.",
+      "translation": "I have to send this package to Milan. How much does registered shipping cost? It's eight euros and fifty. I would also like to buy five stamps for the postcards.",
+      "audio": "all-ufficio-postale.m4a",
+      "glossary": [
+        {
+          "word": "ufficio",
+          "lemma": "ufficio",
+          "en": "office"
+        },
+        {
+          "word": "postale",
+          "lemma": "postale",
+          "en": "postal"
+        },
+        {
+          "word": "devo",
+          "lemma": "dovere",
+          "en": "I must / have to"
+        },
+        {
+          "word": "spedire",
+          "lemma": "spedire",
+          "en": "to send / ship"
+        },
+        {
+          "word": "pacco",
+          "lemma": "pacco",
+          "en": "package"
+        },
+        {
+          "word": "quanto",
+          "lemma": "quanto",
+          "en": "how much"
+        },
+        {
+          "word": "costa",
+          "lemma": "costare",
+          "en": "it costs"
+        },
+        {
+          "word": "spedizione",
+          "lemma": "spedizione",
+          "en": "shipment"
+        },
+        {
+          "word": "raccomandata",
+          "lemma": "raccomandato",
+          "en": "registered (mail)"
+        },
+        {
+          "word": "euro",
+          "lemma": "euro",
+          "en": "euro"
+        },
+        {
+          "word": "anche",
+          "lemma": "anche",
+          "en": "also"
+        },
+        {
+          "word": "comprare",
+          "lemma": "comprare",
+          "en": "to buy"
+        },
+        {
+          "word": "francobolli",
+          "lemma": "francobollo",
+          "en": "stamps"
+        },
+        {
+          "word": "cartoline",
+          "lemma": "cartolina",
+          "en": "postcards"
+        }
+      ]
+    },
+    {
+      "id": "dal-parrucchiere",
+      "title": "Dal parrucchiere",
+      "level": "A2",
+      "order": 29,
+      "text": "Vorrei tagliare i capelli, ma non troppo corti. Le faccio anche la piega? Sì, grazie, e vorrei coprire i capelli bianchi. Allora prima li lavo e poi facciamo la tinta.",
+      "translation": "I would like to cut my hair, but not too short. Shall I also blow-dry it for you? Yes, thanks, and I would like to cover the gray hairs. Then first I'll wash it and then we'll do the color.",
+      "audio": "dal-parrucchiere.m4a",
+      "glossary": [
+        {
+          "word": "dal",
+          "lemma": "da",
+          "en": "at the / to the"
+        },
+        {
+          "word": "parrucchiere",
+          "lemma": "parrucchiere",
+          "en": "hairdresser"
+        },
+        {
+          "word": "tagliare",
+          "lemma": "tagliare",
+          "en": "to cut"
+        },
+        {
+          "word": "capelli",
+          "lemma": "capello",
+          "en": "hair"
+        },
+        {
+          "word": "troppo",
+          "lemma": "troppo",
+          "en": "too (much)"
+        },
+        {
+          "word": "corti",
+          "lemma": "corto",
+          "en": "short"
+        },
+        {
+          "word": "faccio",
+          "lemma": "fare",
+          "en": "I do / make"
+        },
+        {
+          "word": "piega",
+          "lemma": "piega",
+          "en": "blow-dry / set"
+        },
+        {
+          "word": "coprire",
+          "lemma": "coprire",
+          "en": "to cover"
+        },
+        {
+          "word": "bianchi",
+          "lemma": "bianco",
+          "en": "white / gray"
+        },
+        {
+          "word": "allora",
+          "lemma": "allora",
+          "en": "then / so"
+        },
+        {
+          "word": "prima",
+          "lemma": "prima",
+          "en": "first"
+        },
+        {
+          "word": "li",
+          "lemma": "li",
+          "en": "them"
+        },
+        {
+          "word": "lavo",
+          "lemma": "lavare",
+          "en": "I wash"
+        },
+        {
+          "word": "poi",
+          "lemma": "poi",
+          "en": "then"
+        },
+        {
+          "word": "facciamo",
+          "lemma": "fare",
+          "en": "we do / make"
+        },
+        {
+          "word": "tinta",
+          "lemma": "tinta",
+          "en": "hair dye / color"
+        }
+      ]
+    },
+    {
+      "id": "in-lavanderia",
+      "title": "In lavanderia",
+      "level": "A2",
+      "order": 30,
+      "text": "Buongiorno, vorrei lavare questa giacca a secco. C'è una macchia di caffè sul colletto, riuscite a toglierla? Ci proviamo, ma non garantiamo nulla. Quando torno a ritirarla? Venerdì dopo le tre.",
+      "translation": "Good morning, I would like to dry-clean this jacket. There is a coffee stain on the collar, can you remove it? We'll try, but we can't guarantee anything. When do I come back to pick it up? Friday after three.",
+      "audio": "in-lavanderia.m4a",
+      "glossary": [
+        {
+          "word": "lavanderia",
+          "lemma": "lavanderia",
+          "en": "laundry / cleaner's"
+        },
+        {
+          "word": "lavare",
+          "lemma": "lavare",
+          "en": "to wash"
+        },
+        {
+          "word": "giacca",
+          "lemma": "giacca",
+          "en": "jacket"
+        },
+        {
+          "word": "secco",
+          "lemma": "secco",
+          "en": "dry"
+        },
+        {
+          "word": "macchia",
+          "lemma": "macchia",
+          "en": "stain"
+        },
+        {
+          "word": "caffè",
+          "lemma": "caffè",
+          "en": "coffee"
+        },
+        {
+          "word": "colletto",
+          "lemma": "colletto",
+          "en": "collar"
+        },
+        {
+          "word": "riuscite",
+          "lemma": "riuscire",
+          "en": "you (pl.) manage / can"
+        },
+        {
+          "word": "toglierla",
+          "lemma": "togliere",
+          "en": "to remove it"
+        },
+        {
+          "word": "proviamo",
+          "lemma": "provare",
+          "en": "we try"
+        },
+        {
+          "word": "garantiamo",
+          "lemma": "garantire",
+          "en": "we guarantee"
+        },
+        {
+          "word": "nulla",
+          "lemma": "nulla",
+          "en": "nothing"
+        },
+        {
+          "word": "torno",
+          "lemma": "tornare",
+          "en": "I return"
+        },
+        {
+          "word": "ritirarla",
+          "lemma": "ritirare",
+          "en": "to pick it up"
+        },
+        {
+          "word": "venerdì",
+          "lemma": "venerdì",
+          "en": "Friday"
+        },
+        {
+          "word": "dopo",
+          "lemma": "dopo",
+          "en": "after"
+        }
+      ]
+    },
+    {
+      "id": "fare-le-chiavi",
+      "title": "Fare le chiavi",
+      "level": "A2",
+      "order": 31,
+      "text": "Buongiorno, vorrei fare una copia di queste chiavi. Quante ne vuole? Due, per favore, una per mia moglie e una di riserva. Aspetti cinque minuti, le faccio subito.",
+      "translation": "Good morning, I would like to make a copy of these keys. How many do you want? Two, please, one for my wife and one as a spare. Wait five minutes, I'll make them for you right away.",
+      "audio": "fare-le-chiavi.m4a",
+      "glossary": [
+        {
+          "word": "fare",
+          "lemma": "fare",
+          "en": "to make / do"
+        },
+        {
+          "word": "chiavi",
+          "lemma": "chiave",
+          "en": "keys"
+        },
+        {
+          "word": "copia",
+          "lemma": "copia",
+          "en": "copy"
+        },
+        {
+          "word": "queste",
+          "lemma": "questo",
+          "en": "these"
+        },
+        {
+          "word": "quante",
+          "lemma": "quanto",
+          "en": "how many"
+        },
+        {
+          "word": "ne",
+          "lemma": "ne",
+          "en": "of them"
+        },
+        {
+          "word": "vuole",
+          "lemma": "volere",
+          "en": "you want (formal)"
+        },
+        {
+          "word": "due",
+          "lemma": "due",
+          "en": "two"
+        },
+        {
+          "word": "favore",
+          "lemma": "favore",
+          "en": "favor"
+        },
+        {
+          "word": "moglie",
+          "lemma": "moglie",
+          "en": "wife"
+        },
+        {
+          "word": "riserva",
+          "lemma": "riserva",
+          "en": "reserve / spare"
+        },
+        {
+          "word": "aspetti",
+          "lemma": "aspettare",
+          "en": "wait (you, formal)"
+        },
+        {
+          "word": "minuti",
+          "lemma": "minuto",
+          "en": "minutes"
+        },
+        {
+          "word": "faccio",
+          "lemma": "fare",
+          "en": "I make / do"
+        },
+        {
+          "word": "subito",
+          "lemma": "subito",
+          "en": "right away"
+        }
+      ]
+    },
+    {
+      "id": "pagare-le-bollette",
+      "title": "Pagare le bollette",
+      "level": "A2",
+      "order": 32,
+      "text": "Devo pagare la bolletta della luce, ma è già scaduta. Posso pagarla qui o devo andare in posta? Può pagarla allo sportello oppure online con la carta. Le conviene attivare l'addebito automatico per non dimenticarsene.",
+      "translation": "I have to pay the electricity bill, but it has already expired. Can I pay it here or do I have to go to the post office? You can pay it at the counter or online with the card. It's better for you to set up automatic debit so as not to forget.",
+      "audio": "pagare-le-bollette.m4a",
+      "glossary": [
+        {
+          "word": "pagare",
+          "lemma": "pagare",
+          "en": "to pay"
+        },
+        {
+          "word": "bollette",
+          "lemma": "bolletta",
+          "en": "bills"
+        },
+        {
+          "word": "bolletta",
+          "lemma": "bolletta",
+          "en": "bill"
+        },
+        {
+          "word": "luce",
+          "lemma": "luce",
+          "en": "electricity / light"
+        },
+        {
+          "word": "già",
+          "lemma": "già",
+          "en": "already"
+        },
+        {
+          "word": "scaduta",
+          "lemma": "scadere",
+          "en": "expired"
+        },
+        {
+          "word": "posso",
+          "lemma": "potere",
+          "en": "I can"
+        },
+        {
+          "word": "pagarla",
+          "lemma": "pagare",
+          "en": "to pay it"
+        },
+        {
+          "word": "andare",
+          "lemma": "andare",
+          "en": "to go"
+        },
+        {
+          "word": "posta",
+          "lemma": "posta",
+          "en": "post office / mail"
+        },
+        {
+          "word": "può",
+          "lemma": "potere",
+          "en": "you can (formal)"
+        },
+        {
+          "word": "sportello",
+          "lemma": "sportello",
+          "en": "counter / window"
+        },
+        {
+          "word": "oppure",
+          "lemma": "oppure",
+          "en": "or"
+        },
+        {
+          "word": "conviene",
+          "lemma": "convenire",
+          "en": "it is worthwhile"
+        },
+        {
+          "word": "attivare",
+          "lemma": "attivare",
+          "en": "to activate / set up"
+        },
+        {
+          "word": "addebito",
+          "lemma": "addebito",
+          "en": "debit / charge"
+        },
+        {
+          "word": "automatico",
+          "lemma": "automatico",
+          "en": "automatic"
+        },
+        {
+          "word": "dimenticarsene",
+          "lemma": "dimenticarsi",
+          "en": "to forget about it"
+        }
+      ]
+    },
+    {
+      "id": "in-biblioteca",
+      "title": "In biblioteca",
+      "level": "A2",
+      "order": 33,
+      "text": "Vorrei prendere in prestito questo libro di storia. Ha la tessera della biblioteca? Sì, eccola. Può tenerlo per un mese; se le serve di più, può rinnovare il prestito online.",
+      "translation": "I would like to borrow this history book. Do you have the library card? Yes, here it is. You can keep it for a month; if you need it longer, you can renew the loan online.",
+      "audio": "in-biblioteca.m4a",
+      "glossary": [
+        {
+          "word": "biblioteca",
+          "lemma": "biblioteca",
+          "en": "library"
+        },
+        {
+          "word": "prendere",
+          "lemma": "prendere",
+          "en": "to take"
+        },
+        {
+          "word": "prestito",
+          "lemma": "prestito",
+          "en": "loan"
+        },
+        {
+          "word": "libro",
+          "lemma": "libro",
+          "en": "book"
+        },
+        {
+          "word": "storia",
+          "lemma": "storia",
+          "en": "history / story"
+        },
+        {
+          "word": "tessera",
+          "lemma": "tessera",
+          "en": "card / pass"
+        },
+        {
+          "word": "eccola",
+          "lemma": "ecco",
+          "en": "here it is"
+        },
+        {
+          "word": "tenerlo",
+          "lemma": "tenere",
+          "en": "to keep it"
+        },
+        {
+          "word": "mese",
+          "lemma": "mese",
+          "en": "month"
+        },
+        {
+          "word": "serve",
+          "lemma": "servire",
+          "en": "it serves / you need"
+        },
+        {
+          "word": "più",
+          "lemma": "più",
+          "en": "more / longer"
+        },
+        {
+          "word": "rinnovare",
+          "lemma": "rinnovare",
+          "en": "to renew"
+        },
+        {
+          "word": "online",
+          "lemma": "online",
+          "en": "online"
+        }
+      ]
+    },
+    {
+      "id": "una-festa-di-compleanno",
+      "title": "Una festa di compleanno",
+      "level": "A2",
+      "order": 34,
+      "text": "Sabato è il compleanno di Giulia e organizziamo una festa a casa sua. Compriamo una torta al cioccolato e tante candeline. Quando arriva, tutti gridiamo \"Sorpresa!\" e lei è felicissima.",
+      "translation": "Saturday is Giulia's birthday and we are organizing a party at her house. We buy a chocolate cake and lots of candles. When she arrives, we all shout \"Surprise!\" and she is very happy.",
+      "audio": "una-festa-di-compleanno.m4a",
+      "glossary": [
+        {
+          "word": "sabato",
+          "lemma": "sabato",
+          "en": "Saturday"
+        },
+        {
+          "word": "compleanno",
+          "lemma": "compleanno",
+          "en": "birthday"
+        },
+        {
+          "word": "organizziamo",
+          "lemma": "organizzare",
+          "en": "we organize"
+        },
+        {
+          "word": "festa",
+          "lemma": "festa",
+          "en": "party"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "house / home"
+        },
+        {
+          "word": "sua",
+          "lemma": "suo",
+          "en": "her / his"
+        },
+        {
+          "word": "compriamo",
+          "lemma": "comprare",
+          "en": "we buy"
+        },
+        {
+          "word": "torta",
+          "lemma": "torta",
+          "en": "cake"
+        },
+        {
+          "word": "cioccolato",
+          "lemma": "cioccolato",
+          "en": "chocolate"
+        },
+        {
+          "word": "tante",
+          "lemma": "tanto",
+          "en": "many"
+        },
+        {
+          "word": "candeline",
+          "lemma": "candelina",
+          "en": "little candles"
+        },
+        {
+          "word": "quando",
+          "lemma": "quando",
+          "en": "when"
+        },
+        {
+          "word": "arriva",
+          "lemma": "arrivare",
+          "en": "she arrives"
+        },
+        {
+          "word": "tutti",
+          "lemma": "tutto",
+          "en": "everyone"
+        },
+        {
+          "word": "gridiamo",
+          "lemma": "gridare",
+          "en": "we shout"
+        },
+        {
+          "word": "sorpresa",
+          "lemma": "sorpresa",
+          "en": "surprise"
+        },
+        {
+          "word": "lei",
+          "lemma": "lei",
+          "en": "she"
+        },
+        {
+          "word": "felicissima",
+          "lemma": "felice",
+          "en": "very happy"
+        }
+      ]
+    },
+    {
+      "id": "la-partita-di-calcio",
+      "title": "La partita di calcio",
+      "level": "A2",
+      "order": 35,
+      "text": "Domenica vado allo stadio con i miei amici per vedere la partita di calcio. Indossiamo le maglie della nostra squadra e cantiamo durante tutta la partita. Alla fine vinciamo due a uno e festeggiamo insieme.",
+      "translation": "On Sunday I go to the stadium with my friends to watch the football match. We wear our team's jerseys and sing during the whole match. In the end we win two to one and celebrate together.",
+      "audio": "la-partita-di-calcio.m4a",
+      "glossary": [
+        {
+          "word": "domenica",
+          "lemma": "domenica",
+          "en": "Sunday"
+        },
+        {
+          "word": "vado",
+          "lemma": "andare",
+          "en": "I go"
+        },
+        {
+          "word": "stadio",
+          "lemma": "stadio",
+          "en": "stadium"
+        },
+        {
+          "word": "miei",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "vedere",
+          "lemma": "vedere",
+          "en": "to see / to watch"
+        },
+        {
+          "word": "partita",
+          "lemma": "partita",
+          "en": "match / game"
+        },
+        {
+          "word": "calcio",
+          "lemma": "calcio",
+          "en": "football / soccer"
+        },
+        {
+          "word": "indossiamo",
+          "lemma": "indossare",
+          "en": "we wear"
+        },
+        {
+          "word": "maglie",
+          "lemma": "maglia",
+          "en": "jerseys / shirts"
+        },
+        {
+          "word": "squadra",
+          "lemma": "squadra",
+          "en": "team"
+        },
+        {
+          "word": "cantiamo",
+          "lemma": "cantare",
+          "en": "we sing"
+        },
+        {
+          "word": "durante",
+          "lemma": "durante",
+          "en": "during"
+        },
+        {
+          "word": "fine",
+          "lemma": "fine",
+          "en": "end"
+        },
+        {
+          "word": "vinciamo",
+          "lemma": "vincere",
+          "en": "we win"
+        },
+        {
+          "word": "due",
+          "lemma": "due",
+          "en": "two"
+        },
+        {
+          "word": "uno",
+          "lemma": "uno",
+          "en": "one"
+        },
+        {
+          "word": "festeggiamo",
+          "lemma": "festeggiare",
+          "en": "we celebrate"
+        },
+        {
+          "word": "insieme",
+          "lemma": "insieme",
+          "en": "together"
+        }
+      ]
+    },
+    {
+      "id": "una-giornata-al-mare",
+      "title": "Una giornata al mare",
+      "level": "A2",
+      "order": 36,
+      "text": "D'estate mi piace passare una giornata al mare con la mia famiglia. Nuotiamo, prendiamo il sole e costruiamo castelli di sabbia. A mezzogiorno mangiamo un panino sotto l'ombrellone.",
+      "translation": "In summer I like to spend a day at the sea with my family. We swim, sunbathe and build sandcastles. At noon we eat a sandwich under the beach umbrella.",
+      "audio": "una-giornata-al-mare.m4a",
+      "glossary": [
+        {
+          "word": "d'estate",
+          "lemma": "estate",
+          "en": "in summer"
+        },
+        {
+          "word": "piace",
+          "lemma": "piacere",
+          "en": "(it) pleases / I like"
+        },
+        {
+          "word": "passare",
+          "lemma": "passare",
+          "en": "to spend / to pass"
+        },
+        {
+          "word": "giornata",
+          "lemma": "giornata",
+          "en": "day"
+        },
+        {
+          "word": "mare",
+          "lemma": "mare",
+          "en": "sea"
+        },
+        {
+          "word": "mia",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "famiglia",
+          "lemma": "famiglia",
+          "en": "family"
+        },
+        {
+          "word": "nuotiamo",
+          "lemma": "nuotare",
+          "en": "we swim"
+        },
+        {
+          "word": "prendiamo",
+          "lemma": "prendere",
+          "en": "we take"
+        },
+        {
+          "word": "sole",
+          "lemma": "sole",
+          "en": "sun (prendere il sole = to sunbathe)"
+        },
+        {
+          "word": "costruiamo",
+          "lemma": "costruire",
+          "en": "we build"
+        },
+        {
+          "word": "castelli",
+          "lemma": "castello",
+          "en": "castles"
+        },
+        {
+          "word": "sabbia",
+          "lemma": "sabbia",
+          "en": "sand"
+        },
+        {
+          "word": "mezzogiorno",
+          "lemma": "mezzogiorno",
+          "en": "noon / midday"
+        },
+        {
+          "word": "mangiamo",
+          "lemma": "mangiare",
+          "en": "we eat"
+        },
+        {
+          "word": "panino",
+          "lemma": "panino",
+          "en": "sandwich / roll"
+        },
+        {
+          "word": "sotto",
+          "lemma": "sotto",
+          "en": "under"
+        },
+        {
+          "word": "ombrellone",
+          "lemma": "ombrellone",
+          "en": "beach umbrella"
+        }
+      ]
+    },
+    {
+      "id": "un-picnic",
+      "title": "Un picnic",
+      "level": "A2",
+      "order": 37,
+      "text": "Oggi facciamo un picnic al parco perché c'è il sole. Stendiamo una coperta sull'erba e tiriamo fuori il cibo dal cestino. Dopo pranzo giochiamo a pallone e ci riposiamo all'ombra di un albero.",
+      "translation": "Today we are having a picnic in the park because it's sunny. We spread a blanket on the grass and take the food out of the basket. After lunch we play ball and rest in the shade of a tree.",
+      "audio": "un-picnic.m4a",
+      "glossary": [
+        {
+          "word": "oggi",
+          "lemma": "oggi",
+          "en": "today"
+        },
+        {
+          "word": "facciamo",
+          "lemma": "fare",
+          "en": "we do / we make / we have"
+        },
+        {
+          "word": "picnic",
+          "lemma": "picnic",
+          "en": "picnic"
+        },
+        {
+          "word": "parco",
+          "lemma": "parco",
+          "en": "park"
+        },
+        {
+          "word": "perché",
+          "lemma": "perché",
+          "en": "because / why"
+        },
+        {
+          "word": "c'è",
+          "lemma": "esserci",
+          "en": "there is"
+        },
+        {
+          "word": "sole",
+          "lemma": "sole",
+          "en": "sun"
+        },
+        {
+          "word": "stendiamo",
+          "lemma": "stendere",
+          "en": "we spread out"
+        },
+        {
+          "word": "coperta",
+          "lemma": "coperta",
+          "en": "blanket"
+        },
+        {
+          "word": "erba",
+          "lemma": "erba",
+          "en": "grass"
+        },
+        {
+          "word": "tiriamo",
+          "lemma": "tirare",
+          "en": "we pull (tirare fuori = to take out)"
+        },
+        {
+          "word": "fuori",
+          "lemma": "fuori",
+          "en": "out / outside"
+        },
+        {
+          "word": "cibo",
+          "lemma": "cibo",
+          "en": "food"
+        },
+        {
+          "word": "cestino",
+          "lemma": "cestino",
+          "en": "basket"
+        },
+        {
+          "word": "dopo",
+          "lemma": "dopo",
+          "en": "after"
+        },
+        {
+          "word": "pranzo",
+          "lemma": "pranzo",
+          "en": "lunch"
+        },
+        {
+          "word": "giochiamo",
+          "lemma": "giocare",
+          "en": "we play"
+        },
+        {
+          "word": "pallone",
+          "lemma": "pallone",
+          "en": "ball"
+        },
+        {
+          "word": "riposiamo",
+          "lemma": "riposarsi",
+          "en": "we rest"
+        },
+        {
+          "word": "ombra",
+          "lemma": "ombra",
+          "en": "shade / shadow"
+        },
+        {
+          "word": "albero",
+          "lemma": "albero",
+          "en": "tree"
+        }
+      ]
+    },
+    {
+      "id": "la-festa-di-quartiere",
+      "title": "La festa di quartiere",
+      "level": "A2",
+      "order": 38,
+      "text": "Ogni estate il nostro quartiere organizza una grande festa in piazza. Ci sono banchi di cibo, musica dal vivo e giochi per i bambini. I vicini chiacchierano e ballano insieme fino a notte.",
+      "translation": "Every summer our neighborhood organizes a big party in the square. There are food stalls, live music and games for the children. The neighbors chat and dance together until night.",
+      "audio": "la-festa-di-quartiere.m4a",
+      "glossary": [
+        {
+          "word": "ogni",
+          "lemma": "ogni",
+          "en": "every"
+        },
+        {
+          "word": "estate",
+          "lemma": "estate",
+          "en": "summer"
+        },
+        {
+          "word": "nostro",
+          "lemma": "nostro",
+          "en": "our"
+        },
+        {
+          "word": "quartiere",
+          "lemma": "quartiere",
+          "en": "neighborhood"
+        },
+        {
+          "word": "organizza",
+          "lemma": "organizzare",
+          "en": "it organizes"
+        },
+        {
+          "word": "grande",
+          "lemma": "grande",
+          "en": "big / large"
+        },
+        {
+          "word": "festa",
+          "lemma": "festa",
+          "en": "party / festival"
+        },
+        {
+          "word": "piazza",
+          "lemma": "piazza",
+          "en": "square"
+        },
+        {
+          "word": "banchi",
+          "lemma": "banco",
+          "en": "stalls / stands"
+        },
+        {
+          "word": "cibo",
+          "lemma": "cibo",
+          "en": "food"
+        },
+        {
+          "word": "musica",
+          "lemma": "musica",
+          "en": "music"
+        },
+        {
+          "word": "dal vivo",
+          "lemma": "vivo",
+          "en": "live (dal vivo = live)"
+        },
+        {
+          "word": "giochi",
+          "lemma": "gioco",
+          "en": "games"
+        },
+        {
+          "word": "bambini",
+          "lemma": "bambino",
+          "en": "children"
+        },
+        {
+          "word": "vicini",
+          "lemma": "vicino",
+          "en": "neighbors"
+        },
+        {
+          "word": "chiacchierano",
+          "lemma": "chiacchierare",
+          "en": "they chat"
+        },
+        {
+          "word": "ballano",
+          "lemma": "ballare",
+          "en": "they dance"
+        },
+        {
+          "word": "insieme",
+          "lemma": "insieme",
+          "en": "together"
+        },
+        {
+          "word": "notte",
+          "lemma": "notte",
+          "en": "night"
+        }
+      ]
+    },
+    {
+      "id": "andare-a-ballare",
+      "title": "Andare a ballare",
+      "level": "A2",
+      "order": 39,
+      "text": "Il sabato sera mi piace andare a ballare con le mie amiche. Mettiamo le scarpe comode e seguiamo il ritmo della musica fino a mezzanotte. Quando torniamo a casa, siamo stanche ma di buon umore.",
+      "translation": "On Saturday evenings I like to go dancing with my friends. We put on comfortable shoes and follow the rhythm of the music until midnight. When we get home, we are tired but in a good mood.",
+      "audio": "andare-a-ballare.m4a",
+      "glossary": [
+        {
+          "word": "sabato",
+          "lemma": "sabato",
+          "en": "Saturday"
+        },
+        {
+          "word": "sera",
+          "lemma": "sera",
+          "en": "evening"
+        },
+        {
+          "word": "piace",
+          "lemma": "piacere",
+          "en": "(it) pleases / I like"
+        },
+        {
+          "word": "andare",
+          "lemma": "andare",
+          "en": "to go"
+        },
+        {
+          "word": "ballare",
+          "lemma": "ballare",
+          "en": "to dance"
+        },
+        {
+          "word": "mie",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "amiche",
+          "lemma": "amica",
+          "en": "(female) friends"
+        },
+        {
+          "word": "mettiamo",
+          "lemma": "mettere",
+          "en": "we put (on)"
+        },
+        {
+          "word": "scarpe",
+          "lemma": "scarpa",
+          "en": "shoes"
+        },
+        {
+          "word": "comode",
+          "lemma": "comodo",
+          "en": "comfortable"
+        },
+        {
+          "word": "seguiamo",
+          "lemma": "seguire",
+          "en": "we follow"
+        },
+        {
+          "word": "ritmo",
+          "lemma": "ritmo",
+          "en": "rhythm"
+        },
+        {
+          "word": "musica",
+          "lemma": "musica",
+          "en": "music"
+        },
+        {
+          "word": "mezzanotte",
+          "lemma": "mezzanotte",
+          "en": "midnight"
+        },
+        {
+          "word": "torniamo",
+          "lemma": "tornare",
+          "en": "we return / get back"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "house / home"
+        },
+        {
+          "word": "stanche",
+          "lemma": "stanco",
+          "en": "tired (fem.)"
+        },
+        {
+          "word": "buon",
+          "lemma": "buono",
+          "en": "good"
+        },
+        {
+          "word": "umore",
+          "lemma": "umore",
+          "en": "mood (di buon umore = in a good mood)"
+        }
+      ]
+    },
+    {
+      "id": "fare-una-foto",
+      "title": "Fare una foto",
+      "level": "A2",
+      "order": 40,
+      "text": "Durante la gita ci fermiamo sul ponte per fare una foto al tramonto. Chiedo a un passante di fotografarci tutti insieme. Lui sorride, conta fino a tre e scatta una foto bellissima.",
+      "translation": "During the trip we stop on the bridge to take a photo of the sunset. I ask a passerby to photograph all of us together. He smiles, counts to three and takes a beautiful photo.",
+      "audio": "fare-una-foto.m4a",
+      "glossary": [
+        {
+          "word": "durante",
+          "lemma": "durante",
+          "en": "during"
+        },
+        {
+          "word": "gita",
+          "lemma": "gita",
+          "en": "trip / outing"
+        },
+        {
+          "word": "fermiamo",
+          "lemma": "fermarsi",
+          "en": "we stop"
+        },
+        {
+          "word": "ponte",
+          "lemma": "ponte",
+          "en": "bridge"
+        },
+        {
+          "word": "fare",
+          "lemma": "fare",
+          "en": "to do / to make (fare una foto = to take a photo)"
+        },
+        {
+          "word": "foto",
+          "lemma": "foto",
+          "en": "photo"
+        },
+        {
+          "word": "tramonto",
+          "lemma": "tramonto",
+          "en": "sunset"
+        },
+        {
+          "word": "chiedo",
+          "lemma": "chiedere",
+          "en": "I ask"
+        },
+        {
+          "word": "passante",
+          "lemma": "passante",
+          "en": "passerby"
+        },
+        {
+          "word": "fotografarci",
+          "lemma": "fotografare",
+          "en": "to photograph us"
+        },
+        {
+          "word": "tutti",
+          "lemma": "tutto",
+          "en": "all / everyone"
+        },
+        {
+          "word": "insieme",
+          "lemma": "insieme",
+          "en": "together"
+        },
+        {
+          "word": "lui",
+          "lemma": "lui",
+          "en": "he"
+        },
+        {
+          "word": "sorride",
+          "lemma": "sorridere",
+          "en": "he smiles"
+        },
+        {
+          "word": "conta",
+          "lemma": "contare",
+          "en": "he counts"
+        },
+        {
+          "word": "fino",
+          "lemma": "fino",
+          "en": "up to / until"
+        },
+        {
+          "word": "tre",
+          "lemma": "tre",
+          "en": "three"
+        },
+        {
+          "word": "scatta",
+          "lemma": "scattare",
+          "en": "he takes / snaps"
+        },
+        {
+          "word": "bellissima",
+          "lemma": "bello",
+          "en": "very beautiful"
+        }
+      ]
+    },
+    {
+      "id": "all-aeroporto",
+      "title": "All'aeroporto",
+      "level": "A2",
+      "order": 41,
+      "text": "Siamo all'aeroporto due ore prima del volo. Cerchiamo il banco del check-in per lasciare le valigie. Poi passiamo i controlli di sicurezza e aspettiamo all'uscita numero dodici.",
+      "translation": "We are at the airport two hours before the flight. We look for the check-in desk to drop off the suitcases. Then we pass through the security checks and wait at gate number twelve.",
+      "audio": "all-aeroporto.m4a",
+      "glossary": [
+        {
+          "word": "siamo",
+          "lemma": "essere",
+          "en": "we are"
+        },
+        {
+          "word": "all'aeroporto",
+          "lemma": "aeroporto",
+          "en": "at the airport"
+        },
+        {
+          "word": "due",
+          "lemma": "due",
+          "en": "two"
+        },
+        {
+          "word": "ore",
+          "lemma": "ora",
+          "en": "hours"
+        },
+        {
+          "word": "prima",
+          "lemma": "prima",
+          "en": "before"
+        },
+        {
+          "word": "del",
+          "lemma": "di",
+          "en": "of the"
+        },
+        {
+          "word": "volo",
+          "lemma": "volo",
+          "en": "flight"
+        },
+        {
+          "word": "cerchiamo",
+          "lemma": "cercare",
+          "en": "we look for"
+        },
+        {
+          "word": "banco",
+          "lemma": "banco",
+          "en": "desk / counter"
+        },
+        {
+          "word": "check-in",
+          "lemma": "check-in",
+          "en": "check-in"
+        },
+        {
+          "word": "lasciare",
+          "lemma": "lasciare",
+          "en": "to leave / drop off"
+        },
+        {
+          "word": "valigie",
+          "lemma": "valigia",
+          "en": "suitcases"
+        },
+        {
+          "word": "poi",
+          "lemma": "poi",
+          "en": "then"
+        },
+        {
+          "word": "passiamo",
+          "lemma": "passare",
+          "en": "we pass / go through"
+        },
+        {
+          "word": "controlli",
+          "lemma": "controllo",
+          "en": "checks / controls"
+        },
+        {
+          "word": "sicurezza",
+          "lemma": "sicurezza",
+          "en": "security"
+        },
+        {
+          "word": "aspettiamo",
+          "lemma": "aspettare",
+          "en": "we wait"
+        },
+        {
+          "word": "uscita",
+          "lemma": "uscita",
+          "en": "exit / gate"
+        },
+        {
+          "word": "numero",
+          "lemma": "numero",
+          "en": "number"
+        },
+        {
+          "word": "dodici",
+          "lemma": "dodici",
+          "en": "twelve"
+        }
+      ]
+    },
+    {
+      "id": "il-treno-in-ritardo",
+      "title": "Il treno in ritardo",
+      "level": "A2",
+      "order": 42,
+      "text": "Il treno delle nove è in ritardo di trenta minuti. Sul tabellone leggo che il binario è cambiato. Aspetto sulla panchina e bevo un caffè mentre passa il tempo.",
+      "translation": "The nine o'clock train is thirty minutes late. On the board I read that the platform has changed. I wait on the bench and drink a coffee while the time passes.",
+      "audio": "il-treno-in-ritardo.m4a",
+      "glossary": [
+        {
+          "word": "treno",
+          "lemma": "treno",
+          "en": "train"
+        },
+        {
+          "word": "delle",
+          "lemma": "di",
+          "en": "of the"
+        },
+        {
+          "word": "nove",
+          "lemma": "nove",
+          "en": "nine"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "ritardo",
+          "lemma": "ritardo",
+          "en": "delay"
+        },
+        {
+          "word": "trenta",
+          "lemma": "trenta",
+          "en": "thirty"
+        },
+        {
+          "word": "minuti",
+          "lemma": "minuto",
+          "en": "minutes"
+        },
+        {
+          "word": "sul",
+          "lemma": "su",
+          "en": "on the"
+        },
+        {
+          "word": "tabellone",
+          "lemma": "tabellone",
+          "en": "board / display"
+        },
+        {
+          "word": "leggo",
+          "lemma": "leggere",
+          "en": "I read"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "that"
+        },
+        {
+          "word": "binario",
+          "lemma": "binario",
+          "en": "platform / track"
+        },
+        {
+          "word": "cambiato",
+          "lemma": "cambiare",
+          "en": "changed"
+        },
+        {
+          "word": "aspetto",
+          "lemma": "aspettare",
+          "en": "I wait"
+        },
+        {
+          "word": "sulla",
+          "lemma": "su",
+          "en": "on the"
+        },
+        {
+          "word": "panchina",
+          "lemma": "panchina",
+          "en": "bench"
+        },
+        {
+          "word": "bevo",
+          "lemma": "bere",
+          "en": "I drink"
+        },
+        {
+          "word": "caffè",
+          "lemma": "caffè",
+          "en": "coffee"
+        },
+        {
+          "word": "mentre",
+          "lemma": "mentre",
+          "en": "while"
+        },
+        {
+          "word": "passa",
+          "lemma": "passare",
+          "en": "passes"
+        },
+        {
+          "word": "tempo",
+          "lemma": "tempo",
+          "en": "time"
+        }
+      ]
+    },
+    {
+      "id": "noleggiare-una-bici",
+      "title": "Noleggiare una bici",
+      "level": "A2",
+      "order": 43,
+      "text": "Voglio noleggiare una bicicletta per visitare la città. Il negozio chiede dieci euro al giorno e un documento. Provo la bici e controllo i freni prima di partire.",
+      "translation": "I want to rent a bicycle to visit the city. The shop asks for ten euros a day and an ID. I try the bike and check the brakes before setting off.",
+      "audio": "noleggiare-una-bici.m4a",
+      "glossary": [
+        {
+          "word": "voglio",
+          "lemma": "volere",
+          "en": "I want"
+        },
+        {
+          "word": "noleggiare",
+          "lemma": "noleggiare",
+          "en": "to rent / hire"
+        },
+        {
+          "word": "bicicletta",
+          "lemma": "bicicletta",
+          "en": "bicycle"
+        },
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "to / for"
+        },
+        {
+          "word": "visitare",
+          "lemma": "visitare",
+          "en": "to visit"
+        },
+        {
+          "word": "città",
+          "lemma": "città",
+          "en": "city"
+        },
+        {
+          "word": "negozio",
+          "lemma": "negozio",
+          "en": "shop"
+        },
+        {
+          "word": "chiede",
+          "lemma": "chiedere",
+          "en": "asks (for)"
+        },
+        {
+          "word": "dieci",
+          "lemma": "dieci",
+          "en": "ten"
+        },
+        {
+          "word": "euro",
+          "lemma": "euro",
+          "en": "euros"
+        },
+        {
+          "word": "giorno",
+          "lemma": "giorno",
+          "en": "day"
+        },
+        {
+          "word": "documento",
+          "lemma": "documento",
+          "en": "document / ID"
+        },
+        {
+          "word": "provo",
+          "lemma": "provare",
+          "en": "I try"
+        },
+        {
+          "word": "bici",
+          "lemma": "bici",
+          "en": "bike"
+        },
+        {
+          "word": "controllo",
+          "lemma": "controllare",
+          "en": "I check"
+        },
+        {
+          "word": "freni",
+          "lemma": "freno",
+          "en": "brakes"
+        },
+        {
+          "word": "partire",
+          "lemma": "partire",
+          "en": "to leave / set off"
+        }
+      ]
+    },
+    {
+      "id": "prendere-un-taxi",
+      "title": "Prendere un taxi",
+      "level": "A2",
+      "order": 44,
+      "text": "Fuori dalla stazione c'è un taxi libero. Salgo e dico all'autista l'indirizzo dell'albergo. Il viaggio costa quindici euro e pago con la carta.",
+      "translation": "Outside the station there is a free taxi. I get in and tell the driver the address of the hotel. The trip costs fifteen euros and I pay by card.",
+      "audio": "prendere-un-taxi.m4a",
+      "glossary": [
+        {
+          "word": "fuori",
+          "lemma": "fuori",
+          "en": "outside"
+        },
+        {
+          "word": "dalla",
+          "lemma": "da",
+          "en": "from the"
+        },
+        {
+          "word": "stazione",
+          "lemma": "stazione",
+          "en": "station"
+        },
+        {
+          "word": "c'è",
+          "lemma": "esserci",
+          "en": "there is"
+        },
+        {
+          "word": "taxi",
+          "lemma": "taxi",
+          "en": "taxi"
+        },
+        {
+          "word": "libero",
+          "lemma": "libero",
+          "en": "free / available"
+        },
+        {
+          "word": "salgo",
+          "lemma": "salire",
+          "en": "I get in / climb up"
+        },
+        {
+          "word": "dico",
+          "lemma": "dire",
+          "en": "I say / tell"
+        },
+        {
+          "word": "all'autista",
+          "lemma": "autista",
+          "en": "to the driver"
+        },
+        {
+          "word": "indirizzo",
+          "lemma": "indirizzo",
+          "en": "address"
+        },
+        {
+          "word": "dell'albergo",
+          "lemma": "albergo",
+          "en": "of the hotel"
+        },
+        {
+          "word": "viaggio",
+          "lemma": "viaggio",
+          "en": "trip / journey"
+        },
+        {
+          "word": "costa",
+          "lemma": "costare",
+          "en": "costs"
+        },
+        {
+          "word": "quindici",
+          "lemma": "quindici",
+          "en": "fifteen"
+        },
+        {
+          "word": "pago",
+          "lemma": "pagare",
+          "en": "I pay"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "carta",
+          "lemma": "carta",
+          "en": "card"
+        }
+      ]
+    },
+    {
+      "id": "in-campeggio",
+      "title": "In campeggio",
+      "level": "A2",
+      "order": 45,
+      "text": "Quest'estate dormiamo in campeggio vicino al lago. Montiamo la tenda sotto un grande albero e accendiamo il fuoco per cena. La notte fa un po' freddo, ma le stelle sono bellissime.",
+      "translation": "This summer we sleep at a campsite near the lake. We set up the tent under a big tree and light the fire for dinner. At night it is a bit cold, but the stars are beautiful.",
+      "audio": "in-campeggio.m4a",
+      "glossary": [
+        {
+          "word": "quest'estate",
+          "lemma": "estate",
+          "en": "this summer"
+        },
+        {
+          "word": "dormiamo",
+          "lemma": "dormire",
+          "en": "we sleep"
+        },
+        {
+          "word": "campeggio",
+          "lemma": "campeggio",
+          "en": "campsite"
+        },
+        {
+          "word": "vicino",
+          "lemma": "vicino",
+          "en": "near"
+        },
+        {
+          "word": "lago",
+          "lemma": "lago",
+          "en": "lake"
+        },
+        {
+          "word": "montiamo",
+          "lemma": "montare",
+          "en": "we set up / pitch"
+        },
+        {
+          "word": "tenda",
+          "lemma": "tenda",
+          "en": "tent"
+        },
+        {
+          "word": "sotto",
+          "lemma": "sotto",
+          "en": "under"
+        },
+        {
+          "word": "grande",
+          "lemma": "grande",
+          "en": "big"
+        },
+        {
+          "word": "albero",
+          "lemma": "albero",
+          "en": "tree"
+        },
+        {
+          "word": "accendiamo",
+          "lemma": "accendere",
+          "en": "we light"
+        },
+        {
+          "word": "fuoco",
+          "lemma": "fuoco",
+          "en": "fire"
+        },
+        {
+          "word": "cena",
+          "lemma": "cena",
+          "en": "dinner"
+        },
+        {
+          "word": "notte",
+          "lemma": "notte",
+          "en": "night"
+        },
+        {
+          "word": "fa",
+          "lemma": "fare",
+          "en": "it makes (fa freddo = it is cold)"
+        },
+        {
+          "word": "freddo",
+          "lemma": "freddo",
+          "en": "cold"
+        },
+        {
+          "word": "ma",
+          "lemma": "ma",
+          "en": "but"
+        },
+        {
+          "word": "stelle",
+          "lemma": "stella",
+          "en": "stars"
+        },
+        {
+          "word": "bellissime",
+          "lemma": "bello",
+          "en": "very beautiful"
+        }
+      ]
+    },
+    {
+      "id": "comprare-un-souvenir",
+      "title": "Comprare un souvenir",
+      "level": "A2",
+      "order": 46,
+      "text": "Prima di tornare a casa voglio comprare un souvenir per i miei amici. In un piccolo negozio vedo delle calamite e delle cartoline colorate. Scelgo tre calamite e chiedo alla commessa quanto costano.",
+      "translation": "Before going home I want to buy a souvenir for my friends. In a small shop I see some magnets and colorful postcards. I choose three magnets and ask the shop assistant how much they cost.",
+      "audio": "comprare-un-souvenir.m4a",
+      "glossary": [
+        {
+          "word": "prima",
+          "lemma": "prima",
+          "en": "before"
+        },
+        {
+          "word": "tornare",
+          "lemma": "tornare",
+          "en": "to return / go back"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "home"
+        },
+        {
+          "word": "voglio",
+          "lemma": "volere",
+          "en": "I want"
+        },
+        {
+          "word": "comprare",
+          "lemma": "comprare",
+          "en": "to buy"
+        },
+        {
+          "word": "souvenir",
+          "lemma": "souvenir",
+          "en": "souvenir"
+        },
+        {
+          "word": "miei",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "piccolo",
+          "lemma": "piccolo",
+          "en": "small"
+        },
+        {
+          "word": "negozio",
+          "lemma": "negozio",
+          "en": "shop"
+        },
+        {
+          "word": "vedo",
+          "lemma": "vedere",
+          "en": "I see"
+        },
+        {
+          "word": "calamite",
+          "lemma": "calamita",
+          "en": "magnets"
+        },
+        {
+          "word": "cartoline",
+          "lemma": "cartolina",
+          "en": "postcards"
+        },
+        {
+          "word": "colorate",
+          "lemma": "colorato",
+          "en": "colourful"
+        },
+        {
+          "word": "scelgo",
+          "lemma": "scegliere",
+          "en": "I choose"
+        },
+        {
+          "word": "tre",
+          "lemma": "tre",
+          "en": "three"
+        },
+        {
+          "word": "chiedo",
+          "lemma": "chiedere",
+          "en": "I ask"
+        },
+        {
+          "word": "commessa",
+          "lemma": "commessa",
+          "en": "shop assistant (f.)"
+        },
+        {
+          "word": "quanto",
+          "lemma": "quanto",
+          "en": "how much"
+        },
+        {
+          "word": "costano",
+          "lemma": "costare",
+          "en": "they cost"
+        }
+      ]
+    },
+    {
+      "id": "chiedere-un-informazione",
+      "title": "Chiedere un'informazione",
+      "level": "A2",
+      "order": 47,
+      "text": "Scusi, mi può dire dov'è la fermata dell'autobus? Devo andare al centro, ma non conosco la strada. Grazie mille, lei è molto gentile.",
+      "translation": "Excuse me, can you tell me where the bus stop is? I have to go to the centre, but I don't know the way. Thank you very much, you are very kind.",
+      "audio": "chiedere-un-informazione.m4a",
+      "glossary": [
+        {
+          "word": "scusi",
+          "lemma": "scusare",
+          "en": "excuse me (formal)"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "to me"
+        },
+        {
+          "word": "può",
+          "lemma": "potere",
+          "en": "you can (formal)"
+        },
+        {
+          "word": "dire",
+          "lemma": "dire",
+          "en": "to tell / say"
+        },
+        {
+          "word": "dov'è",
+          "lemma": "essere",
+          "en": "where is"
+        },
+        {
+          "word": "fermata",
+          "lemma": "fermata",
+          "en": "stop"
+        },
+        {
+          "word": "dell'autobus",
+          "lemma": "autobus",
+          "en": "of the bus"
+        },
+        {
+          "word": "devo",
+          "lemma": "dovere",
+          "en": "I have to"
+        },
+        {
+          "word": "andare",
+          "lemma": "andare",
+          "en": "to go"
+        },
+        {
+          "word": "centro",
+          "lemma": "centro",
+          "en": "centre"
+        },
+        {
+          "word": "ma",
+          "lemma": "ma",
+          "en": "but"
+        },
+        {
+          "word": "non",
+          "lemma": "non",
+          "en": "not"
+        },
+        {
+          "word": "conosco",
+          "lemma": "conoscere",
+          "en": "I know"
+        },
+        {
+          "word": "strada",
+          "lemma": "strada",
+          "en": "road / way"
+        },
+        {
+          "word": "grazie",
+          "lemma": "grazie",
+          "en": "thank you"
+        },
+        {
+          "word": "mille",
+          "lemma": "mille",
+          "en": "a thousand (grazie mille = thanks a lot)"
+        },
+        {
+          "word": "lei",
+          "lemma": "lei",
+          "en": "you (formal)"
+        },
+        {
+          "word": "molto",
+          "lemma": "molto",
+          "en": "very"
+        },
+        {
+          "word": "gentile",
+          "lemma": "gentile",
+          "en": "kind"
+        }
+      ]
+    },
+    {
+      "id": "il-corso-ditaliano",
+      "title": "Il corso d'italiano",
+      "level": "A2",
+      "order": 48,
+      "text": "Da settembre seguo un corso d'italiano due volte alla settimana. L'insegnante è molto paziente e spiega bene la grammatica. Mi piace soprattutto parlare con gli altri studenti durante la lezione.",
+      "translation": "Since September I've been taking an Italian course twice a week. The teacher is very patient and explains grammar well. I especially like talking with the other students during the lesson.",
+      "audio": "il-corso-ditaliano.m4a",
+      "glossary": [
+        {
+          "word": "da",
+          "lemma": "da",
+          "en": "since / from"
+        },
+        {
+          "word": "settembre",
+          "lemma": "settembre",
+          "en": "September"
+        },
+        {
+          "word": "seguo",
+          "lemma": "seguire",
+          "en": "I follow / take (a course)"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "corso",
+          "lemma": "corso",
+          "en": "course"
+        },
+        {
+          "word": "d'italiano",
+          "lemma": "italiano",
+          "en": "of Italian"
+        },
+        {
+          "word": "due",
+          "lemma": "due",
+          "en": "two"
+        },
+        {
+          "word": "volte",
+          "lemma": "volta",
+          "en": "times"
+        },
+        {
+          "word": "alla",
+          "lemma": "a",
+          "en": "a (alla settimana = a week)"
+        },
+        {
+          "word": "settimana",
+          "lemma": "settimana",
+          "en": "week"
+        },
+        {
+          "word": "l'insegnante",
+          "lemma": "insegnante",
+          "en": "the teacher"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "molto",
+          "lemma": "molto",
+          "en": "very"
+        },
+        {
+          "word": "paziente",
+          "lemma": "paziente",
+          "en": "patient"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "spiega",
+          "lemma": "spiegare",
+          "en": "explains"
+        },
+        {
+          "word": "bene",
+          "lemma": "bene",
+          "en": "well"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "grammatica",
+          "lemma": "grammatica",
+          "en": "grammar"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "to me"
+        },
+        {
+          "word": "piace",
+          "lemma": "piacere",
+          "en": "is pleasing (mi piace = I like)"
+        },
+        {
+          "word": "soprattutto",
+          "lemma": "soprattutto",
+          "en": "especially"
+        },
+        {
+          "word": "parlare",
+          "lemma": "parlare",
+          "en": "to speak"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "gli",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "altri",
+          "lemma": "altro",
+          "en": "other"
+        },
+        {
+          "word": "studenti",
+          "lemma": "studente",
+          "en": "students"
+        },
+        {
+          "word": "durante",
+          "lemma": "durante",
+          "en": "during"
+        },
+        {
+          "word": "lezione",
+          "lemma": "lezione",
+          "en": "lesson"
+        }
+      ]
+    },
+    {
+      "id": "liscrizione-in-palestra",
+      "title": "L'iscrizione in palestra",
+      "level": "A2",
+      "order": 49,
+      "text": "Oggi ho deciso di iscrivermi in palestra. Ho chiesto informazioni sui prezzi e sugli orari. L'abbonamento mensile costa trenta euro. Comincerò ad allenarmi da lunedì.",
+      "translation": "Today I decided to sign up at the gym. I asked for information about the prices and the timetable. The monthly membership costs thirty euros. I'll start training from Monday.",
+      "audio": "liscrizione-in-palestra.m4a",
+      "glossary": [
+        {
+          "word": "oggi",
+          "lemma": "oggi",
+          "en": "today"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "deciso",
+          "lemma": "decidere",
+          "en": "decided"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "to"
+        },
+        {
+          "word": "iscrivermi",
+          "lemma": "iscriversi",
+          "en": "to sign up (myself)"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "in / at"
+        },
+        {
+          "word": "palestra",
+          "lemma": "palestra",
+          "en": "gym"
+        },
+        {
+          "word": "chiesto",
+          "lemma": "chiedere",
+          "en": "asked"
+        },
+        {
+          "word": "informazioni",
+          "lemma": "informazione",
+          "en": "information"
+        },
+        {
+          "word": "sui",
+          "lemma": "su",
+          "en": "about the (su + i)"
+        },
+        {
+          "word": "prezzi",
+          "lemma": "prezzo",
+          "en": "prices"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "sugli",
+          "lemma": "su",
+          "en": "about the (su + gli)"
+        },
+        {
+          "word": "orari",
+          "lemma": "orario",
+          "en": "timetables / hours"
+        },
+        {
+          "word": "l'abbonamento",
+          "lemma": "abbonamento",
+          "en": "the membership / subscription"
+        },
+        {
+          "word": "mensile",
+          "lemma": "mensile",
+          "en": "monthly"
+        },
+        {
+          "word": "costa",
+          "lemma": "costare",
+          "en": "costs"
+        },
+        {
+          "word": "trenta",
+          "lemma": "trenta",
+          "en": "thirty"
+        },
+        {
+          "word": "euro",
+          "lemma": "euro",
+          "en": "euros"
+        },
+        {
+          "word": "comincerò",
+          "lemma": "cominciare",
+          "en": "I will start"
+        },
+        {
+          "word": "ad",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "allenarmi",
+          "lemma": "allenarsi",
+          "en": "to train (myself)"
+        },
+        {
+          "word": "da",
+          "lemma": "da",
+          "en": "from"
+        },
+        {
+          "word": "lunedì",
+          "lemma": "lunedì",
+          "en": "Monday"
+        }
+      ]
+    },
+    {
+      "id": "i-piani-per-il-weekend",
+      "title": "I piani per il weekend",
+      "level": "A2",
+      "order": 50,
+      "text": "Questo weekend avrò molto tempo libero. Sabato andrò a fare una passeggiata al parco con Marta. Domenica resterò a casa a leggere e cucinerò qualcosa di buono. Sarà un fine settimana tranquillo.",
+      "translation": "This weekend I'll have a lot of free time. On Saturday I'll go for a walk in the park with Marta. On Sunday I'll stay home to read and I'll cook something good. It'll be a quiet weekend.",
+      "audio": "i-piani-per-il-weekend.m4a",
+      "glossary": [
+        {
+          "word": "questo",
+          "lemma": "questo",
+          "en": "this"
+        },
+        {
+          "word": "weekend",
+          "lemma": "weekend",
+          "en": "weekend"
+        },
+        {
+          "word": "avrò",
+          "lemma": "avere",
+          "en": "I will have"
+        },
+        {
+          "word": "molto",
+          "lemma": "molto",
+          "en": "a lot of"
+        },
+        {
+          "word": "tempo",
+          "lemma": "tempo",
+          "en": "time"
+        },
+        {
+          "word": "libero",
+          "lemma": "libero",
+          "en": "free"
+        },
+        {
+          "word": "sabato",
+          "lemma": "sabato",
+          "en": "Saturday"
+        },
+        {
+          "word": "andrò",
+          "lemma": "andare",
+          "en": "I will go"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "fare",
+          "lemma": "fare",
+          "en": "to do / make"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "passeggiata",
+          "lemma": "passeggiata",
+          "en": "walk"
+        },
+        {
+          "word": "al",
+          "lemma": "a",
+          "en": "to the (a + il)"
+        },
+        {
+          "word": "parco",
+          "lemma": "parco",
+          "en": "park"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "domenica",
+          "lemma": "domenica",
+          "en": "Sunday"
+        },
+        {
+          "word": "resterò",
+          "lemma": "restare",
+          "en": "I will stay"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "home"
+        },
+        {
+          "word": "leggere",
+          "lemma": "leggere",
+          "en": "to read"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "cucinerò",
+          "lemma": "cucinare",
+          "en": "I will cook"
+        },
+        {
+          "word": "qualcosa",
+          "lemma": "qualcosa",
+          "en": "something"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "of"
+        },
+        {
+          "word": "buono",
+          "lemma": "buono",
+          "en": "good"
+        },
+        {
+          "word": "sarà",
+          "lemma": "essere",
+          "en": "it will be"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "fine",
+          "lemma": "fine",
+          "en": "end (fine settimana = weekend)"
+        },
+        {
+          "word": "settimana",
+          "lemma": "settimana",
+          "en": "week"
+        },
+        {
+          "word": "tranquillo",
+          "lemma": "tranquillo",
+          "en": "quiet / calm"
+        }
+      ]
+    },
+    {
+      "id": "una-buona-notizia",
+      "title": "Una buona notizia",
+      "level": "A2",
+      "order": 51,
+      "text": "Oggi ho ricevuto una buona notizia: ho superato l'esame d'italiano! Ero così contento che ho chiamato subito i miei genitori. Stasera festeggerò con gli amici al ristorante.",
+      "translation": "Today I received good news: I passed the Italian exam! I was so happy that I called my parents right away. Tonight I'll celebrate with friends at the restaurant.",
+      "audio": "una-buona-notizia.m4a",
+      "glossary": [
+        {
+          "word": "oggi",
+          "lemma": "oggi",
+          "en": "today"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "ricevuto",
+          "lemma": "ricevere",
+          "en": "received"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "buona",
+          "lemma": "buono",
+          "en": "good"
+        },
+        {
+          "word": "notizia",
+          "lemma": "notizia",
+          "en": "news"
+        },
+        {
+          "word": "superato",
+          "lemma": "superare",
+          "en": "passed / overcame"
+        },
+        {
+          "word": "l'esame",
+          "lemma": "esame",
+          "en": "the exam"
+        },
+        {
+          "word": "d'italiano",
+          "lemma": "italiano",
+          "en": "of Italian"
+        },
+        {
+          "word": "ero",
+          "lemma": "essere",
+          "en": "I was"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so"
+        },
+        {
+          "word": "contento",
+          "lemma": "contento",
+          "en": "happy / glad"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "that"
+        },
+        {
+          "word": "chiamato",
+          "lemma": "chiamare",
+          "en": "called"
+        },
+        {
+          "word": "subito",
+          "lemma": "subito",
+          "en": "immediately / right away"
+        },
+        {
+          "word": "i",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "miei",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "genitori",
+          "lemma": "genitore",
+          "en": "parents"
+        },
+        {
+          "word": "stasera",
+          "lemma": "stasera",
+          "en": "tonight"
+        },
+        {
+          "word": "festeggerò",
+          "lemma": "festeggiare",
+          "en": "I will celebrate"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "gli",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "al",
+          "lemma": "a",
+          "en": "at the (a + il)"
+        },
+        {
+          "word": "ristorante",
+          "lemma": "ristorante",
+          "en": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "una-ricetta",
+      "title": "Una ricetta",
+      "level": "B1",
+      "order": 52,
+      "text": "Per fare la pasta al pomodoro, metti l'acqua a bollire. Aggiungi il sale e la pasta. Dopo dieci minuti è pronta.",
+      "translation": "To make pasta with tomato, put the water on to boil. Add the salt and the pasta. After ten minutes it's ready.",
+      "audio": "una-ricetta.m4a",
+      "glossary": [
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "to / in order to"
+        },
+        {
+          "word": "fare",
+          "lemma": "fare",
+          "en": "to make"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "pasta",
+          "lemma": "pasta",
+          "en": "pasta"
+        },
+        {
+          "word": "al",
+          "lemma": "a",
+          "en": "with the (a + il)"
+        },
+        {
+          "word": "pomodoro",
+          "lemma": "pomodoro",
+          "en": "tomato"
+        },
+        {
+          "word": "metti",
+          "lemma": "mettere",
+          "en": "put (you)"
+        },
+        {
+          "word": "l'acqua",
+          "lemma": "acqua",
+          "en": "the water"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "bollire",
+          "lemma": "bollire",
+          "en": "to boil"
+        },
+        {
+          "word": "aggiungi",
+          "lemma": "aggiungere",
+          "en": "add (you)"
+        },
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "sale",
+          "lemma": "sale",
+          "en": "salt"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "dopo",
+          "lemma": "dopo",
+          "en": "after"
+        },
+        {
+          "word": "dieci",
+          "lemma": "dieci",
+          "en": "ten"
+        },
+        {
+          "word": "minuti",
+          "lemma": "minuto",
+          "en": "minutes"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "pronta",
+          "lemma": "pronto",
+          "en": "ready"
+        }
+      ]
+    },
+    {
+      "id": "le-vacanze",
+      "title": "Le vacanze",
+      "level": "B1",
+      "order": 53,
+      "text": "L'estate scorsa sono andato in Sicilia. Ho visitato molte città e ho mangiato benissimo. Voglio tornarci presto.",
+      "translation": "Last summer I went to Sicily. I visited many cities and ate very well. I want to go back there soon.",
+      "audio": "le-vacanze.m4a",
+      "glossary": [
+        {
+          "word": "l'estate",
+          "lemma": "estate",
+          "en": "the summer"
+        },
+        {
+          "word": "scorsa",
+          "lemma": "scorso",
+          "en": "last / past"
+        },
+        {
+          "word": "sono",
+          "lemma": "essere",
+          "en": "I am (here: I have, for the past tense)"
+        },
+        {
+          "word": "andato",
+          "lemma": "andare",
+          "en": "gone (sono andato = I went)"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "to / in"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "visitato",
+          "lemma": "visitare",
+          "en": "visited"
+        },
+        {
+          "word": "molte",
+          "lemma": "molto",
+          "en": "many"
+        },
+        {
+          "word": "città",
+          "lemma": "città",
+          "en": "cities"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "mangiato",
+          "lemma": "mangiare",
+          "en": "eaten"
+        },
+        {
+          "word": "benissimo",
+          "lemma": "benissimo",
+          "en": "very well"
+        },
+        {
+          "word": "voglio",
+          "lemma": "volere",
+          "en": "I want"
+        },
+        {
+          "word": "tornarci",
+          "lemma": "tornare",
+          "en": "to go back there (tornare + ci)"
+        },
+        {
+          "word": "presto",
+          "lemma": "presto",
+          "en": "soon"
+        }
+      ]
+    },
+    {
       "id": "fare-amicizia",
       "title": "Fare amicizia",
       "level": "B1",
-      "order": 29,
+      "order": 54,
       "text": "Ieri ho conosciuto una ragazza simpatica al corso di cucina. Si chiama Sara e viene dalla Spagna. Abbiamo parlato a lungo e domani andremo a prendere un caffè insieme.",
       "translation": "Yesterday I met a nice girl at the cooking course. Her name is Sara and she comes from Spain. We talked for a long time and tomorrow we'll go for a coffee together.",
       "audio": "fare-amicizia.m4a",
@@ -2769,7 +5469,7 @@
       "id": "un-invito-a-cena",
       "title": "Un invito a cena",
       "level": "B1",
-      "order": 30,
+      "order": 55,
       "text": "Sabato sera abbiamo invitato gli amici a cena. Mia moglie ha preparato le lasagne e io ho comprato il vino. Tutti hanno mangiato volentieri e siamo rimasti a chiacchierare fino a tardi.",
       "translation": "Saturday evening we invited our friends to dinner. My wife made lasagne and I bought the wine. Everyone ate gladly and we stayed chatting until late.",
       "audio": "un-invito-a-cena.m4a",
@@ -2925,7 +5625,7 @@
       "id": "cercare-casa",
       "title": "Cercare casa",
       "level": "B1",
-      "order": 31,
+      "order": 56,
       "text": "Sto cercando un appartamento in affitto vicino al lavoro. Vorrei due camere e un balcone. L'agenzia mi ha mostrato una casa luminosa, ma il prezzo è un po' alto. Ci penserò.",
       "translation": "I'm looking for an apartment to rent near work. I'd like two bedrooms and a balcony. The agency showed me a bright house, but the price is a bit high. I'll think about it.",
       "audio": "cercare-casa.m4a",
@@ -3081,7 +5781,7 @@
       "id": "in-palestra",
       "title": "In palestra",
       "level": "B1",
-      "order": 32,
+      "order": 57,
       "text": "Da un mese vado in palestra tre volte alla settimana. All'inizio ero stanco, ma ora mi sento molto meglio. Il prossimo anno vorrei anche correre una maratona.",
       "translation": "For a month I've been going to the gym three times a week. At the start I was tired, but now I feel much better. Next year I'd also like to run a marathon.",
       "audio": "in-palestra.m4a",
@@ -3227,7 +5927,7 @@
       "id": "una-gita-in-montagna",
       "title": "Una gita in montagna",
       "level": "B1",
-      "order": 33,
+      "order": 58,
       "text": "Domenica scorsa abbiamo fatto una gita in montagna. Siamo partiti presto e abbiamo camminato per ore. In cima il panorama era stupendo. Torneremo sicuramente la prossima estate.",
       "translation": "Last Sunday we went on a trip to the mountains. We left early and walked for hours. At the top the view was wonderful. We'll definitely come back next summer.",
       "audio": "una-gita-in-montagna.m4a",
@@ -3363,7 +6063,7 @@
       "id": "il-primo-giorno-di-lavoro",
       "title": "Il primo giorno di lavoro",
       "level": "B1",
-      "order": 34,
+      "order": 59,
       "text": "Oggi è stato il mio primo giorno in ufficio. Ho conosciuto i colleghi e il capo mi ha spiegato i miei compiti. Ero un po' nervoso, ma tutti sono stati molto gentili. Domani inizierò il vero lavoro.",
       "translation": "Today was my first day at the office. I met my colleagues and the boss explained my tasks to me. I was a bit nervous, but everyone was very kind. Tomorrow I'll start the real work.",
       "audio": "il-primo-giorno-di-lavoro.m4a",
@@ -3544,7 +6244,7 @@
       "id": "al-museo",
       "title": "Al museo",
       "level": "B1",
-      "order": 35,
+      "order": 60,
       "text": "Ieri pomeriggio sono andata al museo con un'amica. Abbiamo visto dei quadri bellissimi e una guida ci ha raccontato la loro storia. Alla fine abbiamo comprato una cartolina nel negozio. È stata una giornata interessante.",
       "translation": "Yesterday afternoon I went to the museum with a friend. We saw some beautiful paintings and a guide told us their history. At the end we bought a postcard in the shop. It was an interesting day.",
       "audio": "al-museo.m4a",
@@ -3703,6 +6403,3159 @@
           "word": "interessante",
           "lemma": "interessante",
           "en": "interesting"
+        }
+      ]
+    },
+    {
+      "id": "dal-dentista",
+      "title": "Dal dentista",
+      "level": "B1",
+      "order": 61,
+      "text": "Dottore, da una settimana ho un forte mal di denti, soprattutto quando bevo qualcosa di freddo. Vediamo subito: temo che ci sia una carie nel molare. Le farò un'otturazione, ma prima devo fare un'anestesia locale. Non si preoccupi, non sentirà alcun dolore.",
+      "translation": "Doctor, for a week I have had a strong toothache, especially when I drink something cold. Let's take a look right away: I'm afraid there is a cavity in the molar. I'll do a filling, but first I have to give a local anesthetic. Don't worry, you won't feel any pain.",
+      "audio": "dal-dentista.m4a",
+      "glossary": [
+        {
+          "word": "dentista",
+          "lemma": "dentista",
+          "en": "dentist"
+        },
+        {
+          "word": "dottore",
+          "lemma": "dottore",
+          "en": "doctor"
+        },
+        {
+          "word": "settimana",
+          "lemma": "settimana",
+          "en": "week"
+        },
+        {
+          "word": "forte",
+          "lemma": "forte",
+          "en": "strong"
+        },
+        {
+          "word": "mal",
+          "lemma": "male",
+          "en": "ache / pain"
+        },
+        {
+          "word": "denti",
+          "lemma": "dente",
+          "en": "teeth"
+        },
+        {
+          "word": "soprattutto",
+          "lemma": "soprattutto",
+          "en": "especially"
+        },
+        {
+          "word": "bevo",
+          "lemma": "bere",
+          "en": "I drink"
+        },
+        {
+          "word": "qualcosa",
+          "lemma": "qualcosa",
+          "en": "something"
+        },
+        {
+          "word": "freddo",
+          "lemma": "freddo",
+          "en": "cold"
+        },
+        {
+          "word": "vediamo",
+          "lemma": "vedere",
+          "en": "let's see"
+        },
+        {
+          "word": "subito",
+          "lemma": "subito",
+          "en": "right away"
+        },
+        {
+          "word": "temo",
+          "lemma": "temere",
+          "en": "I fear"
+        },
+        {
+          "word": "sia",
+          "lemma": "essere",
+          "en": "there is (subjunctive)"
+        },
+        {
+          "word": "carie",
+          "lemma": "carie",
+          "en": "cavity"
+        },
+        {
+          "word": "molare",
+          "lemma": "molare",
+          "en": "molar"
+        },
+        {
+          "word": "farò",
+          "lemma": "fare",
+          "en": "I will do"
+        },
+        {
+          "word": "otturazione",
+          "lemma": "otturazione",
+          "en": "filling"
+        },
+        {
+          "word": "anestesia",
+          "lemma": "anestesia",
+          "en": "anesthesia"
+        },
+        {
+          "word": "locale",
+          "lemma": "locale",
+          "en": "local"
+        },
+        {
+          "word": "preoccupi",
+          "lemma": "preoccuparsi",
+          "en": "worry (you, formal)"
+        },
+        {
+          "word": "sentirà",
+          "lemma": "sentire",
+          "en": "you will feel"
+        },
+        {
+          "word": "alcun",
+          "lemma": "alcuno",
+          "en": "any"
+        },
+        {
+          "word": "dolore",
+          "lemma": "dolore",
+          "en": "pain"
+        }
+      ]
+    },
+    {
+      "id": "riparare-il-telefono",
+      "title": "Riparare il telefono",
+      "level": "B1",
+      "order": 62,
+      "text": "Mi è caduto il telefono e lo schermo si è rotto completamente. Riesce a ripararlo entro domani? Dipende: se ho il pezzo di ricambio in magazzino, sarà pronto domani pomeriggio. Le consiglio di salvare i dati prima, nel caso qualcosa andasse storto.",
+      "translation": "I dropped my phone and the screen broke completely. Can you repair it by tomorrow? It depends: if I have the spare part in stock, it will be ready tomorrow afternoon. I advise you to back up the data first, in case something goes wrong.",
+      "audio": "riparare-il-telefono.m4a",
+      "glossary": [
+        {
+          "word": "riparare",
+          "lemma": "riparare",
+          "en": "to repair"
+        },
+        {
+          "word": "telefono",
+          "lemma": "telefono",
+          "en": "phone"
+        },
+        {
+          "word": "caduto",
+          "lemma": "cadere",
+          "en": "fallen"
+        },
+        {
+          "word": "schermo",
+          "lemma": "schermo",
+          "en": "screen"
+        },
+        {
+          "word": "rotto",
+          "lemma": "rompere",
+          "en": "broken"
+        },
+        {
+          "word": "completamente",
+          "lemma": "completamente",
+          "en": "completely"
+        },
+        {
+          "word": "riesce",
+          "lemma": "riuscire",
+          "en": "you manage / can"
+        },
+        {
+          "word": "ripararlo",
+          "lemma": "riparare",
+          "en": "to repair it"
+        },
+        {
+          "word": "entro",
+          "lemma": "entro",
+          "en": "by / within"
+        },
+        {
+          "word": "domani",
+          "lemma": "domani",
+          "en": "tomorrow"
+        },
+        {
+          "word": "dipende",
+          "lemma": "dipendere",
+          "en": "it depends"
+        },
+        {
+          "word": "pezzo",
+          "lemma": "pezzo",
+          "en": "piece / part"
+        },
+        {
+          "word": "ricambio",
+          "lemma": "ricambio",
+          "en": "spare / replacement"
+        },
+        {
+          "word": "magazzino",
+          "lemma": "magazzino",
+          "en": "warehouse / stock"
+        },
+        {
+          "word": "sarà",
+          "lemma": "essere",
+          "en": "it will be"
+        },
+        {
+          "word": "pronto",
+          "lemma": "pronto",
+          "en": "ready"
+        },
+        {
+          "word": "pomeriggio",
+          "lemma": "pomeriggio",
+          "en": "afternoon"
+        },
+        {
+          "word": "consiglio",
+          "lemma": "consigliare",
+          "en": "I advise"
+        },
+        {
+          "word": "salvare",
+          "lemma": "salvare",
+          "en": "to save / back up"
+        },
+        {
+          "word": "dati",
+          "lemma": "dato",
+          "en": "data"
+        },
+        {
+          "word": "caso",
+          "lemma": "caso",
+          "en": "case"
+        },
+        {
+          "word": "andasse",
+          "lemma": "andare",
+          "en": "went (subjunctive)"
+        },
+        {
+          "word": "storto",
+          "lemma": "storto",
+          "en": "wrong / crooked"
+        }
+      ]
+    },
+    {
+      "id": "oggetti-smarriti",
+      "title": "Oggetti smarriti",
+      "level": "B1",
+      "order": 63,
+      "text": "Ho perso il portafoglio sull'autobus ieri sera ed ero disperato. Per fortuna qualcuno l'ha consegnato all'ufficio oggetti smarriti. Dentro c'erano ancora i documenti e tutti i soldi. Per ritirarlo, mi hanno chiesto di descrivere il contenuto e di firmare un registro.",
+      "translation": "I lost my wallet on the bus last night and I was desperate. Luckily someone handed it in to the lost and found office. Inside there were still the documents and all the money. To pick it up, they asked me to describe the contents and sign a register.",
+      "audio": "oggetti-smarriti.m4a",
+      "glossary": [
+        {
+          "word": "oggetti",
+          "lemma": "oggetto",
+          "en": "objects"
+        },
+        {
+          "word": "smarriti",
+          "lemma": "smarrito",
+          "en": "lost"
+        },
+        {
+          "word": "perso",
+          "lemma": "perdere",
+          "en": "lost"
+        },
+        {
+          "word": "portafoglio",
+          "lemma": "portafoglio",
+          "en": "wallet"
+        },
+        {
+          "word": "autobus",
+          "lemma": "autobus",
+          "en": "bus"
+        },
+        {
+          "word": "ieri",
+          "lemma": "ieri",
+          "en": "yesterday"
+        },
+        {
+          "word": "sera",
+          "lemma": "sera",
+          "en": "evening"
+        },
+        {
+          "word": "ero",
+          "lemma": "essere",
+          "en": "I was"
+        },
+        {
+          "word": "disperato",
+          "lemma": "disperato",
+          "en": "desperate"
+        },
+        {
+          "word": "fortuna",
+          "lemma": "fortuna",
+          "en": "luck"
+        },
+        {
+          "word": "qualcuno",
+          "lemma": "qualcuno",
+          "en": "someone"
+        },
+        {
+          "word": "consegnato",
+          "lemma": "consegnare",
+          "en": "handed in / delivered"
+        },
+        {
+          "word": "dentro",
+          "lemma": "dentro",
+          "en": "inside"
+        },
+        {
+          "word": "erano",
+          "lemma": "essere",
+          "en": "there were"
+        },
+        {
+          "word": "ancora",
+          "lemma": "ancora",
+          "en": "still"
+        },
+        {
+          "word": "documenti",
+          "lemma": "documento",
+          "en": "documents"
+        },
+        {
+          "word": "soldi",
+          "lemma": "soldo",
+          "en": "money"
+        },
+        {
+          "word": "ritirarlo",
+          "lemma": "ritirare",
+          "en": "to pick it up"
+        },
+        {
+          "word": "chiesto",
+          "lemma": "chiedere",
+          "en": "asked"
+        },
+        {
+          "word": "descrivere",
+          "lemma": "descrivere",
+          "en": "to describe"
+        },
+        {
+          "word": "contenuto",
+          "lemma": "contenuto",
+          "en": "contents"
+        },
+        {
+          "word": "firmare",
+          "lemma": "firmare",
+          "en": "to sign"
+        },
+        {
+          "word": "registro",
+          "lemma": "registro",
+          "en": "register"
+        }
+      ]
+    },
+    {
+      "id": "dall-ottico",
+      "title": "Dall'ottico",
+      "level": "B1",
+      "order": 64,
+      "text": "Da qualche mese fatico a leggere da vicino e mi viene mal di testa. Le misuro la vista subito; probabilmente ha bisogno di occhiali per leggere. Se preferisce, possiamo provare anche le lenti a contatto. Le nuove lenti saranno pronte tra una settimana.",
+      "translation": "For a few months I have struggled to read up close and I get headaches. I'll test your eyesight right away; you probably need reading glasses. If you prefer, we can also try contact lenses. The new lenses will be ready in a week.",
+      "audio": "dall-ottico.m4a",
+      "glossary": [
+        {
+          "word": "ottico",
+          "lemma": "ottico",
+          "en": "optician"
+        },
+        {
+          "word": "qualche",
+          "lemma": "qualche",
+          "en": "some / a few"
+        },
+        {
+          "word": "mese",
+          "lemma": "mese",
+          "en": "month"
+        },
+        {
+          "word": "fatico",
+          "lemma": "faticare",
+          "en": "I struggle"
+        },
+        {
+          "word": "leggere",
+          "lemma": "leggere",
+          "en": "to read"
+        },
+        {
+          "word": "vicino",
+          "lemma": "vicino",
+          "en": "close / near"
+        },
+        {
+          "word": "viene",
+          "lemma": "venire",
+          "en": "comes"
+        },
+        {
+          "word": "testa",
+          "lemma": "testa",
+          "en": "head"
+        },
+        {
+          "word": "misuro",
+          "lemma": "misurare",
+          "en": "I measure / test"
+        },
+        {
+          "word": "vista",
+          "lemma": "vista",
+          "en": "sight / vision"
+        },
+        {
+          "word": "probabilmente",
+          "lemma": "probabilmente",
+          "en": "probably"
+        },
+        {
+          "word": "bisogno",
+          "lemma": "bisogno",
+          "en": "need"
+        },
+        {
+          "word": "occhiali",
+          "lemma": "occhiale",
+          "en": "glasses"
+        },
+        {
+          "word": "preferisce",
+          "lemma": "preferire",
+          "en": "you prefer (formal)"
+        },
+        {
+          "word": "possiamo",
+          "lemma": "potere",
+          "en": "we can"
+        },
+        {
+          "word": "provare",
+          "lemma": "provare",
+          "en": "to try"
+        },
+        {
+          "word": "lenti",
+          "lemma": "lente",
+          "en": "lenses"
+        },
+        {
+          "word": "contatto",
+          "lemma": "contatto",
+          "en": "contact"
+        },
+        {
+          "word": "nuove",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "saranno",
+          "lemma": "essere",
+          "en": "they will be"
+        },
+        {
+          "word": "pronte",
+          "lemma": "pronto",
+          "en": "ready"
+        },
+        {
+          "word": "tra",
+          "lemma": "tra",
+          "en": "in / within"
+        }
+      ]
+    },
+    {
+      "id": "dal-meccanico",
+      "title": "Dal meccanico",
+      "level": "B1",
+      "order": 65,
+      "text": "Buongiorno, la mia macchina fa uno strano rumore quando freno. Me la può controllare? Probabilmente sono le pastiglie dei freni consumate. Se è così, dovrò sostituirle e cambiare anche l'olio: ci vorranno un paio d'ore e circa centocinquanta euro.",
+      "translation": "Good morning, my car makes a strange noise when I brake. Can you check it for me? Probably it's the worn brake pads. If so, I'll have to replace them and also change the oil: it'll take a couple of hours and about one hundred fifty euros.",
+      "audio": "dal-meccanico.m4a",
+      "glossary": [
+        {
+          "word": "meccanico",
+          "lemma": "meccanico",
+          "en": "mechanic"
+        },
+        {
+          "word": "macchina",
+          "lemma": "macchina",
+          "en": "car"
+        },
+        {
+          "word": "fa",
+          "lemma": "fare",
+          "en": "it makes / does"
+        },
+        {
+          "word": "strano",
+          "lemma": "strano",
+          "en": "strange"
+        },
+        {
+          "word": "rumore",
+          "lemma": "rumore",
+          "en": "noise"
+        },
+        {
+          "word": "freno",
+          "lemma": "frenare",
+          "en": "I brake"
+        },
+        {
+          "word": "controllare",
+          "lemma": "controllare",
+          "en": "to check"
+        },
+        {
+          "word": "pastiglie",
+          "lemma": "pastiglia",
+          "en": "pads"
+        },
+        {
+          "word": "freni",
+          "lemma": "freno",
+          "en": "brakes"
+        },
+        {
+          "word": "consumate",
+          "lemma": "consumato",
+          "en": "worn out"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so / like this"
+        },
+        {
+          "word": "dovrò",
+          "lemma": "dovere",
+          "en": "I will have to"
+        },
+        {
+          "word": "sostituirle",
+          "lemma": "sostituire",
+          "en": "to replace them"
+        },
+        {
+          "word": "cambiare",
+          "lemma": "cambiare",
+          "en": "to change"
+        },
+        {
+          "word": "olio",
+          "lemma": "olio",
+          "en": "oil"
+        },
+        {
+          "word": "vorranno",
+          "lemma": "volere",
+          "en": "it will take (ci vorranno)"
+        },
+        {
+          "word": "paio",
+          "lemma": "paio",
+          "en": "couple / pair"
+        },
+        {
+          "word": "ore",
+          "lemma": "ora",
+          "en": "hours"
+        },
+        {
+          "word": "circa",
+          "lemma": "circa",
+          "en": "about / around"
+        }
+      ]
+    },
+    {
+      "id": "un-concerto",
+      "title": "Un concerto",
+      "level": "B1",
+      "order": 66,
+      "text": "Ieri sera siamo andati a un concerto della nostra band preferita. C'era tantissima gente e la musica era così forte che sentivo il cuore battere. Abbiamo cantato tutte le canzoni e siamo tornati a casa stanchi ma contenti.",
+      "translation": "Last night we went to a concert of our favorite band. There were so many people and the music was so loud that I could feel my heart beating. We sang all the songs and came home tired but happy.",
+      "audio": "un-concerto.m4a",
+      "glossary": [
+        {
+          "word": "ieri",
+          "lemma": "ieri",
+          "en": "yesterday"
+        },
+        {
+          "word": "sera",
+          "lemma": "sera",
+          "en": "evening"
+        },
+        {
+          "word": "siamo",
+          "lemma": "essere",
+          "en": "we are (here: aux. for 'we went')"
+        },
+        {
+          "word": "andati",
+          "lemma": "andare",
+          "en": "gone (we went)"
+        },
+        {
+          "word": "concerto",
+          "lemma": "concerto",
+          "en": "concert"
+        },
+        {
+          "word": "nostra",
+          "lemma": "nostro",
+          "en": "our"
+        },
+        {
+          "word": "band",
+          "lemma": "band",
+          "en": "band"
+        },
+        {
+          "word": "preferita",
+          "lemma": "preferito",
+          "en": "favorite"
+        },
+        {
+          "word": "c'era",
+          "lemma": "esserci",
+          "en": "there was"
+        },
+        {
+          "word": "tantissima",
+          "lemma": "tanto",
+          "en": "very much / a great deal"
+        },
+        {
+          "word": "gente",
+          "lemma": "gente",
+          "en": "people"
+        },
+        {
+          "word": "musica",
+          "lemma": "musica",
+          "en": "music"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so"
+        },
+        {
+          "word": "forte",
+          "lemma": "forte",
+          "en": "loud / strong"
+        },
+        {
+          "word": "sentivo",
+          "lemma": "sentire",
+          "en": "I felt / I could hear"
+        },
+        {
+          "word": "cuore",
+          "lemma": "cuore",
+          "en": "heart"
+        },
+        {
+          "word": "battere",
+          "lemma": "battere",
+          "en": "to beat"
+        },
+        {
+          "word": "abbiamo",
+          "lemma": "avere",
+          "en": "we have (aux. for 'we sang')"
+        },
+        {
+          "word": "cantato",
+          "lemma": "cantare",
+          "en": "sung"
+        },
+        {
+          "word": "canzoni",
+          "lemma": "canzone",
+          "en": "songs"
+        },
+        {
+          "word": "tornati",
+          "lemma": "tornare",
+          "en": "returned (we came back)"
+        },
+        {
+          "word": "stanchi",
+          "lemma": "stanco",
+          "en": "tired"
+        },
+        {
+          "word": "contenti",
+          "lemma": "contento",
+          "en": "happy / glad"
+        }
+      ]
+    },
+    {
+      "id": "serata-di-giochi",
+      "title": "Serata di giochi",
+      "level": "B1",
+      "order": 67,
+      "text": "Ogni venerdì sera i miei amici vengono da me per una serata di giochi da tavolo. Prepariamo le pizze, apriamo una scatola dopo l'altra e ridiamo fino a tardi. Anche se perdo quasi sempre, mi diverto un sacco.",
+      "translation": "Every Friday evening my friends come over to my place for a board game night. We make pizzas, open one box after another and laugh until late. Even though I almost always lose, I have a lot of fun.",
+      "audio": "serata-di-giochi.m4a",
+      "glossary": [
+        {
+          "word": "ogni",
+          "lemma": "ogni",
+          "en": "every"
+        },
+        {
+          "word": "venerdì",
+          "lemma": "venerdì",
+          "en": "Friday"
+        },
+        {
+          "word": "sera",
+          "lemma": "sera",
+          "en": "evening"
+        },
+        {
+          "word": "miei",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "vengono",
+          "lemma": "venire",
+          "en": "they come"
+        },
+        {
+          "word": "serata",
+          "lemma": "serata",
+          "en": "evening (event)"
+        },
+        {
+          "word": "giochi",
+          "lemma": "gioco",
+          "en": "games"
+        },
+        {
+          "word": "tavolo",
+          "lemma": "tavolo",
+          "en": "table (giochi da tavolo = board games)"
+        },
+        {
+          "word": "prepariamo",
+          "lemma": "preparare",
+          "en": "we prepare / we make"
+        },
+        {
+          "word": "pizze",
+          "lemma": "pizza",
+          "en": "pizzas"
+        },
+        {
+          "word": "apriamo",
+          "lemma": "aprire",
+          "en": "we open"
+        },
+        {
+          "word": "scatola",
+          "lemma": "scatola",
+          "en": "box"
+        },
+        {
+          "word": "altra",
+          "lemma": "altro",
+          "en": "other / another"
+        },
+        {
+          "word": "ridiamo",
+          "lemma": "ridere",
+          "en": "we laugh"
+        },
+        {
+          "word": "fino",
+          "lemma": "fino",
+          "en": "until"
+        },
+        {
+          "word": "tardi",
+          "lemma": "tardi",
+          "en": "late"
+        },
+        {
+          "word": "anche",
+          "lemma": "anche",
+          "en": "also / even"
+        },
+        {
+          "word": "perdo",
+          "lemma": "perdere",
+          "en": "I lose"
+        },
+        {
+          "word": "quasi",
+          "lemma": "quasi",
+          "en": "almost"
+        },
+        {
+          "word": "sempre",
+          "lemma": "sempre",
+          "en": "always"
+        },
+        {
+          "word": "diverto",
+          "lemma": "divertirsi",
+          "en": "I have fun / I enjoy myself"
+        },
+        {
+          "word": "sacco",
+          "lemma": "sacco",
+          "en": "sack (un sacco = a lot)"
+        }
+      ]
+    },
+    {
+      "id": "cucinare-con-gli-amici",
+      "title": "Cucinare con gli amici",
+      "level": "B1",
+      "order": 68,
+      "text": "Stasera abbiamo deciso di cucinare insieme un piatto tipico della nostra regione. Mentre Luca taglia le verdure, io preparo la salsa e Anna apparecchia la tavola. Cucinare con gli amici è il modo migliore per passare una serata tranquilla.",
+      "translation": "Tonight we decided to cook a typical dish from our region together. While Luca chops the vegetables, I prepare the sauce and Anna sets the table. Cooking with friends is the best way to spend a quiet evening.",
+      "audio": "cucinare-con-gli-amici.m4a",
+      "glossary": [
+        {
+          "word": "stasera",
+          "lemma": "stasera",
+          "en": "tonight / this evening"
+        },
+        {
+          "word": "abbiamo",
+          "lemma": "avere",
+          "en": "we have (aux. for 'we decided')"
+        },
+        {
+          "word": "deciso",
+          "lemma": "decidere",
+          "en": "decided"
+        },
+        {
+          "word": "cucinare",
+          "lemma": "cucinare",
+          "en": "to cook"
+        },
+        {
+          "word": "insieme",
+          "lemma": "insieme",
+          "en": "together"
+        },
+        {
+          "word": "piatto",
+          "lemma": "piatto",
+          "en": "dish / plate"
+        },
+        {
+          "word": "tipico",
+          "lemma": "tipico",
+          "en": "typical"
+        },
+        {
+          "word": "regione",
+          "lemma": "regione",
+          "en": "region"
+        },
+        {
+          "word": "mentre",
+          "lemma": "mentre",
+          "en": "while"
+        },
+        {
+          "word": "taglia",
+          "lemma": "tagliare",
+          "en": "he cuts / chops"
+        },
+        {
+          "word": "verdure",
+          "lemma": "verdura",
+          "en": "vegetables"
+        },
+        {
+          "word": "preparo",
+          "lemma": "preparare",
+          "en": "I prepare"
+        },
+        {
+          "word": "salsa",
+          "lemma": "salsa",
+          "en": "sauce"
+        },
+        {
+          "word": "apparecchia",
+          "lemma": "apparecchiare",
+          "en": "she sets (the table)"
+        },
+        {
+          "word": "tavola",
+          "lemma": "tavola",
+          "en": "table"
+        },
+        {
+          "word": "modo",
+          "lemma": "modo",
+          "en": "way"
+        },
+        {
+          "word": "migliore",
+          "lemma": "migliore",
+          "en": "best / better"
+        },
+        {
+          "word": "passare",
+          "lemma": "passare",
+          "en": "to spend / to pass"
+        },
+        {
+          "word": "serata",
+          "lemma": "serata",
+          "en": "evening (event)"
+        },
+        {
+          "word": "tranquilla",
+          "lemma": "tranquillo",
+          "en": "quiet / calm"
+        }
+      ]
+    },
+    {
+      "id": "il-club-del-libro",
+      "title": "Il club del libro",
+      "level": "B1",
+      "order": 69,
+      "text": "Una volta al mese mi incontro con un gruppo di amici per il club del libro. Ognuno legge lo stesso romanzo e poi ne discutiamo davanti a un bicchiere di vino. Mi piace ascoltare opinioni diverse, perché spesso scopro dettagli che non avevo notato.",
+      "translation": "Once a month I meet with a group of friends for the book club. Everyone reads the same novel and then we discuss it over a glass of wine. I like listening to different opinions, because I often discover details I hadn't noticed.",
+      "audio": "il-club-del-libro.m4a",
+      "glossary": [
+        {
+          "word": "volta",
+          "lemma": "volta",
+          "en": "time (una volta = once)"
+        },
+        {
+          "word": "mese",
+          "lemma": "mese",
+          "en": "month"
+        },
+        {
+          "word": "incontro",
+          "lemma": "incontrarsi",
+          "en": "I meet"
+        },
+        {
+          "word": "gruppo",
+          "lemma": "gruppo",
+          "en": "group"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "club",
+          "lemma": "club",
+          "en": "club"
+        },
+        {
+          "word": "libro",
+          "lemma": "libro",
+          "en": "book"
+        },
+        {
+          "word": "ognuno",
+          "lemma": "ognuno",
+          "en": "everyone / each one"
+        },
+        {
+          "word": "legge",
+          "lemma": "leggere",
+          "en": "reads"
+        },
+        {
+          "word": "stesso",
+          "lemma": "stesso",
+          "en": "same"
+        },
+        {
+          "word": "romanzo",
+          "lemma": "romanzo",
+          "en": "novel"
+        },
+        {
+          "word": "poi",
+          "lemma": "poi",
+          "en": "then"
+        },
+        {
+          "word": "discutiamo",
+          "lemma": "discutere",
+          "en": "we discuss"
+        },
+        {
+          "word": "davanti",
+          "lemma": "davanti",
+          "en": "in front of / before"
+        },
+        {
+          "word": "bicchiere",
+          "lemma": "bicchiere",
+          "en": "glass"
+        },
+        {
+          "word": "vino",
+          "lemma": "vino",
+          "en": "wine"
+        },
+        {
+          "word": "piace",
+          "lemma": "piacere",
+          "en": "(it) pleases / I like"
+        },
+        {
+          "word": "ascoltare",
+          "lemma": "ascoltare",
+          "en": "to listen"
+        },
+        {
+          "word": "opinioni",
+          "lemma": "opinione",
+          "en": "opinions"
+        },
+        {
+          "word": "diverse",
+          "lemma": "diverso",
+          "en": "different"
+        },
+        {
+          "word": "spesso",
+          "lemma": "spesso",
+          "en": "often"
+        },
+        {
+          "word": "scopro",
+          "lemma": "scoprire",
+          "en": "I discover"
+        },
+        {
+          "word": "dettagli",
+          "lemma": "dettaglio",
+          "en": "details"
+        },
+        {
+          "word": "avevo",
+          "lemma": "avere",
+          "en": "I had (aux. for 'I had noticed')"
+        },
+        {
+          "word": "notato",
+          "lemma": "notare",
+          "en": "noticed"
+        }
+      ]
+    },
+    {
+      "id": "una-mostra-d-arte",
+      "title": "Una mostra d'arte",
+      "level": "B1",
+      "order": 70,
+      "text": "Domenica scorsa sono andata a una mostra d'arte moderna in centro. I quadri erano colorati e pieni di forme strane che non capivo subito. Una guida ci ha spiegato il significato di ogni opera e così ho apprezzato molto di più la visita.",
+      "translation": "Last Sunday I went to a modern art exhibition downtown. The paintings were colorful and full of strange shapes that I didn't understand right away. A guide explained the meaning of each work to us and so I enjoyed the visit much more.",
+      "audio": "una-mostra-d-arte.m4a",
+      "glossary": [
+        {
+          "word": "domenica",
+          "lemma": "domenica",
+          "en": "Sunday"
+        },
+        {
+          "word": "scorsa",
+          "lemma": "scorso",
+          "en": "last / past"
+        },
+        {
+          "word": "sono",
+          "lemma": "essere",
+          "en": "I am (aux. for 'I went')"
+        },
+        {
+          "word": "andata",
+          "lemma": "andare",
+          "en": "gone (I went)"
+        },
+        {
+          "word": "mostra",
+          "lemma": "mostra",
+          "en": "exhibition"
+        },
+        {
+          "word": "arte",
+          "lemma": "arte",
+          "en": "art"
+        },
+        {
+          "word": "moderna",
+          "lemma": "moderno",
+          "en": "modern"
+        },
+        {
+          "word": "centro",
+          "lemma": "centro",
+          "en": "center / downtown"
+        },
+        {
+          "word": "quadri",
+          "lemma": "quadro",
+          "en": "paintings"
+        },
+        {
+          "word": "erano",
+          "lemma": "essere",
+          "en": "they were"
+        },
+        {
+          "word": "colorati",
+          "lemma": "colorato",
+          "en": "colorful"
+        },
+        {
+          "word": "pieni",
+          "lemma": "pieno",
+          "en": "full"
+        },
+        {
+          "word": "forme",
+          "lemma": "forma",
+          "en": "shapes / forms"
+        },
+        {
+          "word": "strane",
+          "lemma": "strano",
+          "en": "strange"
+        },
+        {
+          "word": "capivo",
+          "lemma": "capire",
+          "en": "I understood"
+        },
+        {
+          "word": "subito",
+          "lemma": "subito",
+          "en": "immediately / right away"
+        },
+        {
+          "word": "guida",
+          "lemma": "guida",
+          "en": "guide"
+        },
+        {
+          "word": "spiegato",
+          "lemma": "spiegare",
+          "en": "explained"
+        },
+        {
+          "word": "significato",
+          "lemma": "significato",
+          "en": "meaning"
+        },
+        {
+          "word": "ogni",
+          "lemma": "ogni",
+          "en": "every / each"
+        },
+        {
+          "word": "opera",
+          "lemma": "opera",
+          "en": "work (of art)"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so / thus"
+        },
+        {
+          "word": "apprezzato",
+          "lemma": "apprezzare",
+          "en": "appreciated / enjoyed"
+        },
+        {
+          "word": "visita",
+          "lemma": "visita",
+          "en": "visit"
+        }
+      ]
+    },
+    {
+      "id": "l-ufficio-turistico",
+      "title": "L'ufficio turistico",
+      "level": "B1",
+      "order": 71,
+      "text": "Quando arriviamo in una città nuova, andiamo subito all'ufficio turistico. La signora ci dà una mappa gratuita e ci consiglia i posti più belli da vedere. Le chiediamo anche a che ora aprono i musei e dove possiamo mangiare bene.",
+      "translation": "When we arrive in a new city, we go straight to the tourist office. The lady gives us a free map and recommends the most beautiful places to see. We also ask her what time the museums open and where we can eat well.",
+      "audio": "l-ufficio-turistico.m4a",
+      "glossary": [
+        {
+          "word": "quando",
+          "lemma": "quando",
+          "en": "when"
+        },
+        {
+          "word": "arriviamo",
+          "lemma": "arrivare",
+          "en": "we arrive"
+        },
+        {
+          "word": "nuova",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "andiamo",
+          "lemma": "andare",
+          "en": "we go"
+        },
+        {
+          "word": "subito",
+          "lemma": "subito",
+          "en": "right away"
+        },
+        {
+          "word": "ufficio",
+          "lemma": "ufficio",
+          "en": "office"
+        },
+        {
+          "word": "turistico",
+          "lemma": "turistico",
+          "en": "tourist (adj.)"
+        },
+        {
+          "word": "signora",
+          "lemma": "signora",
+          "en": "lady"
+        },
+        {
+          "word": "ci",
+          "lemma": "ci",
+          "en": "us / to us"
+        },
+        {
+          "word": "dà",
+          "lemma": "dare",
+          "en": "gives"
+        },
+        {
+          "word": "mappa",
+          "lemma": "mappa",
+          "en": "map"
+        },
+        {
+          "word": "gratuita",
+          "lemma": "gratuito",
+          "en": "free (of charge)"
+        },
+        {
+          "word": "consiglia",
+          "lemma": "consigliare",
+          "en": "recommends"
+        },
+        {
+          "word": "posti",
+          "lemma": "posto",
+          "en": "places"
+        },
+        {
+          "word": "più",
+          "lemma": "più",
+          "en": "most / more"
+        },
+        {
+          "word": "belli",
+          "lemma": "bello",
+          "en": "beautiful"
+        },
+        {
+          "word": "vedere",
+          "lemma": "vedere",
+          "en": "to see"
+        },
+        {
+          "word": "chiediamo",
+          "lemma": "chiedere",
+          "en": "we ask"
+        },
+        {
+          "word": "anche",
+          "lemma": "anche",
+          "en": "also"
+        },
+        {
+          "word": "ora",
+          "lemma": "ora",
+          "en": "time / hour"
+        },
+        {
+          "word": "aprono",
+          "lemma": "aprire",
+          "en": "they open"
+        },
+        {
+          "word": "musei",
+          "lemma": "museo",
+          "en": "museums"
+        },
+        {
+          "word": "dove",
+          "lemma": "dove",
+          "en": "where"
+        },
+        {
+          "word": "possiamo",
+          "lemma": "potere",
+          "en": "we can"
+        },
+        {
+          "word": "mangiare",
+          "lemma": "mangiare",
+          "en": "to eat"
+        }
+      ]
+    },
+    {
+      "id": "il-traghetto",
+      "title": "Il traghetto",
+      "level": "B1",
+      "order": 72,
+      "text": "Per raggiungere l'isola prendiamo il traghetto delle dieci. La traversata dura quasi un'ora e il mare oggi è calmo. Mentre la barca naviga, restiamo sul ponte a guardare la costa che si allontana.",
+      "translation": "To reach the island we take the ten o'clock ferry. The crossing lasts almost an hour and the sea is calm today. While the boat sails, we stay on the deck watching the coast move away.",
+      "audio": "il-traghetto.m4a",
+      "glossary": [
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "to / in order to"
+        },
+        {
+          "word": "raggiungere",
+          "lemma": "raggiungere",
+          "en": "to reach"
+        },
+        {
+          "word": "isola",
+          "lemma": "isola",
+          "en": "island"
+        },
+        {
+          "word": "prendiamo",
+          "lemma": "prendere",
+          "en": "we take"
+        },
+        {
+          "word": "traghetto",
+          "lemma": "traghetto",
+          "en": "ferry"
+        },
+        {
+          "word": "dieci",
+          "lemma": "dieci",
+          "en": "ten"
+        },
+        {
+          "word": "traversata",
+          "lemma": "traversata",
+          "en": "crossing"
+        },
+        {
+          "word": "dura",
+          "lemma": "durare",
+          "en": "lasts"
+        },
+        {
+          "word": "quasi",
+          "lemma": "quasi",
+          "en": "almost"
+        },
+        {
+          "word": "un'ora",
+          "lemma": "ora",
+          "en": "an hour"
+        },
+        {
+          "word": "mare",
+          "lemma": "mare",
+          "en": "sea"
+        },
+        {
+          "word": "oggi",
+          "lemma": "oggi",
+          "en": "today"
+        },
+        {
+          "word": "calmo",
+          "lemma": "calmo",
+          "en": "calm"
+        },
+        {
+          "word": "mentre",
+          "lemma": "mentre",
+          "en": "while"
+        },
+        {
+          "word": "barca",
+          "lemma": "barca",
+          "en": "boat"
+        },
+        {
+          "word": "naviga",
+          "lemma": "navigare",
+          "en": "sails"
+        },
+        {
+          "word": "restiamo",
+          "lemma": "restare",
+          "en": "we stay"
+        },
+        {
+          "word": "ponte",
+          "lemma": "ponte",
+          "en": "deck / bridge"
+        },
+        {
+          "word": "guardare",
+          "lemma": "guardare",
+          "en": "to watch"
+        },
+        {
+          "word": "costa",
+          "lemma": "costa",
+          "en": "coast"
+        },
+        {
+          "word": "si allontana",
+          "lemma": "allontanarsi",
+          "en": "moves away"
+        }
+      ]
+    },
+    {
+      "id": "leggere-la-mappa",
+      "title": "Leggere la mappa",
+      "level": "B1",
+      "order": 73,
+      "text": "Ci siamo persi nel centro storico, così apriamo la mappa per capire dove siamo. Cerco il nome della strada sul cartello e lo confronto con la cartina. Alla fine capiamo che dobbiamo girare a sinistra e proseguire dritto fino alla piazza.",
+      "translation": "We got lost in the old town, so we open the map to understand where we are. I look for the street name on the sign and compare it with the map. In the end we realize that we have to turn left and continue straight to the square.",
+      "audio": "leggere-la-mappa.m4a",
+      "glossary": [
+        {
+          "word": "ci siamo persi",
+          "lemma": "perdersi",
+          "en": "we got lost"
+        },
+        {
+          "word": "centro",
+          "lemma": "centro",
+          "en": "centre"
+        },
+        {
+          "word": "storico",
+          "lemma": "storico",
+          "en": "historic (old town)"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so / thus"
+        },
+        {
+          "word": "apriamo",
+          "lemma": "aprire",
+          "en": "we open"
+        },
+        {
+          "word": "mappa",
+          "lemma": "mappa",
+          "en": "map"
+        },
+        {
+          "word": "capire",
+          "lemma": "capire",
+          "en": "to understand"
+        },
+        {
+          "word": "siamo",
+          "lemma": "essere",
+          "en": "we are"
+        },
+        {
+          "word": "cerco",
+          "lemma": "cercare",
+          "en": "I look for"
+        },
+        {
+          "word": "nome",
+          "lemma": "nome",
+          "en": "name"
+        },
+        {
+          "word": "strada",
+          "lemma": "strada",
+          "en": "street"
+        },
+        {
+          "word": "cartello",
+          "lemma": "cartello",
+          "en": "sign"
+        },
+        {
+          "word": "confronto",
+          "lemma": "confrontare",
+          "en": "I compare"
+        },
+        {
+          "word": "cartina",
+          "lemma": "cartina",
+          "en": "small map"
+        },
+        {
+          "word": "fine",
+          "lemma": "fine",
+          "en": "end"
+        },
+        {
+          "word": "capiamo",
+          "lemma": "capire",
+          "en": "we understand"
+        },
+        {
+          "word": "dobbiamo",
+          "lemma": "dovere",
+          "en": "we must"
+        },
+        {
+          "word": "girare",
+          "lemma": "girare",
+          "en": "to turn"
+        },
+        {
+          "word": "sinistra",
+          "lemma": "sinistra",
+          "en": "left"
+        },
+        {
+          "word": "proseguire",
+          "lemma": "proseguire",
+          "en": "to continue"
+        },
+        {
+          "word": "dritto",
+          "lemma": "dritto",
+          "en": "straight"
+        },
+        {
+          "word": "fino",
+          "lemma": "fino",
+          "en": "until / as far as"
+        },
+        {
+          "word": "piazza",
+          "lemma": "piazza",
+          "en": "square"
+        }
+      ]
+    },
+    {
+      "id": "perdere-il-volo",
+      "title": "Perdere il volo",
+      "level": "B1",
+      "order": 74,
+      "text": "Siamo arrivati tardi all'aeroporto e abbiamo perso il volo per Roma. Al banco una signora gentile ci spiega che c'è un altro aereo nel pomeriggio. Dobbiamo pagare un supplemento, ma almeno torneremo a casa oggi stesso.",
+      "translation": "We arrived late at the airport and missed the flight to Rome. At the desk a kind lady explains to us that there is another plane in the afternoon. We have to pay a supplement, but at least we will get home this very day.",
+      "audio": "perdere-il-volo.m4a",
+      "glossary": [
+        {
+          "word": "siamo arrivati",
+          "lemma": "arrivare",
+          "en": "we arrived"
+        },
+        {
+          "word": "tardi",
+          "lemma": "tardi",
+          "en": "late"
+        },
+        {
+          "word": "abbiamo perso",
+          "lemma": "perdere",
+          "en": "we missed / lost"
+        },
+        {
+          "word": "volo",
+          "lemma": "volo",
+          "en": "flight"
+        },
+        {
+          "word": "Roma",
+          "lemma": "Roma",
+          "en": "Rome"
+        },
+        {
+          "word": "banco",
+          "lemma": "banco",
+          "en": "desk / counter"
+        },
+        {
+          "word": "gentile",
+          "lemma": "gentile",
+          "en": "kind"
+        },
+        {
+          "word": "spiega",
+          "lemma": "spiegare",
+          "en": "explains"
+        },
+        {
+          "word": "altro",
+          "lemma": "altro",
+          "en": "another"
+        },
+        {
+          "word": "aereo",
+          "lemma": "aereo",
+          "en": "plane"
+        },
+        {
+          "word": "pomeriggio",
+          "lemma": "pomeriggio",
+          "en": "afternoon"
+        },
+        {
+          "word": "dobbiamo",
+          "lemma": "dovere",
+          "en": "we must"
+        },
+        {
+          "word": "pagare",
+          "lemma": "pagare",
+          "en": "to pay"
+        },
+        {
+          "word": "supplemento",
+          "lemma": "supplemento",
+          "en": "supplement / surcharge"
+        },
+        {
+          "word": "almeno",
+          "lemma": "almeno",
+          "en": "at least"
+        },
+        {
+          "word": "torneremo",
+          "lemma": "tornare",
+          "en": "we will return"
+        },
+        {
+          "word": "oggi",
+          "lemma": "oggi",
+          "en": "today"
+        },
+        {
+          "word": "stesso",
+          "lemma": "stesso",
+          "en": "same / very"
+        }
+      ]
+    },
+    {
+      "id": "la-dogana",
+      "title": "La dogana",
+      "level": "B1",
+      "order": 75,
+      "text": "Dopo il lungo volo arriviamo alla dogana e mostriamo i passaporti. L'agente mi chiede quanto tempo resterò nel paese e qual è il motivo del viaggio. Rispondo che sono qui in vacanza per due settimane e lui mi lascia passare.",
+      "translation": "After the long flight we arrive at customs and show our passports. The officer asks me how long I will stay in the country and what the reason for the trip is. I answer that I am here on holiday for two weeks and he lets me through.",
+      "audio": "la-dogana.m4a",
+      "glossary": [
+        {
+          "word": "dopo",
+          "lemma": "dopo",
+          "en": "after"
+        },
+        {
+          "word": "lungo",
+          "lemma": "lungo",
+          "en": "long"
+        },
+        {
+          "word": "volo",
+          "lemma": "volo",
+          "en": "flight"
+        },
+        {
+          "word": "arriviamo",
+          "lemma": "arrivare",
+          "en": "we arrive"
+        },
+        {
+          "word": "dogana",
+          "lemma": "dogana",
+          "en": "customs"
+        },
+        {
+          "word": "mostriamo",
+          "lemma": "mostrare",
+          "en": "we show"
+        },
+        {
+          "word": "passaporti",
+          "lemma": "passaporto",
+          "en": "passports"
+        },
+        {
+          "word": "agente",
+          "lemma": "agente",
+          "en": "officer / agent"
+        },
+        {
+          "word": "chiede",
+          "lemma": "chiedere",
+          "en": "asks"
+        },
+        {
+          "word": "quanto",
+          "lemma": "quanto",
+          "en": "how much / how long"
+        },
+        {
+          "word": "tempo",
+          "lemma": "tempo",
+          "en": "time"
+        },
+        {
+          "word": "resterò",
+          "lemma": "restare",
+          "en": "I will stay"
+        },
+        {
+          "word": "paese",
+          "lemma": "paese",
+          "en": "country"
+        },
+        {
+          "word": "qual",
+          "lemma": "quale",
+          "en": "what / which"
+        },
+        {
+          "word": "motivo",
+          "lemma": "motivo",
+          "en": "reason"
+        },
+        {
+          "word": "viaggio",
+          "lemma": "viaggio",
+          "en": "trip"
+        },
+        {
+          "word": "rispondo",
+          "lemma": "rispondere",
+          "en": "I answer"
+        },
+        {
+          "word": "qui",
+          "lemma": "qui",
+          "en": "here"
+        },
+        {
+          "word": "vacanza",
+          "lemma": "vacanza",
+          "en": "holiday"
+        },
+        {
+          "word": "settimane",
+          "lemma": "settimana",
+          "en": "weeks"
+        },
+        {
+          "word": "lascia",
+          "lemma": "lasciare",
+          "en": "lets / allows"
+        },
+        {
+          "word": "passare",
+          "lemma": "passare",
+          "en": "to pass / go through"
+        }
+      ]
+    },
+    {
+      "id": "un-colloquio-di-lavoro",
+      "title": "Un colloquio di lavoro",
+      "level": "B1",
+      "order": 76,
+      "text": "Ieri ho avuto un colloquio di lavoro in un'azienda importante. Ero un po' nervoso, ma ho risposto con calma a tutte le domande. Il responsabile mi ha detto che mi richiamerà la prossima settimana.",
+      "translation": "Yesterday I had a job interview at an important company. I was a bit nervous, but I answered all the questions calmly. The manager told me he will call me back next week.",
+      "audio": "un-colloquio-di-lavoro.m4a",
+      "glossary": [
+        {
+          "word": "ieri",
+          "lemma": "ieri",
+          "en": "yesterday"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "avuto",
+          "lemma": "avere",
+          "en": "had"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "colloquio",
+          "lemma": "colloquio",
+          "en": "interview"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "of"
+        },
+        {
+          "word": "lavoro",
+          "lemma": "lavoro",
+          "en": "work / job"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "in / at"
+        },
+        {
+          "word": "un'azienda",
+          "lemma": "azienda",
+          "en": "a company"
+        },
+        {
+          "word": "importante",
+          "lemma": "importante",
+          "en": "important"
+        },
+        {
+          "word": "ero",
+          "lemma": "essere",
+          "en": "I was"
+        },
+        {
+          "word": "po'",
+          "lemma": "poco",
+          "en": "a little (un po' = a bit)"
+        },
+        {
+          "word": "nervoso",
+          "lemma": "nervoso",
+          "en": "nervous"
+        },
+        {
+          "word": "ma",
+          "lemma": "ma",
+          "en": "but"
+        },
+        {
+          "word": "risposto",
+          "lemma": "rispondere",
+          "en": "answered"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "calma",
+          "lemma": "calma",
+          "en": "calm"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "tutte",
+          "lemma": "tutto",
+          "en": "all"
+        },
+        {
+          "word": "le",
+          "lemma": "la",
+          "en": "the (plural)"
+        },
+        {
+          "word": "domande",
+          "lemma": "domanda",
+          "en": "questions"
+        },
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "responsabile",
+          "lemma": "responsabile",
+          "en": "manager / person in charge"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "to me"
+        },
+        {
+          "word": "ha",
+          "lemma": "avere",
+          "en": "has (here: forms the past tense)"
+        },
+        {
+          "word": "detto",
+          "lemma": "dire",
+          "en": "said / told"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "that"
+        },
+        {
+          "word": "richiamerà",
+          "lemma": "richiamare",
+          "en": "will call back"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "prossima",
+          "lemma": "prossimo",
+          "en": "next"
+        },
+        {
+          "word": "settimana",
+          "lemma": "settimana",
+          "en": "week"
+        }
+      ]
+    },
+    {
+      "id": "una-riunione-online",
+      "title": "Una riunione online",
+      "level": "B1",
+      "order": 77,
+      "text": "Stamattina ho avuto una riunione online con i miei colleghi. All'inizio il microfono non funzionava, ma poi abbiamo risolto il problema. Abbiamo discusso il nuovo progetto per quasi un'ora.",
+      "translation": "This morning I had an online meeting with my colleagues. At first the microphone wasn't working, but then we solved the problem. We discussed the new project for almost an hour.",
+      "audio": "una-riunione-online.m4a",
+      "glossary": [
+        {
+          "word": "stamattina",
+          "lemma": "stamattina",
+          "en": "this morning"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "avuto",
+          "lemma": "avere",
+          "en": "had"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "riunione",
+          "lemma": "riunione",
+          "en": "meeting"
+        },
+        {
+          "word": "online",
+          "lemma": "online",
+          "en": "online"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "i",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "miei",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "colleghi",
+          "lemma": "collega",
+          "en": "colleagues"
+        },
+        {
+          "word": "all'inizio",
+          "lemma": "inizio",
+          "en": "at the beginning"
+        },
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "microfono",
+          "lemma": "microfono",
+          "en": "microphone"
+        },
+        {
+          "word": "non",
+          "lemma": "non",
+          "en": "not"
+        },
+        {
+          "word": "funzionava",
+          "lemma": "funzionare",
+          "en": "was working"
+        },
+        {
+          "word": "ma",
+          "lemma": "ma",
+          "en": "but"
+        },
+        {
+          "word": "poi",
+          "lemma": "poi",
+          "en": "then"
+        },
+        {
+          "word": "abbiamo",
+          "lemma": "avere",
+          "en": "we have (here: forms the past tense)"
+        },
+        {
+          "word": "risolto",
+          "lemma": "risolvere",
+          "en": "solved"
+        },
+        {
+          "word": "problema",
+          "lemma": "problema",
+          "en": "problem"
+        },
+        {
+          "word": "discusso",
+          "lemma": "discutere",
+          "en": "discussed"
+        },
+        {
+          "word": "nuovo",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "progetto",
+          "lemma": "progetto",
+          "en": "project"
+        },
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "for"
+        },
+        {
+          "word": "quasi",
+          "lemma": "quasi",
+          "en": "almost"
+        },
+        {
+          "word": "un'ora",
+          "lemma": "ora",
+          "en": "an hour"
+        }
+      ]
+    },
+    {
+      "id": "il-trasloco",
+      "title": "Il trasloco",
+      "level": "B1",
+      "order": 78,
+      "text": "Il mese scorso ho fatto il trasloco in un nuovo appartamento. Ho messo tutte le mie cose negli scatoloni e gli amici mi hanno aiutato a portarle su. La casa nuova è più grande e luminosa.",
+      "translation": "Last month I moved into a new apartment. I put all my things in the boxes and my friends helped me carry them up. The new place is bigger and brighter.",
+      "audio": "il-trasloco.m4a",
+      "glossary": [
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "mese",
+          "lemma": "mese",
+          "en": "month"
+        },
+        {
+          "word": "scorso",
+          "lemma": "scorso",
+          "en": "last / past"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "fatto",
+          "lemma": "fare",
+          "en": "done / made"
+        },
+        {
+          "word": "trasloco",
+          "lemma": "trasloco",
+          "en": "move / removal"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "in / into"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "nuovo",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "appartamento",
+          "lemma": "appartamento",
+          "en": "apartment"
+        },
+        {
+          "word": "messo",
+          "lemma": "mettere",
+          "en": "put"
+        },
+        {
+          "word": "tutte",
+          "lemma": "tutto",
+          "en": "all"
+        },
+        {
+          "word": "le",
+          "lemma": "la",
+          "en": "the (plural)"
+        },
+        {
+          "word": "mie",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "cose",
+          "lemma": "cosa",
+          "en": "things"
+        },
+        {
+          "word": "negli",
+          "lemma": "in",
+          "en": "in the (in + gli)"
+        },
+        {
+          "word": "scatoloni",
+          "lemma": "scatolone",
+          "en": "boxes"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "gli",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "amici",
+          "lemma": "amico",
+          "en": "friends"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "me"
+        },
+        {
+          "word": "hanno",
+          "lemma": "avere",
+          "en": "they have (here: forms the past tense)"
+        },
+        {
+          "word": "aiutato",
+          "lemma": "aiutare",
+          "en": "helped"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "portarle",
+          "lemma": "portare",
+          "en": "to carry them"
+        },
+        {
+          "word": "su",
+          "lemma": "su",
+          "en": "up"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "house / place"
+        },
+        {
+          "word": "nuova",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is"
+        },
+        {
+          "word": "più",
+          "lemma": "più",
+          "en": "more"
+        },
+        {
+          "word": "grande",
+          "lemma": "grande",
+          "en": "big"
+        },
+        {
+          "word": "luminosa",
+          "lemma": "luminoso",
+          "en": "bright"
+        }
+      ]
+    },
+    {
+      "id": "un-nuovo-coinquilino",
+      "title": "Un nuovo coinquilino",
+      "level": "B1",
+      "order": 79,
+      "text": "Da una settimana ho un nuovo coinquilino. Si chiama Davide e viene da Napoli. Abbiamo deciso di dividere le faccende di casa: io cucino e lui pulisce. Penso che andremo molto d'accordo.",
+      "translation": "For a week I've had a new flatmate. His name is Davide and he comes from Naples. We decided to share the housework: I cook and he cleans. I think we'll get along very well.",
+      "audio": "un-nuovo-coinquilino.m4a",
+      "glossary": [
+        {
+          "word": "da",
+          "lemma": "da",
+          "en": "for / since"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "settimana",
+          "lemma": "settimana",
+          "en": "week"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "nuovo",
+          "lemma": "nuovo",
+          "en": "new"
+        },
+        {
+          "word": "coinquilino",
+          "lemma": "coinquilino",
+          "en": "flatmate / roommate"
+        },
+        {
+          "word": "si",
+          "lemma": "si",
+          "en": "himself (reflexive)"
+        },
+        {
+          "word": "chiama",
+          "lemma": "chiamarsi",
+          "en": "is called"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "viene",
+          "lemma": "venire",
+          "en": "comes"
+        },
+        {
+          "word": "da",
+          "lemma": "da",
+          "en": "from"
+        },
+        {
+          "word": "abbiamo",
+          "lemma": "avere",
+          "en": "we have (here: forms the past tense)"
+        },
+        {
+          "word": "deciso",
+          "lemma": "decidere",
+          "en": "decided"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "to / of"
+        },
+        {
+          "word": "dividere",
+          "lemma": "dividere",
+          "en": "to share / divide"
+        },
+        {
+          "word": "le",
+          "lemma": "la",
+          "en": "the (plural)"
+        },
+        {
+          "word": "faccende",
+          "lemma": "faccenda",
+          "en": "chores (faccende di casa = housework)"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "house / home"
+        },
+        {
+          "word": "io",
+          "lemma": "io",
+          "en": "I"
+        },
+        {
+          "word": "cucino",
+          "lemma": "cucinare",
+          "en": "I cook"
+        },
+        {
+          "word": "lui",
+          "lemma": "lui",
+          "en": "he"
+        },
+        {
+          "word": "pulisce",
+          "lemma": "pulire",
+          "en": "he cleans"
+        },
+        {
+          "word": "penso",
+          "lemma": "pensare",
+          "en": "I think"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "that"
+        },
+        {
+          "word": "andremo",
+          "lemma": "andare",
+          "en": "we will go (andare d'accordo = to get along)"
+        },
+        {
+          "word": "molto",
+          "lemma": "molto",
+          "en": "very / a lot"
+        },
+        {
+          "word": "d'accordo",
+          "lemma": "accordo",
+          "en": "in agreement"
+        }
+      ]
+    },
+    {
+      "id": "un-cambio-di-tempo-improvviso",
+      "title": "Un cambio di tempo improvviso",
+      "level": "B1",
+      "order": 80,
+      "text": "Stamattina c'era il sole, così sono uscito senza ombrello. Nel pomeriggio, però, il tempo è cambiato all'improvviso ed è cominciato a piovere forte. Mi sono bagnato tutto prima di tornare a casa.",
+      "translation": "This morning it was sunny, so I went out without an umbrella. In the afternoon, however, the weather changed suddenly and it started to rain hard. I got completely soaked before getting home.",
+      "audio": "un-cambio-di-tempo-improvviso.m4a",
+      "glossary": [
+        {
+          "word": "stamattina",
+          "lemma": "stamattina",
+          "en": "this morning"
+        },
+        {
+          "word": "c'era",
+          "lemma": "esserci",
+          "en": "there was"
+        },
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "sole",
+          "lemma": "sole",
+          "en": "sun"
+        },
+        {
+          "word": "così",
+          "lemma": "così",
+          "en": "so"
+        },
+        {
+          "word": "sono",
+          "lemma": "essere",
+          "en": "I am (here: forms the past tense)"
+        },
+        {
+          "word": "uscito",
+          "lemma": "uscire",
+          "en": "gone out"
+        },
+        {
+          "word": "senza",
+          "lemma": "senza",
+          "en": "without"
+        },
+        {
+          "word": "ombrello",
+          "lemma": "ombrello",
+          "en": "umbrella"
+        },
+        {
+          "word": "nel",
+          "lemma": "in",
+          "en": "in the (in + il)"
+        },
+        {
+          "word": "pomeriggio",
+          "lemma": "pomeriggio",
+          "en": "afternoon"
+        },
+        {
+          "word": "però",
+          "lemma": "però",
+          "en": "however / but"
+        },
+        {
+          "word": "tempo",
+          "lemma": "tempo",
+          "en": "weather"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is (here: forms the past tense)"
+        },
+        {
+          "word": "cambiato",
+          "lemma": "cambiare",
+          "en": "changed"
+        },
+        {
+          "word": "all'improvviso",
+          "lemma": "improvviso",
+          "en": "suddenly"
+        },
+        {
+          "word": "ed",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "cominciato",
+          "lemma": "cominciare",
+          "en": "started"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "piovere",
+          "lemma": "piovere",
+          "en": "to rain"
+        },
+        {
+          "word": "forte",
+          "lemma": "forte",
+          "en": "hard / strongly"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "myself"
+        },
+        {
+          "word": "bagnato",
+          "lemma": "bagnarsi",
+          "en": "got wet"
+        },
+        {
+          "word": "tutto",
+          "lemma": "tutto",
+          "en": "all / completely"
+        },
+        {
+          "word": "prima",
+          "lemma": "prima",
+          "en": "before"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "of"
+        },
+        {
+          "word": "tornare",
+          "lemma": "tornare",
+          "en": "to return / get back"
+        },
+        {
+          "word": "casa",
+          "lemma": "casa",
+          "en": "home"
+        }
+      ]
+    },
+    {
+      "id": "fare-volontariato",
+      "title": "Fare volontariato",
+      "level": "B1",
+      "order": 81,
+      "text": "Da qualche mese faccio volontariato in un'associazione del mio quartiere. Ogni sabato aiuto a preparare i pasti per le persone in difficoltà. È un'esperienza che mi rende felice e mi fa sentire utile.",
+      "translation": "For a few months I've been volunteering at an association in my neighbourhood. Every Saturday I help prepare meals for people in difficulty. It's an experience that makes me happy and makes me feel useful.",
+      "audio": "fare-volontariato.m4a",
+      "glossary": [
+        {
+          "word": "da",
+          "lemma": "da",
+          "en": "for / since"
+        },
+        {
+          "word": "qualche",
+          "lemma": "qualche",
+          "en": "a few / some"
+        },
+        {
+          "word": "mese",
+          "lemma": "mese",
+          "en": "month"
+        },
+        {
+          "word": "faccio",
+          "lemma": "fare",
+          "en": "I do / make"
+        },
+        {
+          "word": "volontariato",
+          "lemma": "volontariato",
+          "en": "volunteering"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "in / at"
+        },
+        {
+          "word": "un'associazione",
+          "lemma": "associazione",
+          "en": "an association"
+        },
+        {
+          "word": "del",
+          "lemma": "di",
+          "en": "of the (di + il)"
+        },
+        {
+          "word": "mio",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "quartiere",
+          "lemma": "quartiere",
+          "en": "neighbourhood"
+        },
+        {
+          "word": "ogni",
+          "lemma": "ogni",
+          "en": "every"
+        },
+        {
+          "word": "sabato",
+          "lemma": "sabato",
+          "en": "Saturday"
+        },
+        {
+          "word": "aiuto",
+          "lemma": "aiutare",
+          "en": "I help"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "to"
+        },
+        {
+          "word": "preparare",
+          "lemma": "preparare",
+          "en": "to prepare"
+        },
+        {
+          "word": "i",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "pasti",
+          "lemma": "pasto",
+          "en": "meals"
+        },
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "for"
+        },
+        {
+          "word": "le",
+          "lemma": "la",
+          "en": "the (plural)"
+        },
+        {
+          "word": "persone",
+          "lemma": "persona",
+          "en": "people"
+        },
+        {
+          "word": "difficoltà",
+          "lemma": "difficoltà",
+          "en": "difficulty"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is / it's"
+        },
+        {
+          "word": "un'esperienza",
+          "lemma": "esperienza",
+          "en": "an experience"
+        },
+        {
+          "word": "che",
+          "lemma": "che",
+          "en": "that / which"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "me"
+        },
+        {
+          "word": "rende",
+          "lemma": "rendere",
+          "en": "makes"
+        },
+        {
+          "word": "felice",
+          "lemma": "felice",
+          "en": "happy"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "fa",
+          "lemma": "fare",
+          "en": "makes (mi fa sentire = makes me feel)"
+        },
+        {
+          "word": "sentire",
+          "lemma": "sentire",
+          "en": "to feel"
+        },
+        {
+          "word": "utile",
+          "lemma": "utile",
+          "en": "useful"
+        }
+      ]
+    },
+    {
+      "id": "una-giornata-storta",
+      "title": "Una giornata storta",
+      "level": "B1",
+      "order": 82,
+      "text": "Ieri è stata una giornata storta. La sveglia non è suonata e ho perso l'autobus. Poi al lavoro il computer si è bloccato e ho dovuto rifare tutto. Per fortuna la sera mi sono riposato un po'.",
+      "translation": "Yesterday was a bad day. The alarm didn't go off and I missed the bus. Then at work the computer froze and I had to redo everything. Luckily in the evening I rested a bit.",
+      "audio": "una-giornata-storta.m4a",
+      "glossary": [
+        {
+          "word": "ieri",
+          "lemma": "ieri",
+          "en": "yesterday"
+        },
+        {
+          "word": "è",
+          "lemma": "essere",
+          "en": "is (here: forms the past tense)"
+        },
+        {
+          "word": "stata",
+          "lemma": "essere",
+          "en": "been (è stata = it was)"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "giornata",
+          "lemma": "giornata",
+          "en": "day"
+        },
+        {
+          "word": "storta",
+          "lemma": "storto",
+          "en": "bad / gone wrong"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "sveglia",
+          "lemma": "sveglia",
+          "en": "alarm clock"
+        },
+        {
+          "word": "non",
+          "lemma": "non",
+          "en": "not"
+        },
+        {
+          "word": "suonata",
+          "lemma": "suonare",
+          "en": "rang / went off"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "ho",
+          "lemma": "avere",
+          "en": "I have (here: forms the past tense)"
+        },
+        {
+          "word": "perso",
+          "lemma": "perdere",
+          "en": "lost / missed"
+        },
+        {
+          "word": "l'autobus",
+          "lemma": "autobus",
+          "en": "the bus"
+        },
+        {
+          "word": "poi",
+          "lemma": "poi",
+          "en": "then"
+        },
+        {
+          "word": "al",
+          "lemma": "a",
+          "en": "at the (a + il)"
+        },
+        {
+          "word": "lavoro",
+          "lemma": "lavoro",
+          "en": "work"
+        },
+        {
+          "word": "il",
+          "lemma": "il",
+          "en": "the"
+        },
+        {
+          "word": "computer",
+          "lemma": "computer",
+          "en": "computer"
+        },
+        {
+          "word": "si",
+          "lemma": "si",
+          "en": "itself (reflexive)"
+        },
+        {
+          "word": "bloccato",
+          "lemma": "bloccarsi",
+          "en": "froze / got stuck"
+        },
+        {
+          "word": "dovuto",
+          "lemma": "dovere",
+          "en": "had to"
+        },
+        {
+          "word": "rifare",
+          "lemma": "rifare",
+          "en": "to redo"
+        },
+        {
+          "word": "tutto",
+          "lemma": "tutto",
+          "en": "everything"
+        },
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "for (per fortuna = luckily)"
+        },
+        {
+          "word": "fortuna",
+          "lemma": "fortuna",
+          "en": "luck"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "sera",
+          "lemma": "sera",
+          "en": "evening"
+        },
+        {
+          "word": "mi",
+          "lemma": "mi",
+          "en": "myself"
+        },
+        {
+          "word": "sono",
+          "lemma": "essere",
+          "en": "I am (here: forms the past tense)"
+        },
+        {
+          "word": "riposato",
+          "lemma": "riposarsi",
+          "en": "rested"
+        },
+        {
+          "word": "un",
+          "lemma": "uno",
+          "en": "a / one (un po' = a bit)"
+        },
+        {
+          "word": "po'",
+          "lemma": "poco",
+          "en": "a little (un po' = a bit)"
+        }
+      ]
+    },
+    {
+      "id": "organizzare-le-vacanze",
+      "title": "Organizzare le vacanze",
+      "level": "B1",
+      "order": 83,
+      "text": "Stiamo organizzando le vacanze estive con la mia famiglia. Vorremmo andare in Puglia per due settimane. Prima di partire dovremo prenotare l'albergo e i biglietti del treno. Se troveremo una buona offerta, partiremo a luglio.",
+      "translation": "We're organising the summer holidays with my family. We'd like to go to Puglia for two weeks. Before leaving we'll have to book the hotel and the train tickets. If we find a good offer, we'll leave in July.",
+      "audio": "organizzare-le-vacanze.m4a",
+      "glossary": [
+        {
+          "word": "stiamo",
+          "lemma": "stare",
+          "en": "we are (stare + gerund = to be doing)"
+        },
+        {
+          "word": "organizzando",
+          "lemma": "organizzare",
+          "en": "organising"
+        },
+        {
+          "word": "le",
+          "lemma": "la",
+          "en": "the (plural)"
+        },
+        {
+          "word": "vacanze",
+          "lemma": "vacanza",
+          "en": "holidays"
+        },
+        {
+          "word": "estive",
+          "lemma": "estivo",
+          "en": "summer (adj.)"
+        },
+        {
+          "word": "con",
+          "lemma": "con",
+          "en": "with"
+        },
+        {
+          "word": "la",
+          "lemma": "la",
+          "en": "the"
+        },
+        {
+          "word": "mia",
+          "lemma": "mio",
+          "en": "my"
+        },
+        {
+          "word": "famiglia",
+          "lemma": "famiglia",
+          "en": "family"
+        },
+        {
+          "word": "vorremmo",
+          "lemma": "volere",
+          "en": "we would like"
+        },
+        {
+          "word": "andare",
+          "lemma": "andare",
+          "en": "to go"
+        },
+        {
+          "word": "in",
+          "lemma": "in",
+          "en": "to / in"
+        },
+        {
+          "word": "Puglia",
+          "lemma": "Puglia",
+          "en": "Puglia (region in southern Italy)"
+        },
+        {
+          "word": "per",
+          "lemma": "per",
+          "en": "for"
+        },
+        {
+          "word": "due",
+          "lemma": "due",
+          "en": "two"
+        },
+        {
+          "word": "settimane",
+          "lemma": "settimana",
+          "en": "weeks"
+        },
+        {
+          "word": "prima",
+          "lemma": "prima",
+          "en": "before"
+        },
+        {
+          "word": "di",
+          "lemma": "di",
+          "en": "of"
+        },
+        {
+          "word": "partire",
+          "lemma": "partire",
+          "en": "to leave / depart"
+        },
+        {
+          "word": "dovremo",
+          "lemma": "dovere",
+          "en": "we will have to"
+        },
+        {
+          "word": "prenotare",
+          "lemma": "prenotare",
+          "en": "to book"
+        },
+        {
+          "word": "l'albergo",
+          "lemma": "albergo",
+          "en": "the hotel"
+        },
+        {
+          "word": "e",
+          "lemma": "e",
+          "en": "and"
+        },
+        {
+          "word": "i",
+          "lemma": "il",
+          "en": "the (plural)"
+        },
+        {
+          "word": "biglietti",
+          "lemma": "biglietto",
+          "en": "tickets"
+        },
+        {
+          "word": "del",
+          "lemma": "di",
+          "en": "of the (di + il)"
+        },
+        {
+          "word": "treno",
+          "lemma": "treno",
+          "en": "train"
+        },
+        {
+          "word": "se",
+          "lemma": "se",
+          "en": "if"
+        },
+        {
+          "word": "troveremo",
+          "lemma": "trovare",
+          "en": "we will find"
+        },
+        {
+          "word": "una",
+          "lemma": "uno",
+          "en": "a / one"
+        },
+        {
+          "word": "buona",
+          "lemma": "buono",
+          "en": "good"
+        },
+        {
+          "word": "offerta",
+          "lemma": "offerta",
+          "en": "offer"
+        },
+        {
+          "word": "partiremo",
+          "lemma": "partire",
+          "en": "we will leave"
+        },
+        {
+          "word": "a",
+          "lemma": "a",
+          "en": "in (a luglio = in July)"
+        },
+        {
+          "word": "luglio",
+          "lemma": "luglio",
+          "en": "July"
         }
       ]
     }
