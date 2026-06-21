@@ -1,55 +1,1410 @@
 {
-  "note": "High-frequency Italian starter deck, ordered by rough frequency rank. A later data task expands this toward the top 2–3k word families.",
+  "note": "High-frequency Italian deck, frequency-ordered (Claude-generated, QA-proofread). Expand further in batches toward the top ~2-3k families.",
   "words": [
-    { "it": "essere",     "en": "to be",          "ex": "Voglio essere felice." },
-    { "it": "avere",      "en": "to have",        "ex": "Posso avere il conto?" },
-    { "it": "fare",       "en": "to do / make",   "ex": "Cosa vuoi fare oggi?" },
-    { "it": "dire",       "en": "to say",         "ex": "Devo dire la verità." },
-    { "it": "potere",     "en": "to be able to",  "ex": "Spero di potere venire." },
-    { "it": "volere",     "en": "to want",        "ex": "Volere è potere." },
-    { "it": "sapere",     "en": "to know",        "ex": "Vorrei sapere la verità." },
-    { "it": "andare",     "en": "to go",          "ex": "Voglio andare a casa." },
-    { "it": "vedere",     "en": "to see",         "ex": "Voglio vedere il mare." },
-    { "it": "venire",     "en": "to come",        "ex": "Puoi venire qui?" },
-    { "it": "dare",       "en": "to give",        "ex": "Puoi dare una mano?" },
-    { "it": "stare",      "en": "to stay / be",   "ex": "Voglio stare a casa." },
-    { "it": "dovere",     "en": "to have to",     "ex": "Odio dovere aspettare." },
-    { "it": "parlare",    "en": "to speak",       "ex": "Voglio parlare italiano." },
-    { "it": "trovare",    "en": "to find",        "ex": "Devo trovare le chiavi." },
-    { "it": "casa",       "en": "house / home",   "ex": "Torno a casa tardi." },
-    { "it": "tempo",      "en": "time / weather", "ex": "Non ho tempo oggi." },
-    { "it": "giorno",     "en": "day",            "ex": "Che bel giorno!" },
-    { "it": "anno",       "en": "year",           "ex": "Ho trent'anni." },
-    { "it": "uomo",       "en": "man",            "ex": "Quell'uomo è alto." },
-    { "it": "donna",      "en": "woman",          "ex": "La donna legge un libro." },
-    { "it": "vita",       "en": "life",           "ex": "La vita è bella." },
-    { "it": "mano",       "en": "hand",           "ex": "Ho le mani fredde." },
-    { "it": "occhio",     "en": "eye",            "ex": "Ha gli occhi verdi." },
-    { "it": "acqua",      "en": "water",          "ex": "Vorrei un po' d'acqua." },
-    { "it": "cibo",       "en": "food",           "ex": "Il cibo è ottimo qui." },
-    { "it": "amico",      "en": "friend",         "ex": "Lui è il mio amico." },
-    { "it": "lavoro",     "en": "work / job",     "ex": "Vado al lavoro presto." },
-    { "it": "città",      "en": "city",           "ex": "Roma è una grande città." },
-    { "it": "bambino",    "en": "child",          "ex": "Il bambino dorme." },
-    { "it": "grande",     "en": "big / great",    "ex": "È una grande occasione." },
-    { "it": "piccolo",    "en": "small",          "ex": "Un piccolo problema." },
-    { "it": "nuovo",      "en": "new",            "ex": "Ho una macchina nuova." },
-    { "it": "buono",      "en": "good",           "ex": "Questo caffè è buono." },
-    { "it": "bello",      "en": "beautiful",      "ex": "Che bella giornata!" },
-    { "it": "primo",      "en": "first",          "ex": "È la prima volta." },
-    { "it": "ultimo",     "en": "last",           "ex": "L'ultimo treno è partito." },
-    { "it": "molto",      "en": "very / a lot",   "ex": "Mi piace molto." },
-    { "it": "poco",       "en": "little / few",   "ex": "Ho poco tempo." },
-    { "it": "sempre",     "en": "always",         "ex": "Arrivo sempre tardi." },
-    { "it": "mai",        "en": "never",          "ex": "Non lo faccio mai." },
-    { "it": "oggi",       "en": "today",          "ex": "Oggi piove." },
-    { "it": "domani",     "en": "tomorrow",       "ex": "A domani!" },
-    { "it": "adesso",     "en": "now",            "ex": "Lo faccio adesso." },
-    { "it": "qui",        "en": "here",           "ex": "Vieni qui!" },
-    { "it": "bene",       "en": "well",           "ex": "Tutto bene?" },
-    { "it": "anche",      "en": "also / too",     "ex": "Vengo anch'io." },
-    { "it": "perché",     "en": "why / because",  "ex": "Perché non mangi?" },
-    { "it": "grazie",     "en": "thank you",      "ex": "Grazie mille!" },
-    { "it": "ciao",       "en": "hi / bye",       "ex": "Ciao, come va?" }
+    {
+      "it": "essere",
+      "en": "to be",
+      "ex": "Voglio essere felice."
+    },
+    {
+      "it": "avere",
+      "en": "to have",
+      "ex": "Posso avere il conto?"
+    },
+    {
+      "it": "fare",
+      "en": "to do / make",
+      "ex": "Cosa vuoi fare oggi?"
+    },
+    {
+      "it": "dire",
+      "en": "to say",
+      "ex": "Devo dire la verità."
+    },
+    {
+      "it": "potere",
+      "en": "to be able to",
+      "ex": "Spero di potere venire."
+    },
+    {
+      "it": "volere",
+      "en": "to want",
+      "ex": "Volere è potere."
+    },
+    {
+      "it": "sapere",
+      "en": "to know",
+      "ex": "Vorrei sapere la verità."
+    },
+    {
+      "it": "andare",
+      "en": "to go",
+      "ex": "Voglio andare a casa."
+    },
+    {
+      "it": "vedere",
+      "en": "to see",
+      "ex": "Voglio vedere il mare."
+    },
+    {
+      "it": "venire",
+      "en": "to come",
+      "ex": "Puoi venire qui?"
+    },
+    {
+      "it": "dare",
+      "en": "to give",
+      "ex": "Puoi dare una mano?"
+    },
+    {
+      "it": "stare",
+      "en": "to stay / be",
+      "ex": "Voglio stare a casa."
+    },
+    {
+      "it": "dovere",
+      "en": "to have to",
+      "ex": "Odio dovere aspettare."
+    },
+    {
+      "it": "parlare",
+      "en": "to speak",
+      "ex": "Voglio parlare italiano."
+    },
+    {
+      "it": "trovare",
+      "en": "to find",
+      "ex": "Devo trovare le chiavi."
+    },
+    {
+      "it": "casa",
+      "en": "house / home",
+      "ex": "Torno a casa tardi."
+    },
+    {
+      "it": "tempo",
+      "en": "time / weather",
+      "ex": "Non ho tempo oggi."
+    },
+    {
+      "it": "giorno",
+      "en": "day",
+      "ex": "Che bel giorno!"
+    },
+    {
+      "it": "anno",
+      "en": "year",
+      "ex": "Ho trent'anni."
+    },
+    {
+      "it": "uomo",
+      "en": "man",
+      "ex": "Quell'uomo è alto."
+    },
+    {
+      "it": "donna",
+      "en": "woman",
+      "ex": "La donna legge un libro."
+    },
+    {
+      "it": "vita",
+      "en": "life",
+      "ex": "La vita è bella."
+    },
+    {
+      "it": "mano",
+      "en": "hand",
+      "ex": "Ho le mani fredde."
+    },
+    {
+      "it": "occhio",
+      "en": "eye",
+      "ex": "Ha gli occhi verdi."
+    },
+    {
+      "it": "acqua",
+      "en": "water",
+      "ex": "Vorrei un po' d'acqua."
+    },
+    {
+      "it": "cibo",
+      "en": "food",
+      "ex": "Il cibo è ottimo qui."
+    },
+    {
+      "it": "amico",
+      "en": "friend",
+      "ex": "Lui è il mio amico."
+    },
+    {
+      "it": "lavoro",
+      "en": "work / job",
+      "ex": "Vado al lavoro presto."
+    },
+    {
+      "it": "città",
+      "en": "city",
+      "ex": "Roma è una grande città."
+    },
+    {
+      "it": "bambino",
+      "en": "child",
+      "ex": "Il bambino dorme."
+    },
+    {
+      "it": "grande",
+      "en": "big / great",
+      "ex": "È una grande occasione."
+    },
+    {
+      "it": "piccolo",
+      "en": "small",
+      "ex": "Un piccolo problema."
+    },
+    {
+      "it": "nuovo",
+      "en": "new",
+      "ex": "Ho una macchina nuova."
+    },
+    {
+      "it": "buono",
+      "en": "good",
+      "ex": "Questo caffè è buono."
+    },
+    {
+      "it": "bello",
+      "en": "beautiful",
+      "ex": "Che bella giornata!"
+    },
+    {
+      "it": "primo",
+      "en": "first",
+      "ex": "È la prima volta."
+    },
+    {
+      "it": "ultimo",
+      "en": "last",
+      "ex": "L'ultimo treno è partito."
+    },
+    {
+      "it": "molto",
+      "en": "very / a lot",
+      "ex": "Mi piace molto."
+    },
+    {
+      "it": "poco",
+      "en": "little / few",
+      "ex": "Ho poco tempo."
+    },
+    {
+      "it": "sempre",
+      "en": "always",
+      "ex": "Arrivo sempre tardi."
+    },
+    {
+      "it": "mai",
+      "en": "never",
+      "ex": "Non lo faccio mai."
+    },
+    {
+      "it": "oggi",
+      "en": "today",
+      "ex": "Oggi piove."
+    },
+    {
+      "it": "domani",
+      "en": "tomorrow",
+      "ex": "A domani!"
+    },
+    {
+      "it": "adesso",
+      "en": "now",
+      "ex": "Lo faccio adesso."
+    },
+    {
+      "it": "qui",
+      "en": "here",
+      "ex": "Vieni qui!"
+    },
+    {
+      "it": "bene",
+      "en": "well",
+      "ex": "Tutto bene?"
+    },
+    {
+      "it": "anche",
+      "en": "also / too",
+      "ex": "Vengo anch'io."
+    },
+    {
+      "it": "perché",
+      "en": "why / because",
+      "ex": "Perché non mangi?"
+    },
+    {
+      "it": "grazie",
+      "en": "thank you",
+      "ex": "Grazie mille!"
+    },
+    {
+      "it": "ciao",
+      "en": "hi / bye",
+      "ex": "Ciao, come va?"
+    },
+    {
+      "it": "io",
+      "en": "I",
+      "ex": "Io sono italiano."
+    },
+    {
+      "it": "tu",
+      "en": "you (sing.)",
+      "ex": "Tu come stai?"
+    },
+    {
+      "it": "lui",
+      "en": "he",
+      "ex": "Lui è mio fratello."
+    },
+    {
+      "it": "lei",
+      "en": "she",
+      "ex": "Lei è la mia amica."
+    },
+    {
+      "it": "noi",
+      "en": "we",
+      "ex": "Noi mangiamo insieme."
+    },
+    {
+      "it": "voi",
+      "en": "you (pl.)",
+      "ex": "Voi dove andate?"
+    },
+    {
+      "it": "loro",
+      "en": "they",
+      "ex": "Loro sono a casa."
+    },
+    {
+      "it": "questo",
+      "en": "this",
+      "ex": "Questo libro è bello."
+    },
+    {
+      "it": "quello",
+      "en": "that",
+      "ex": "Quello è il mio cane."
+    },
+    {
+      "it": "il",
+      "en": "the (m.)",
+      "ex": "Il gatto dorme."
+    },
+    {
+      "it": "la",
+      "en": "the (f.)",
+      "ex": "La porta è aperta."
+    },
+    {
+      "it": "lo",
+      "en": "the (m., before s+cons.)",
+      "ex": "Lo studente legge."
+    },
+    {
+      "it": "gli",
+      "en": "the (m. pl.)",
+      "ex": "Gli amici arrivano."
+    },
+    {
+      "it": "le",
+      "en": "the (f. pl.)",
+      "ex": "Le case sono grandi."
+    },
+    {
+      "it": "un",
+      "en": "a (m.)",
+      "ex": "Un uomo cammina."
+    },
+    {
+      "it": "una",
+      "en": "a (f.)",
+      "ex": "Una donna canta."
+    },
+    {
+      "it": "di",
+      "en": "of, from",
+      "ex": "Il libro di Maria."
+    },
+    {
+      "it": "a",
+      "en": "to, at",
+      "ex": "Vado a scuola."
+    },
+    {
+      "it": "da",
+      "en": "from, by",
+      "ex": "Vengo da Roma."
+    },
+    {
+      "it": "in",
+      "en": "in",
+      "ex": "Sono in cucina."
+    },
+    {
+      "it": "con",
+      "en": "with",
+      "ex": "Vado con te."
+    },
+    {
+      "it": "su",
+      "en": "on",
+      "ex": "Il libro è su questo tavolo."
+    },
+    {
+      "it": "per",
+      "en": "for",
+      "ex": "Questo è per te."
+    },
+    {
+      "it": "tra",
+      "en": "between, among",
+      "ex": "Tra noi c'è amicizia."
+    },
+    {
+      "it": "fra",
+      "en": "between, in (time)",
+      "ex": "Torno fra un'ora."
+    },
+    {
+      "it": "sopra",
+      "en": "above, on top",
+      "ex": "Il quadro è sopra il letto."
+    },
+    {
+      "it": "sotto",
+      "en": "under",
+      "ex": "Il gatto è sotto la sedia."
+    },
+    {
+      "it": "e",
+      "en": "and",
+      "ex": "Io e te andiamo."
+    },
+    {
+      "it": "o",
+      "en": "or",
+      "ex": "Tè o caffè?"
+    },
+    {
+      "it": "ma",
+      "en": "but",
+      "ex": "È bello ma caro."
+    },
+    {
+      "it": "se",
+      "en": "if",
+      "ex": "Se piove, resto a casa."
+    },
+    {
+      "it": "che",
+      "en": "that, which, what",
+      "ex": "Penso che sia vero."
+    },
+    {
+      "it": "come",
+      "en": "how, like",
+      "ex": "Come stai oggi?"
+    },
+    {
+      "it": "quando",
+      "en": "when",
+      "ex": "Quando arrivi?"
+    },
+    {
+      "it": "dove",
+      "en": "where",
+      "ex": "Dove sei?"
+    },
+    {
+      "it": "chi",
+      "en": "who",
+      "ex": "Chi è quella ragazza?"
+    },
+    {
+      "it": "cosa",
+      "en": "what, thing",
+      "ex": "Cosa fai stasera?"
+    },
+    {
+      "it": "quale",
+      "en": "which",
+      "ex": "Quale preferisci?"
+    },
+    {
+      "it": "quanto",
+      "en": "how much",
+      "ex": "Quanto costa?"
+    },
+    {
+      "it": "non",
+      "en": "not",
+      "ex": "Non capisco."
+    },
+    {
+      "it": "sì",
+      "en": "yes",
+      "ex": "Sì, va bene."
+    },
+    {
+      "it": "no",
+      "en": "no",
+      "ex": "No, grazie."
+    },
+    {
+      "it": "mi",
+      "en": "me, myself",
+      "ex": "Mi chiamo Anna."
+    },
+    {
+      "it": "ti",
+      "en": "you, yourself",
+      "ex": "Ti voglio bene."
+    },
+    {
+      "it": "ci",
+      "en": "us, there",
+      "ex": "Ci vediamo domani."
+    },
+    {
+      "it": "vi",
+      "en": "you (pl.), yourselves",
+      "ex": "Vi aspetto qui."
+    },
+    {
+      "it": "si",
+      "en": "oneself, one",
+      "ex": "Si mangia bene qui."
+    },
+    {
+      "it": "mio",
+      "en": "my",
+      "ex": "Il mio cane è grande."
+    },
+    {
+      "it": "tuo",
+      "en": "your",
+      "ex": "Questo è il tuo libro."
+    },
+    {
+      "it": "suo",
+      "en": "his, her",
+      "ex": "La sua casa è bella."
+    },
+    {
+      "it": "nostro",
+      "en": "our",
+      "ex": "Il nostro paese è piccolo."
+    },
+    {
+      "it": "vostro",
+      "en": "your (pl.)",
+      "ex": "La vostra idea è buona."
+    },
+    {
+      "it": "tutto",
+      "en": "all, everything",
+      "ex": "Ho mangiato tutto."
+    },
+    {
+      "it": "ogni",
+      "en": "every",
+      "ex": "Ogni giorno studio."
+    },
+    {
+      "it": "altro",
+      "en": "other",
+      "ex": "Voglio un altro caffè."
+    },
+    {
+      "it": "stesso",
+      "en": "same, self",
+      "ex": "È lo stesso libro."
+    },
+    {
+      "it": "pensare",
+      "en": "to think",
+      "ex": "Devo pensare bene."
+    },
+    {
+      "it": "credere",
+      "en": "to believe",
+      "ex": "Io credo di sì."
+    },
+    {
+      "it": "guardare",
+      "en": "to look, watch",
+      "ex": "Voglio guardare la TV."
+    },
+    {
+      "it": "sentire",
+      "en": "to hear, feel",
+      "ex": "Non riesco a sentire."
+    },
+    {
+      "it": "chiedere",
+      "en": "to ask",
+      "ex": "Posso chiedere una cosa?"
+    },
+    {
+      "it": "rispondere",
+      "en": "to answer",
+      "ex": "Devo rispondere subito."
+    },
+    {
+      "it": "capire",
+      "en": "to understand",
+      "ex": "Non riesco a capire."
+    },
+    {
+      "it": "vivere",
+      "en": "to live",
+      "ex": "Voglio vivere a Roma."
+    },
+    {
+      "it": "lavorare",
+      "en": "to work",
+      "ex": "Devo lavorare oggi."
+    },
+    {
+      "it": "mangiare",
+      "en": "to eat",
+      "ex": "Voglio mangiare la pizza."
+    },
+    {
+      "it": "bere",
+      "en": "to drink",
+      "ex": "Posso bere dell'acqua?"
+    },
+    {
+      "it": "comprare",
+      "en": "to buy",
+      "ex": "Devo comprare il pane."
+    },
+    {
+      "it": "aprire",
+      "en": "to open",
+      "ex": "Puoi aprire la porta?"
+    },
+    {
+      "it": "chiudere",
+      "en": "to close",
+      "ex": "Devo chiudere la finestra."
+    },
+    {
+      "it": "mettere",
+      "en": "to put",
+      "ex": "Dove posso mettere la borsa?"
+    },
+    {
+      "it": "prendere",
+      "en": "to take",
+      "ex": "Voglio prendere il treno."
+    },
+    {
+      "it": "portare",
+      "en": "to bring, carry",
+      "ex": "Puoi portare il pane?"
+    },
+    {
+      "it": "tornare",
+      "en": "to return",
+      "ex": "Devo tornare a casa."
+    },
+    {
+      "it": "partire",
+      "en": "to leave, depart",
+      "ex": "Devo partire domani."
+    },
+    {
+      "it": "arrivare",
+      "en": "to arrive",
+      "ex": "Il treno sta per arrivare."
+    },
+    {
+      "it": "aspettare",
+      "en": "to wait",
+      "ex": "Devo aspettare un amico."
+    },
+    {
+      "it": "chiamare",
+      "en": "to call",
+      "ex": "Ti devo chiamare stasera."
+    },
+    {
+      "it": "conoscere",
+      "en": "to know (a person)",
+      "ex": "Voglio conoscere Maria."
+    },
+    {
+      "it": "leggere",
+      "en": "to read",
+      "ex": "Mi piace leggere libri."
+    },
+    {
+      "it": "scrivere",
+      "en": "to write",
+      "ex": "Devo scrivere una lettera."
+    },
+    {
+      "it": "giocare",
+      "en": "to play",
+      "ex": "I bambini amano giocare."
+    },
+    {
+      "it": "dormire",
+      "en": "to sleep",
+      "ex": "Voglio dormire un po'."
+    },
+    {
+      "it": "camminare",
+      "en": "to walk",
+      "ex": "Mi piace camminare."
+    },
+    {
+      "it": "correre",
+      "en": "to run",
+      "ex": "Devo correre al treno."
+    },
+    {
+      "it": "pagare",
+      "en": "to pay",
+      "ex": "Posso pagare con carta?"
+    },
+    {
+      "it": "costare",
+      "en": "to cost",
+      "ex": "Quanto può costare?"
+    },
+    {
+      "it": "piacere",
+      "en": "to please, like",
+      "ex": "Mi piace il caffè."
+    },
+    {
+      "it": "servire",
+      "en": "to serve, need",
+      "ex": "Mi serve aiuto."
+    },
+    {
+      "it": "restare",
+      "en": "to stay, remain",
+      "ex": "Voglio restare qui."
+    },
+    {
+      "it": "uscire",
+      "en": "to go out",
+      "ex": "Voglio uscire stasera."
+    },
+    {
+      "it": "entrare",
+      "en": "to enter",
+      "ex": "Posso entrare?"
+    },
+    {
+      "it": "ricordare",
+      "en": "to remember",
+      "ex": "Non riesco a ricordare."
+    },
+    {
+      "it": "cominciare",
+      "en": "to begin",
+      "ex": "Voglio cominciare adesso."
+    },
+    {
+      "it": "finire",
+      "en": "to finish",
+      "ex": "Devo finire il lavoro."
+    },
+    {
+      "it": "ascoltare",
+      "en": "to listen",
+      "ex": "Mi piace ascoltare musica."
+    },
+    {
+      "it": "il padre",
+      "en": "father",
+      "ex": "Mio padre lavora molto."
+    },
+    {
+      "it": "la madre",
+      "en": "mother",
+      "ex": "Mia madre cucina bene."
+    },
+    {
+      "it": "il figlio",
+      "en": "son",
+      "ex": "Mio figlio è piccolo."
+    },
+    {
+      "it": "la figlia",
+      "en": "daughter",
+      "ex": "Sua figlia studia molto."
+    },
+    {
+      "it": "il fratello",
+      "en": "brother",
+      "ex": "Ho un fratello grande."
+    },
+    {
+      "it": "la sorella",
+      "en": "sister",
+      "ex": "Mia sorella canta bene."
+    },
+    {
+      "it": "il ragazzo",
+      "en": "boy",
+      "ex": "Il ragazzo gioca a calcio."
+    },
+    {
+      "it": "la ragazza",
+      "en": "girl",
+      "ex": "La ragazza legge un libro."
+    },
+    {
+      "it": "la famiglia",
+      "en": "family",
+      "ex": "La mia famiglia è grande."
+    },
+    {
+      "it": "la persona",
+      "en": "person",
+      "ex": "È una brava persona."
+    },
+    {
+      "it": "la gente",
+      "en": "people",
+      "ex": "C'è molta gente qui."
+    },
+    {
+      "it": "il nome",
+      "en": "name",
+      "ex": "Qual è il tuo nome?"
+    },
+    {
+      "it": "la scuola",
+      "en": "school",
+      "ex": "Vado a scuola ogni giorno."
+    },
+    {
+      "it": "il libro",
+      "en": "book",
+      "ex": "Leggo un libro nuovo."
+    },
+    {
+      "it": "la parola",
+      "en": "word",
+      "ex": "Non capisco questa parola."
+    },
+    {
+      "it": "la strada",
+      "en": "street, road",
+      "ex": "La strada è lunga."
+    },
+    {
+      "it": "la macchina",
+      "en": "car, machine",
+      "ex": "La macchina è veloce."
+    },
+    {
+      "it": "il treno",
+      "en": "train",
+      "ex": "Il treno è in ritardo."
+    },
+    {
+      "it": "l'autobus",
+      "en": "bus",
+      "ex": "Prendo l'autobus ogni mattina."
+    },
+    {
+      "it": "il negozio",
+      "en": "shop",
+      "ex": "Il negozio è chiuso."
+    },
+    {
+      "it": "il ristorante",
+      "en": "restaurant",
+      "ex": "Andiamo al ristorante stasera."
+    },
+    {
+      "it": "il bar",
+      "en": "bar, café",
+      "ex": "Prendo un caffè al bar."
+    },
+    {
+      "it": "l'ospedale",
+      "en": "hospital",
+      "ex": "L'ospedale è vicino."
+    },
+    {
+      "it": "il paese",
+      "en": "country, village",
+      "ex": "Il mio paese è piccolo."
+    },
+    {
+      "it": "il mondo",
+      "en": "world",
+      "ex": "Il mondo è grande."
+    },
+    {
+      "it": "la camera",
+      "en": "room, bedroom",
+      "ex": "La camera è grande."
+    },
+    {
+      "it": "la cucina",
+      "en": "kitchen",
+      "ex": "La cucina è piccola."
+    },
+    {
+      "it": "il bagno",
+      "en": "bathroom",
+      "ex": "Dov'è il bagno?"
+    },
+    {
+      "it": "la porta",
+      "en": "door",
+      "ex": "Apri la porta, per favore."
+    },
+    {
+      "it": "la finestra",
+      "en": "window",
+      "ex": "La finestra è aperta."
+    },
+    {
+      "it": "il tavolo",
+      "en": "table",
+      "ex": "Il libro è sul tavolo."
+    },
+    {
+      "it": "la sedia",
+      "en": "chair",
+      "ex": "Siediti sulla sedia."
+    },
+    {
+      "it": "il letto",
+      "en": "bed",
+      "ex": "Il letto è comodo."
+    },
+    {
+      "it": "la chiave",
+      "en": "key",
+      "ex": "Ho perso la chiave."
+    },
+    {
+      "it": "il telefono",
+      "en": "telephone",
+      "ex": "Il telefono squilla."
+    },
+    {
+      "it": "il computer",
+      "en": "computer",
+      "ex": "Uso il computer al lavoro."
+    },
+    {
+      "it": "i soldi",
+      "en": "money",
+      "ex": "Non ho soldi oggi."
+    },
+    {
+      "it": "il pane",
+      "en": "bread",
+      "ex": "Compro il pane fresco."
+    },
+    {
+      "it": "la pasta",
+      "en": "pasta",
+      "ex": "Mangio la pasta a pranzo."
+    },
+    {
+      "it": "la pizza",
+      "en": "pizza",
+      "ex": "Voglio una pizza grande."
+    },
+    {
+      "it": "il latte",
+      "en": "milk",
+      "ex": "Bevo il latte la mattina."
+    },
+    {
+      "it": "il caffè",
+      "en": "coffee",
+      "ex": "Voglio un caffè caldo."
+    },
+    {
+      "it": "il vino",
+      "en": "wine",
+      "ex": "Il vino è rosso."
+    },
+    {
+      "it": "la colazione",
+      "en": "breakfast",
+      "ex": "Faccio colazione alle sette."
+    },
+    {
+      "it": "il pranzo",
+      "en": "lunch",
+      "ex": "Il pranzo è all'una."
+    },
+    {
+      "it": "la cena",
+      "en": "dinner",
+      "ex": "La cena è pronta."
+    },
+    {
+      "it": "la testa",
+      "en": "head",
+      "ex": "Mi fa male la testa."
+    },
+    {
+      "it": "il cane",
+      "en": "dog",
+      "ex": "Il cane corre nel parco."
+    },
+    {
+      "it": "il gatto",
+      "en": "cat",
+      "ex": "Il gatto dorme sul letto."
+    },
+    {
+      "it": "l'animale",
+      "en": "animal",
+      "ex": "Amo gli animali."
+    },
+    {
+      "it": "il sole",
+      "en": "sun",
+      "ex": "Oggi c'è il sole."
+    },
+    {
+      "it": "il mare",
+      "en": "sea",
+      "ex": "Il mare è calmo oggi."
+    },
+    {
+      "it": "l'ora",
+      "en": "hour, time",
+      "ex": "Che ora è?"
+    },
+    {
+      "it": "il minuto",
+      "en": "minute",
+      "ex": "Aspetta un minuto."
+    },
+    {
+      "it": "la settimana",
+      "en": "week",
+      "ex": "La settimana è lunga."
+    },
+    {
+      "it": "il mese",
+      "en": "month",
+      "ex": "Questo mese piove molto."
+    },
+    {
+      "it": "la mattina",
+      "en": "morning",
+      "ex": "La mattina bevo un caffè."
+    },
+    {
+      "it": "la sera",
+      "en": "evening",
+      "ex": "La sera guardo la TV."
+    },
+    {
+      "it": "la notte",
+      "en": "night",
+      "ex": "La notte dormo bene."
+    },
+    {
+      "it": "il pomeriggio",
+      "en": "afternoon",
+      "ex": "Nel pomeriggio studio."
+    },
+    {
+      "it": "il problema",
+      "en": "problem",
+      "ex": "C'è un problema."
+    },
+    {
+      "it": "l'idea",
+      "en": "idea",
+      "ex": "Ho una buona idea."
+    },
+    {
+      "it": "la domanda",
+      "en": "question",
+      "ex": "Ho una domanda."
+    },
+    {
+      "it": "la risposta",
+      "en": "answer",
+      "ex": "Non so la risposta."
+    },
+    {
+      "it": "lungo",
+      "en": "long",
+      "ex": "Il film è lungo."
+    },
+    {
+      "it": "alto",
+      "en": "tall, high",
+      "ex": "Lui è molto alto."
+    },
+    {
+      "it": "vecchio",
+      "en": "old",
+      "ex": "La casa è vecchia."
+    },
+    {
+      "it": "giovane",
+      "en": "young",
+      "ex": "Lei è molto giovane."
+    },
+    {
+      "it": "facile",
+      "en": "easy",
+      "ex": "L'esercizio è facile."
+    },
+    {
+      "it": "difficile",
+      "en": "difficult",
+      "ex": "Questo è difficile."
+    },
+    {
+      "it": "caldo",
+      "en": "hot, warm",
+      "ex": "Oggi fa caldo."
+    },
+    {
+      "it": "freddo",
+      "en": "cold",
+      "ex": "L'acqua è fredda."
+    },
+    {
+      "it": "felice",
+      "en": "happy",
+      "ex": "Sono molto felice."
+    },
+    {
+      "it": "triste",
+      "en": "sad",
+      "ex": "Lei è triste oggi."
+    },
+    {
+      "it": "stanco",
+      "en": "tired",
+      "ex": "Sono molto stanco."
+    },
+    {
+      "it": "importante",
+      "en": "important",
+      "ex": "È una cosa importante."
+    },
+    {
+      "it": "vero",
+      "en": "true, real",
+      "ex": "Questo è vero."
+    },
+    {
+      "it": "giusto",
+      "en": "right, correct",
+      "ex": "La risposta è giusta."
+    },
+    {
+      "it": "caro",
+      "en": "expensive, dear",
+      "ex": "Il vestito è caro."
+    },
+    {
+      "it": "pronto",
+      "en": "ready",
+      "ex": "Sono pronto a partire."
+    },
+    {
+      "it": "aperto",
+      "en": "open",
+      "ex": "Il negozio è aperto."
+    },
+    {
+      "it": "chiuso",
+      "en": "closed",
+      "ex": "La porta è chiusa."
+    },
+    {
+      "it": "bianco",
+      "en": "white",
+      "ex": "La neve è bianca."
+    },
+    {
+      "it": "nero",
+      "en": "black",
+      "ex": "Il gatto è nero."
+    },
+    {
+      "it": "rosso",
+      "en": "red",
+      "ex": "La mela è rossa."
+    },
+    {
+      "it": "uno",
+      "en": "one",
+      "ex": "Ho un solo fratello."
+    },
+    {
+      "it": "due",
+      "en": "two",
+      "ex": "Ho due gatti."
+    },
+    {
+      "it": "tre",
+      "en": "three",
+      "ex": "Sono le tre."
+    },
+    {
+      "it": "quattro",
+      "en": "four",
+      "ex": "Ho quattro libri."
+    },
+    {
+      "it": "cinque",
+      "en": "five",
+      "ex": "Sono le cinque."
+    },
+    {
+      "it": "dieci",
+      "en": "ten",
+      "ex": "Ho dieci euro."
+    },
+    {
+      "it": "venti",
+      "en": "twenty",
+      "ex": "Ho venti anni."
+    },
+    {
+      "it": "cento",
+      "en": "hundred",
+      "ex": "Ci sono cento persone."
+    },
+    {
+      "it": "mille",
+      "en": "thousand",
+      "ex": "Costa mille euro."
+    },
+    {
+      "it": "il lunedì",
+      "en": "Monday",
+      "ex": "Lunedì lavoro."
+    },
+    {
+      "it": "il martedì",
+      "en": "Tuesday",
+      "ex": "Martedì ho una lezione."
+    },
+    {
+      "it": "il mercoledì",
+      "en": "Wednesday",
+      "ex": "Mercoledì vado dal medico."
+    },
+    {
+      "it": "il giovedì",
+      "en": "Thursday",
+      "ex": "Giovedì vedo gli amici."
+    },
+    {
+      "it": "il venerdì",
+      "en": "Friday",
+      "ex": "Venerdì sera esco."
+    },
+    {
+      "it": "il sabato",
+      "en": "Saturday",
+      "ex": "Sabato dormo a lungo."
+    },
+    {
+      "it": "la domenica",
+      "en": "Sunday",
+      "ex": "Domenica resto a casa."
+    },
+    {
+      "it": "gennaio",
+      "en": "January",
+      "ex": "A gennaio fa freddo."
+    },
+    {
+      "it": "febbraio",
+      "en": "February",
+      "ex": "Febbraio è corto."
+    },
+    {
+      "it": "marzo",
+      "en": "March",
+      "ex": "A marzo arriva la primavera."
+    },
+    {
+      "it": "aprile",
+      "en": "April",
+      "ex": "Ad aprile piove spesso."
+    },
+    {
+      "it": "maggio",
+      "en": "May",
+      "ex": "A maggio fa bel tempo."
+    },
+    {
+      "it": "giugno",
+      "en": "June",
+      "ex": "A giugno finisce la scuola."
+    },
+    {
+      "it": "luglio",
+      "en": "July",
+      "ex": "A luglio fa molto caldo."
+    },
+    {
+      "it": "agosto",
+      "en": "August",
+      "ex": "Ad agosto vado al mare."
+    },
+    {
+      "it": "settembre",
+      "en": "September",
+      "ex": "A settembre torno a scuola."
+    },
+    {
+      "it": "ottobre",
+      "en": "October",
+      "ex": "A ottobre cadono le foglie."
+    },
+    {
+      "it": "novembre",
+      "en": "November",
+      "ex": "A novembre fa freddo."
+    },
+    {
+      "it": "dicembre",
+      "en": "December",
+      "ex": "A dicembre c'è Natale."
+    },
+    {
+      "it": "subito",
+      "en": "right away",
+      "ex": "Vengo subito."
+    },
+    {
+      "it": "presto",
+      "en": "early, soon",
+      "ex": "Mi alzo presto."
+    },
+    {
+      "it": "tardi",
+      "en": "late",
+      "ex": "È molto tardi."
+    },
+    {
+      "it": "ancora",
+      "en": "still, yet, again",
+      "ex": "Non ho ancora finito."
+    },
+    {
+      "it": "già",
+      "en": "already",
+      "ex": "Ho già mangiato."
+    },
+    {
+      "it": "prima",
+      "en": "before, first",
+      "ex": "Mangio prima di uscire."
+    },
+    {
+      "it": "dopo",
+      "en": "after",
+      "ex": "Dopo il lavoro vado a casa."
+    },
+    {
+      "it": "insieme",
+      "en": "together",
+      "ex": "Andiamo insieme al cinema."
+    },
+    {
+      "it": "solo",
+      "en": "only, alone",
+      "ex": "Sono solo a casa."
+    },
+    {
+      "it": "troppo",
+      "en": "too much",
+      "ex": "Costa troppo."
+    },
+    {
+      "it": "più",
+      "en": "more",
+      "ex": "Voglio più tempo."
+    },
+    {
+      "it": "meno",
+      "en": "less",
+      "ex": "Costa meno di prima."
+    },
+    {
+      "it": "così",
+      "en": "so, like this",
+      "ex": "Fai così."
+    },
+    {
+      "it": "vicino",
+      "en": "near, close",
+      "ex": "Il bar è vicino."
+    },
+    {
+      "it": "lontano",
+      "en": "far",
+      "ex": "La scuola è lontana."
+    },
+    {
+      "it": "prego",
+      "en": "you're welcome",
+      "ex": "Prego, si accomodi."
+    },
+    {
+      "it": "scusa",
+      "en": "sorry, excuse me",
+      "ex": "Scusa, sono in ritardo."
+    },
+    {
+      "it": "buongiorno",
+      "en": "good morning",
+      "ex": "Buongiorno a tutti."
+    },
+    {
+      "it": "l'aiuto",
+      "en": "help",
+      "ex": "Mi serve un aiuto."
+    },
+    {
+      "it": "il momento",
+      "en": "moment",
+      "ex": "Aspetta un momento."
+    },
+    {
+      "it": "il colore",
+      "en": "colour",
+      "ex": "Qual è il tuo colore?"
+    },
+    {
+      "it": "senza",
+      "en": "without",
+      "ex": "Bevo il caffè senza zucchero."
+    }
   ]
 }
