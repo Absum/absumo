@@ -7,6 +7,7 @@ import SwiftData
 struct RootView: View {
     @Environment(\.modelContext) private var context
     @Query private var states: [UserState]
+    @State private var showOnboarding = false
 
     var body: some View {
         TabView {
@@ -20,12 +21,14 @@ struct RootView: View {
                 .tabItem { Label("Progress", systemImage: "chart.line.uptrend.xyaxis") }
         }
         .tint(Palette.terracotta)
+        .fullScreenCover(isPresented: $showOnboarding) { OnboardingView() }
         .task {
             Deck.seedIfNeeded(into: context)
             if states.isEmpty {
                 context.insert(UserState())
                 try? context.save()
             }
+            showOnboarding = !(states.first?.onboarded ?? false)
         }
     }
 }

@@ -11,8 +11,10 @@ struct ReviewSessionView: View {
 
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss
+    @Query private var states: [UserState]
 
-    private let fsrs = FSRS()
+    /// FSRS tuned to the learner's chosen retention target (from onboarding).
+    private var fsrs: FSRS { FSRS(requestRetention: states.first?.retentionTarget ?? 0.9) }
 
     @State private var index = 0
     @State private var revealed = false
@@ -147,6 +149,7 @@ struct ReviewSessionView: View {
         Haptics.notify(rating != .again)
         let log = fsrs.apply(rating, to: card, at: .now)
         context.insert(log)
+        states.first?.recordActivity()       // counts today toward the streak
         try? context.save()
         reviewed += 1
         withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
