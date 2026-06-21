@@ -1,20 +1,38 @@
 import SwiftUI
 
-// MARK: - Paper card
+// MARK: - Glass surfaces (Vetro)
 
-/// A warm "paper" surface that floats gently above the sand background.
-struct GlassCard<Content: View>: View {
+/// A frosted-glass surface floating over the Vetro backdrop, lit from above.
+/// `raised` panels sit forward (stronger shadow + optional accent glow);
+/// non-raised ones recede. Replaces the old flat "paper card".
+struct GlassPanel<Content: View>: View {
     var cornerRadius: CGFloat = 28
+    var raised: Bool = true
+    var glow: Color? = nil
     @ViewBuilder var content: () -> Content
+
+    private var shape: RoundedRectangle { RoundedRectangle(cornerRadius: cornerRadius, style: .continuous) }
 
     var body: some View {
         content()
-            .background(Palette.card, in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
-            .overlay(
-                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .strokeBorder(Palette.hairline, lineWidth: 1)
+            .background(.ultraThinMaterial, in: shape)
+            .overlay(   // top-lit edge highlight → the "glass" tell
+                shape.strokeBorder(
+                    LinearGradient(colors: [.white.opacity(0.55), .white.opacity(0.05)],
+                                   startPoint: .top, endPoint: .bottom),
+                    lineWidth: 1)
             )
-            .shadow(color: Palette.ink.opacity(0.10), radius: 18, y: 10)
+            .shadow(color: (glow ?? Palette.ink).opacity(raised ? (glow == nil ? 0.18 : 0.30) : 0.07),
+                    radius: raised ? 24 : 9, y: raised ? 14 : 5)
+    }
+}
+
+/// Back-compat alias — existing screens call GlassCard; now it's frosted glass.
+struct GlassCard<Content: View>: View {
+    var cornerRadius: CGFloat = 28
+    @ViewBuilder var content: () -> Content
+    var body: some View {
+        GlassPanel(cornerRadius: cornerRadius, raised: true, content: content)
     }
 }
 

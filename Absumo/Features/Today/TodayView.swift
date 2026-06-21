@@ -1,8 +1,8 @@
 import SwiftUI
 import SwiftData
 
-/// The home hub: a calm daily-loop dashboard. Surfaces what's due, the (coming)
-/// input activities, and the headline knowledge metrics — one clear next action.
+/// The Today hub, Vetro style: a living knowledge orb, ONE clear hero action,
+/// and quiet recessed glass tiles for the rest. Depth, not a card stack.
 struct TodayView: View {
     @Environment(\.modelContext) private var context
     @Query private var cards: [Card]
@@ -16,170 +16,139 @@ struct TodayView: View {
 
     private var metrics: Deck.Metrics { Deck.metrics(for: cards) }
     private var session: [Card] { Deck.session(from: cards) }
-    private var user: UserState? { states.first }
-
-    /// The estimated working level, from words actually known.
+    private var due: Int { metrics.dueNow }
     private var level: String { LevelEstimator.level(wordsKnown: metrics.wordsKnown) }
-
-    /// The next graded item to read — recommended at/just-above the learner's level.
     private var nextRead: GradedItem? {
         LevelEstimator.recommended(reading: reading, wordsKnown: metrics.wordsKnown)
     }
 
     var body: some View {
-        ScrollView {
-            VStack(spacing: 20) {
-                header
-                reviewCard
-                readCard
-                listenCard
-                pronunciaCard
+        ZStack {
+            MeshBackground()
+            ScrollView {
+                VStack(spacing: 26) {
+                    topBar
+                    KnowledgeOrb(wordsKnown: metrics.wordsKnown, retention: metrics.retention)
+                        .padding(.top, 6)
+                    hero
+                    secondaryRow
+                }
+                .padding(.horizontal, 22)
+                .padding(.top, 4)
+                .padding(.bottom, 44)
             }
-            .padding(20)
-            .padding(.bottom, 40)
+            .scrollIndicators(.hidden)
         }
-        .scrollIndicators(.hidden)
-        .fullScreenCover(isPresented: $reviewing) {
-            ReviewSessionView(cards: session) {}
-        }
+        .fullScreenCover(isPresented: $reviewing) { ReviewSessionView(cards: session) {} }
         .fullScreenCover(item: $readingItem) { ReaderView(item: $0) }
-        .fullScreenCover(isPresented: $listening) {
-            ListenView(items: GradedLibrary.all)
-        }
+        .fullScreenCover(isPresented: $listening) { ListenView(items: GradedLibrary.all) }
         .fullScreenCover(isPresented: $pronouncing) { PronunciaView() }
     }
 
-    private var pronunciaCard: some View {
-        GlassCard(cornerRadius: 24) {
-            VStack(alignment: .leading, spacing: 16) {
-                HStack {
-                    Image(systemName: "ear.fill").foregroundStyle(Palette.terracotta)
-                    Text("Pronuncia").font(.headline).foregroundStyle(Palette.ink)
-                    Spacer()
-                }
-                Text("Train your ear")
-                    .font(.title3.weight(.semibold))
+    // MARK: - Top bar
+
+    private var topBar: some View {
+        HStack(alignment: .firstTextBaseline) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(greeting)
+                    .font(.serifDisplay(30, weight: .bold))
                     .foregroundStyle(Palette.ink)
-                Text("Minimal pairs and shadowing.")
-                    .font(.subheadline)
+                Text("io absumo l'italiano")
+                    .font(.footnote).italic()
                     .foregroundStyle(Palette.inkSoft)
-                PrimaryButton(title: "Practice", systemImage: "waveform", tint: Palette.terracotta) {
-                    pronouncing = true
-                }
             }
-            .padding(22)
-            .frame(maxWidth: .infinity, alignment: .leading)
+            Spacer()
+            Text("Livello \(level)")
+                .font(.caption.weight(.bold)).tracking(1)
+                .foregroundStyle(Palette.olive)
+                .padding(.horizontal, 12).padding(.vertical, 7)
+                .background(.ultraThinMaterial, in: Capsule())
+                .overlay(Capsule().strokeBorder(.white.opacity(0.4), lineWidth: 1))
         }
     }
 
-    private var listenCard: some View {
-        GlassCard(cornerRadius: 24) {
-            VStack(alignment: .leading, spacing: 16) {
-                HStack {
-                    Image(systemName: "headphones").foregroundStyle(Palette.adriatic)
-                    Text("Listen").font(.headline).foregroundStyle(Palette.ink)
-                    Spacer()
-                }
-                Text("\(GradedLibrary.all.count) stories, hands-free")
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(Palette.ink)
-                Text("Play them back-to-back — on a walk, in the car.")
-                    .font(.subheadline)
-                    .foregroundStyle(Palette.inkSoft)
-                PrimaryButton(title: "Listen", systemImage: "play.fill", tint: Palette.adriatic) {
-                    listening = true
-                }
-            }
-            .padding(22)
-            .frame(maxWidth: .infinity, alignment: .leading)
+    // MARK: - Hero action (one clear next step)
+
+    @ViewBuilder
+    private var hero: some View {
+        if due > 0 {
+            heroPanel(icon: "rectangle.stack.fill", kicker: "DA RIVEDERE",
+                      title: "\(due) parole pronte", cta: "Inizia",
+                      tint: Palette.terracotta) { reviewing = true }
+        } else if let next = nextRead {
+            heroPanel(icon: "book.fill", kicker: "DA LEGGERE",
+                      title: next.title, cta: "Leggi · \(next.level)",
+                      tint: Palette.olive) { readingItem = next }
+        } else {
+            heroPanel(icon: "checkmark.seal.fill", kicker: "OGGI",
+                      title: "Tutto fatto. Bravo!", cta: "Ascolta ancora",
+                      tint: Palette.adriatic) { listening = true }
         }
     }
 
-    private var readCard: some View {
-        GlassCard(cornerRadius: 24) {
-            VStack(alignment: .leading, spacing: 16) {
-                HStack {
-                    Image(systemName: "book.fill").foregroundStyle(Palette.olive)
-                    Text("Read").font(.headline).foregroundStyle(Palette.ink)
-                    Spacer()
-                }
-                if let next = nextRead {
-                    Text(next.title)
-                        .font(.title3.weight(.semibold))
-                        .foregroundStyle(Palette.ink)
-                    Text("\(next.level) · graded story — tap a word to learn it")
-                        .font(.subheadline)
-                        .foregroundStyle(Palette.inkSoft)
-                    PrimaryButton(title: "Read", systemImage: "book", tint: Palette.olive) {
-                        readingItem = next
+    private func heroPanel(icon: String, kicker: String, title: String, cta: String,
+                           tint: Color, action: @escaping () -> Void) -> some View {
+        Button { Haptics.tap(); action() } label: {
+            GlassPanel(cornerRadius: 30, raised: true, glow: tint) {
+                VStack(alignment: .leading, spacing: 14) {
+                    HStack(spacing: 8) {
+                        Image(systemName: icon).foregroundStyle(tint)
+                        Text(kicker).font(.caption.weight(.bold)).tracking(2).foregroundStyle(Palette.inkSoft)
+                        Spacer()
                     }
-                } else {
-                    Text("You've read everything for now")
-                        .font(.title3.weight(.semibold))
-                        .foregroundStyle(Palette.inkSoft)
-                }
-            }
-            .padding(22)
-            .frame(maxWidth: .infinity, alignment: .leading)
-        }
-    }
-
-    // MARK: - Header (greeting + knowledge metrics)
-
-    private var header: some View {
-        GlassCard {
-            VStack(alignment: .leading, spacing: 14) {
-                HStack(alignment: .firstTextBaseline) {
-                    Text(greeting)
-                        .font(.serifDisplay(34, weight: .bold))
+                    Text(title)
+                        .font(.serifDisplay(30, weight: .bold))
                         .foregroundStyle(Palette.ink)
-                    Spacer()
-                    Text("Level \(level)")
-                        .font(.caption.weight(.bold)).tracking(1)
-                        .foregroundStyle(Palette.olive)
-                        .padding(.horizontal, 10).padding(.vertical, 5)
-                        .background(Palette.olive.opacity(0.12), in: Capsule())
+                        .multilineTextAlignment(.leading)
+                    HStack(spacing: 8) {
+                        Text(cta).fontWeight(.bold)
+                        Image(systemName: "arrow.right")
+                    }
+                    .font(.headline)
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 20).padding(.vertical, 13)
+                    .background(Palette.gradient(tint), in: Capsule())
+                    .shadow(color: tint.opacity(0.4), radius: 10, y: 5)
                 }
-
-                HStack(spacing: 10) {
-                    Metric(value: "\(metrics.wordsKnown)", label: "words known", tint: Palette.olive)
-                    Metric(value: "\(Int(metrics.retention * 100))%", label: "retention", tint: Palette.adriatic)
-                    Metric(value: "\(user?.streak ?? 0)", label: "day streak", tint: Palette.terracotta)
-                }
+                .padding(24)
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .padding(22)
-            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .buttonStyle(BouncyButtonStyle())
+    }
+
+    // MARK: - Secondary actions (recessed glass tiles)
+
+    private var secondaryRow: some View {
+        HStack(spacing: 12) {
+            if due > 0 {
+                tile("book.fill", "Leggi", Palette.olive, enabled: nextRead != nil) {
+                    if let n = nextRead { readingItem = n }
+                }
+            } else {
+                tile("rectangle.stack.fill", "Rivedi", Palette.terracotta, enabled: false) {}
+            }
+            tile("headphones", "Ascolta", Palette.adriatic) { listening = true }
+            tile("waveform", "Pronuncia", Palette.rosso) { pronouncing = true }
         }
     }
 
-    // MARK: - Primary action: reviews due
-
-    private var reviewCard: some View {
-        let due = metrics.dueNow
-        return GlassCard(cornerRadius: 24) {
-            VStack(alignment: .leading, spacing: 16) {
-                HStack {
-                    Image(systemName: "rectangle.stack.fill").foregroundStyle(Palette.terracotta)
-                    Text("Reviews").font(.headline).foregroundStyle(Palette.ink)
-                    Spacer()
+    private func tile(_ icon: String, _ label: String, _ tint: Color,
+                      enabled: Bool = true, action: @escaping () -> Void) -> some View {
+        Button { Haptics.tap(); action() } label: {
+            GlassPanel(cornerRadius: 22, raised: false) {
+                VStack(spacing: 9) {
+                    Image(systemName: icon).font(.title2).foregroundStyle(enabled ? tint : Palette.inkFaint)
+                    Text(label).font(.subheadline.weight(.semibold))
+                        .foregroundStyle(enabled ? Palette.ink : Palette.inkFaint)
                 }
-                Text(due > 0 ? "\(due) cards ready to review" : "All caught up for now")
-                    .font(.title3.weight(.semibold))
-                    .foregroundStyle(due > 0 ? Palette.ink : Palette.inkSoft)
-
-                if due > 0 {
-                    PrimaryButton(title: "Start review", systemImage: "play.fill", tint: Palette.terracotta) {
-                        reviewing = true
-                    }
-                } else {
-                    Text("Come back later, or add new words by reading.")
-                        .font(.subheadline)
-                        .foregroundStyle(Palette.inkFaint)
-                }
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 20)
             }
-            .padding(22)
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .buttonStyle(BouncyButtonStyle())
+        .disabled(!enabled)
+        .opacity(enabled ? 1 : 0.55)
     }
 
     private var greeting: String {
@@ -189,20 +158,5 @@ struct TodayView: View {
         case 12..<18: return "Buon pomeriggio"
         default:      return "Buonasera"
         }
-    }
-}
-
-/// A single headline number on the Today header.
-private struct Metric: View {
-    let value: String
-    let label: String
-    let tint: Color
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(value).font(.title2.weight(.bold)).foregroundStyle(tint).monospacedDigit()
-            Text(label).font(.caption2).foregroundStyle(Palette.inkSoft)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
