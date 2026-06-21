@@ -1,35 +1,145 @@
 {
   "note": "Minimal pairs for ear training — words that differ by ONE Italian sound the ear must learn to hear: geminate (double) consonants and stress. Audio per word via scripts/build_audio.sh (Piper paola). Mirror exercise: play one word, learner picks which they heard.",
   "pairs": [
-    { "feature": "double consonant (nn)", "hint": "Listen for the held 'n'.",
-      "a": { "it": "nono",  "en": "ninth",       "file": "mp-nono.wav" },
-      "b": { "it": "nonno", "en": "grandfather", "file": "mp-nonno.wav" } },
-    { "feature": "double consonant (ll)", "hint": "Listen for the held 'l'.",
-      "a": { "it": "pala",  "en": "shovel", "file": "mp-pala.wav" },
-      "b": { "it": "palla", "en": "ball",   "file": "mp-palla.wav" } },
-    { "feature": "double consonant (ss)", "hint": "Listen for the long 's'.",
-      "a": { "it": "casa",  "en": "house",        "file": "mp-casa.wav" },
-      "b": { "it": "cassa", "en": "till / crate", "file": "mp-cassa.wav" } },
-    { "feature": "double consonant (tt)", "hint": "Listen for the held 't'.",
-      "a": { "it": "sete",  "en": "thirst", "file": "mp-sete.wav" },
-      "b": { "it": "sette", "en": "seven",  "file": "mp-sette.wav" } },
-    { "feature": "double consonant (nn)", "hint": "Listen for the held 'n'.",
-      "a": { "it": "pena",  "en": "pity", "file": "mp-pena.wav" },
-      "b": { "it": "penna", "en": "pen",  "file": "mp-penna.wav" } },
-    { "feature": "double consonant (tt)", "hint": "Listen for the held 't'.",
-      "a": { "it": "note",  "en": "notes", "file": "mp-note.wav" },
-      "b": { "it": "notte", "en": "night", "file": "mp-notte.wav" } },
-    { "feature": "double consonant (rr)", "hint": "Listen for the rolled, long 'r'.",
-      "a": { "it": "caro",  "en": "dear", "file": "mp-caro.wav" },
-      "b": { "it": "carro", "en": "cart", "file": "mp-carro.wav" } },
-    { "feature": "double consonant (cc)", "hint": "Listen for the held 'c' (k).",
-      "a": { "it": "eco",  "en": "echo",        "file": "mp-eco.wav" },
-      "b": { "it": "ecco", "en": "here it is",  "file": "mp-ecco.wav" } },
-    { "feature": "double consonant (tt)", "hint": "Listen for the held 't'.",
-      "a": { "it": "fato",  "en": "fate",        "file": "mp-fato.wav" },
-      "b": { "it": "fatto", "en": "done / fact", "file": "mp-fatto.wav" } },
-    { "feature": "stress placement", "hint": "Listen for which syllable is stressed.",
-      "a": { "it": "papa",  "en": "pope", "file": "mp-papa.wav" },
-      "b": { "it": "papà",  "en": "dad",  "file": "mp-papa-accent.wav" } }
+    {
+      "feature": "double consonant (nn)",
+      "hint": "Listen for the held 'n'.",
+      "a": {
+        "it": "nono",
+        "en": "ninth",
+        "file": "mp-nono.m4a"
+      },
+      "b": {
+        "it": "nonno",
+        "en": "grandfather",
+        "file": "mp-nonno.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (ll)",
+      "hint": "Listen for the held 'l'.",
+      "a": {
+        "it": "pala",
+        "en": "shovel",
+        "file": "mp-pala.m4a"
+      },
+      "b": {
+        "it": "palla",
+        "en": "ball",
+        "file": "mp-palla.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (ss)",
+      "hint": "Listen for the long 's'.",
+      "a": {
+        "it": "casa",
+        "en": "house",
+        "file": "mp-casa.m4a"
+      },
+      "b": {
+        "it": "cassa",
+        "en": "till / crate",
+        "file": "mp-cassa.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (tt)",
+      "hint": "Listen for the held 't'.",
+      "a": {
+        "it": "sete",
+        "en": "thirst",
+        "file": "mp-sete.m4a"
+      },
+      "b": {
+        "it": "sette",
+        "en": "seven",
+        "file": "mp-sette.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (nn)",
+      "hint": "Listen for the held 'n'.",
+      "a": {
+        "it": "pena",
+        "en": "pity",
+        "file": "mp-pena.m4a"
+      },
+      "b": {
+        "it": "penna",
+        "en": "pen",
+        "file": "mp-penna.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (tt)",
+      "hint": "Listen for the held 't'.",
+      "a": {
+        "it": "note",
+        "en": "notes",
+        "file": "mp-note.m4a"
+      },
+      "b": {
+        "it": "notte",
+        "en": "night",
+        "file": "mp-notte.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (rr)",
+      "hint": "Listen for the rolled, long 'r'.",
+      "a": {
+        "it": "caro",
+        "en": "dear",
+        "file": "mp-caro.m4a"
+      },
+      "b": {
+        "it": "carro",
+        "en": "cart",
+        "file": "mp-carro.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (cc)",
+      "hint": "Listen for the held 'c' (k).",
+      "a": {
+        "it": "eco",
+        "en": "echo",
+        "file": "mp-eco.m4a"
+      },
+      "b": {
+        "it": "ecco",
+        "en": "here it is",
+        "file": "mp-ecco.m4a"
+      }
+    },
+    {
+      "feature": "double consonant (tt)",
+      "hint": "Listen for the held 't'.",
+      "a": {
+        "it": "fato",
+        "en": "fate",
+        "file": "mp-fato.m4a"
+      },
+      "b": {
+        "it": "fatto",
+        "en": "done / fact",
+        "file": "mp-fatto.m4a"
+      }
+    },
+    {
+      "feature": "stress placement",
+      "hint": "Listen for which syllable is stressed.",
+      "a": {
+        "it": "papa",
+        "en": "pope",
+        "file": "mp-papa.m4a"
+      },
+      "b": {
+        "it": "papà",
+        "en": "dad",
+        "file": "mp-papa-accent.m4a"
+      }
+    }
   ]
 }
