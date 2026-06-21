@@ -16,10 +16,7 @@ struct RootView: View {
             LibraryView()
                 .tabItem { Label("Library", systemImage: "books.vertical.fill") }
 
-            ComingSoonView(icon: "chart.line.uptrend.xyaxis",
-                           title: "Progress",
-                           phase: "PHASE 5",
-                           blurb: "Your real progress: words known, share of a text you can read, listening minutes, and retention over time.")
+            ProgressDashboardView()
                 .tabItem { Label("Progress", systemImage: "chart.line.uptrend.xyaxis") }
         }
         .tint(Palette.terracotta)
