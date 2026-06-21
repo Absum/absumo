@@ -34,6 +34,21 @@ final class AudioPlayer: NSObject, AVAudioPlayerDelegate {
         }
     }
 
+    /// Play an arbitrary file URL (e.g. the learner's own shadowing recording).
+    func playURL(_ url: URL) {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
+            try AVAudioSession.sharedInstance().setActive(true)
+            let p = try AVAudioPlayer(contentsOf: url)
+            p.delegate = self
+            player = p
+            p.play()
+            isPlaying = true
+        } catch {
+            isPlaying = false
+        }
+    }
+
     func stop() {
         player?.stop()
         player = nil

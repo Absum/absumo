@@ -12,6 +12,7 @@ struct TodayView: View {
     @State private var reviewing = false
     @State private var readingItem: GradedItem?
     @State private var listening = false
+    @State private var pronouncing = false
 
     private var metrics: Deck.Metrics { Deck.metrics(for: cards) }
     private var session: [Card] { Deck.session(from: cards) }
@@ -30,6 +31,7 @@ struct TodayView: View {
                 reviewCard
                 readCard
                 listenCard
+                pronunciaCard
             }
             .padding(20)
             .padding(.bottom, 40)
@@ -41,6 +43,30 @@ struct TodayView: View {
         .fullScreenCover(item: $readingItem) { ReaderView(item: $0) }
         .fullScreenCover(isPresented: $listening) {
             ListenView(items: GradedLibrary.all)
+        }
+        .fullScreenCover(isPresented: $pronouncing) { PronunciaView() }
+    }
+
+    private var pronunciaCard: some View {
+        GlassCard(cornerRadius: 24) {
+            VStack(alignment: .leading, spacing: 16) {
+                HStack {
+                    Image(systemName: "ear.fill").foregroundStyle(Palette.terracotta)
+                    Text("Pronuncia").font(.headline).foregroundStyle(Palette.ink)
+                    Spacer()
+                }
+                Text("Train your ear")
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(Palette.ink)
+                Text("Minimal pairs and shadowing.")
+                    .font(.subheadline)
+                    .foregroundStyle(Palette.inkSoft)
+                PrimaryButton(title: "Practice", systemImage: "waveform", tint: Palette.terracotta) {
+                    pronouncing = true
+                }
+            }
+            .padding(22)
+            .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
 

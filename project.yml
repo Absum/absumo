@@ -32,6 +32,7 @@ targets:
           - UIInterfaceOrientationPortrait
         UIBackgroundModes:
           - audio
+        NSMicrophoneUsageDescription: Absumo records your voice only on-device, so you can play it back and compare it with the model pronunciation. Nothing is uploaded.
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: fi.meshly.absumo

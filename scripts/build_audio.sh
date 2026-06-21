@@ -48,4 +48,19 @@ PY
   echo "  ✓ $id.wav"
 done
 
+# 4. Synthesize one WAV per minimal-pair word (single words, for ear training).
+PAIRS="$ROOT/Absumo/Resources/minimal_pairs_it.json"
+if [ -f "$PAIRS" ]; then
+  "$VENV/bin/python" - "$PAIRS" <<'PY' | while IFS=$'\t' read -r file word; do
+import json, sys
+data = json.load(open(sys.argv[1]))
+for pair in data["pairs"]:
+    for side in ("a", "b"):
+        print(pair[side]["file"] + "\t" + pair[side]["it"])
+PY
+    echo "$word" | "$VENV/bin/piper" -m "$VOICE" -f "$OUT/$file" >/dev/null 2>&1
+    echo "  ✓ $file"
+  done
+fi
+
 echo "Done. Audio in $OUT"
